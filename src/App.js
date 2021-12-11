@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
@@ -34,3 +33,11 @@ const App = () => {
 };
 
 export default App;
+
+// CRUD
+// фильтрация
+// пагинация
+// поиск
+// корзина
+// роутинг
+// админка
