@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 import './App.css';
-=======
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
->>>>>>> 7b83361dc75b2d71afe58c9f528fe11ed88a4707
 
 import AuthContextProvider from "./contexts/authContext";
 import ProductsContextProvider from "./contexts/productsContext";
@@ -20,25 +15,9 @@ import "./App.css";
 
 const App = () => {
   return (
-<<<<<<< HEAD
     <div>
       
     </div>
-=======
-    <AuthContextProvider>
-      <CartContextProvider>
-        <BrandsContextProvider>
-          <ProductsContextProvider>
-            <BrowserRouter>
-              <Header />
-              <Routing />
-              <Footer />
-            </BrowserRouter>
-          </ProductsContextProvider>
-        </BrandsContextProvider>
-      </CartContextProvider>
-    </AuthContextProvider>
->>>>>>> 7b83361dc75b2d71afe58c9f528fe11ed88a4707
   );
 };
 
