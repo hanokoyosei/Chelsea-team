@@ -1,0 +1,26 @@
+.link {
+    margin-top: 5%;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.cards {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .body {
+    background-color: black;
+} */

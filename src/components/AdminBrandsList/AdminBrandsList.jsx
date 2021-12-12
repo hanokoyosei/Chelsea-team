@@ -31,3 +31,4 @@ const AdminBrandsList = () => {
 };
 
 export default AdminBrandsList;
+

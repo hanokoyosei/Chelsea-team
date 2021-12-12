@@ -85,7 +85,6 @@ const Footer = () => {
       {/* <p style={{ marginTop: "3%", marginLeft: "1%" }}>
         Copyright © 2021 Watches of Switzerland. All rights reserved.
       </p>
-
       <a style={{ marginLeft: "1%", color: "black" }}>
         The Watches of Switzerland Group Corporate Site
       </a> */}
