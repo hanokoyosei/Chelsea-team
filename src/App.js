@@ -5,7 +5,6 @@ import AuthContextProvider from "./contexts/authContext";
 import ProductsContextProvider from "./contexts/productsContext";
 import BrandsContextProvider from "./contexts/brandsContext";
 import CartContextProvider from "./contexts/cartContext";
-
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
@@ -23,7 +22,7 @@ const App = () => {
             <BrowserRouter>
               <Header />
               <Routing />
-              <Footer />
+              <Footer/>
             </BrowserRouter>
           </ProductsContextProvider>
         </BrandsContextProvider>
