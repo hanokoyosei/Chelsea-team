@@ -37,6 +37,11 @@ const Header = () => {
       link: "/news",
       id: 4,
     },
+    {
+      title: "Players",
+      link: "/players",
+      id: 5,
+    },
     
   ];
   return (
