@@ -38,7 +38,7 @@ const Header = () => {
       id: 4,
     },
     {
-      title: "Players",
+      title: "PLAYERS",
       link: "/players",
       id: 5,
     },

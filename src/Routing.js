@@ -52,8 +52,18 @@ const Routing = () => {
       id:7
     },
     {
+      link:"/news",
+      element: <NewsList/>,
+      id:7
+    },
+    {
       link: "/creditCart",
       element:<CreditCart/>,
+      id:8
+    },
+    {
+      link: "/players",
+      element:<Players/>,
       id:8
     }
 

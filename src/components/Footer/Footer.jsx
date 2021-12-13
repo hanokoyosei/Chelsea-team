@@ -4,8 +4,7 @@ import {
   InstagramOutlined, 
   FacebookOutlined, 
   TwitterOutlined, 
-  YoutubeOutlined, 
-  WhatsAppOutlined, 
+  YoutubeOutlined,
 } from "@ant-design/icons"; 
  
 const Footer = () => { 
@@ -33,15 +32,12 @@ const Footer = () => {
           <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
           <a href='https://parimatch.com/en?tid=pr_a9b1_Chelsea_logo_footer_pmhomepage&traffic_back_url=%27parimatch.com%2Fen%27'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/parimatch_-_footer' alt='' /></a>
           <a href='https://www.singha.com/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/singha_-_footer' alt='' /></a>
-Nike.com
-Nike. Just Do It
-Inspiring the world's athletes, Nike delivers innovative products, experiences and services.
-<a href='https://www.suredeodorant.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/sure_-_footer_-_trans' alt='' /></a>
+          <a href='https://www.suredeodorant.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/sure_-_footer_-_trans' alt='' /></a>
           <a href='https://www.vitality.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/vitality_-_footer' alt='' /></a>
           <a href='https://www.yokohama-online.com/en/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/yokohama-footer' alt='' /></a>
           </div>
           <div className='col' style={{marginTop: '5%'}}>
-      <div className="footer"> 
+          <div className="footer"> 
           <div className="ins">  
             <a href='https://www.facebook.com/ChelseaFC'> 
               <FacebookOutlined /> 
@@ -56,8 +52,8 @@ Inspiring the world's athletes, Nike delivers innovative products, experiences a
               <YoutubeOutlined /> 
             </a> 
           </div> 
-      </div> 
-       <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '2%'}}>
+          </div> 
+          <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '2%'}}>
          <a href='https://www.chelseafc.com/en/about-chelsea/contact-us?pageTab=%20Contact%20Us:%20By%20Email'><h3 className="hh">Contact Us</h3></a>
          <a href='https://www.chelseafc.com/en/about-chelsea/faqs'><h3 className="hh">FAQs</h3></a>
          <a href='https://www.chelseafc.com/en/about-chelsea/about-the-club/careers'><h3 className="hh">Careers</h3></a>
@@ -65,12 +61,12 @@ Inspiring the world's athletes, Nike delivers innovative products, experiences a
          <a href='https://www.chelseafc.com/en/footer/privacy-policy'><h3 className="hh">Privacy Policy</h3></a>
          <a href='https://www.chelseafc.com/en/footer/cookies-policy'><h3 className="hh">Cookies Policy</h3></a>
          <a href='https://www.chelseafc.com/en/footer/terms-and-conditions'><h3 className="hh">Terms & Conditions</h3></a>
-       </div>
-       <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>
+        </div>
+        <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>
          <p>© 2021 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</p>
        </div>
        </div>
-    </div> 
+      </div> 
   ); 
 }; 
  
