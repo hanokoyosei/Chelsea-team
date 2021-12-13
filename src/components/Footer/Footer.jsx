@@ -33,7 +33,10 @@ const Footer = () => {
           <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
           <a href='https://parimatch.com/en?tid=pr_a9b1_Chelsea_logo_footer_pmhomepage&traffic_back_url=%27parimatch.com%2Fen%27'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/parimatch_-_footer' alt='' /></a>
           <a href='https://www.singha.com/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/singha_-_footer' alt='' /></a>
-          <a href='https://www.suredeodorant.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/sure_-_footer_-_trans' alt='' /></a>
+Nike.com
+Nike. Just Do It
+Inspiring the world's athletes, Nike delivers innovative products, experiences and services.
+<a href='https://www.suredeodorant.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/sure_-_footer_-_trans' alt='' /></a>
           <a href='https://www.vitality.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/vitality_-_footer' alt='' /></a>
           <a href='https://www.yokohama-online.com/en/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/yokohama-footer' alt='' /></a>
           </div>

@@ -13,7 +13,7 @@ import { useAuth } from "./contexts/authContext";
 import NewsList from "./contexts/NewsList";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
-
+import CreditCart from "./components/creditCart/CreditCart"
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -47,15 +47,16 @@ const Routing = () => {
       id: 6
     },
     {
-      link: "/players",
-      element: <Players />,
-      id: 7
+      link:"/newsContext",
+      element: <newsContext/>,
+      id:7
     },
     {
-      link: "/news",
-      element: <NewsList />,
-      id: 8
-    },
+      link: "/creditCart",
+      element:<CreditCart/>,
+      id:8
+    }
+
   ];
   const ADMIN_ROUTES = [
     {

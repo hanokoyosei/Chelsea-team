@@ -1,6 +1,6 @@
 nav {
-    height: 5vh;
-    background-color: #2554C7;
+    height: 10vh;
+    background-color: #001489;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -17,6 +17,13 @@ nav {
     border-radius: 10px;
     font-size: 18px;
   }
+
+  .sign-btn:hover{
+
+  }   
+
+
+  
   .header {
     display: flex;
     justify-content: space-between;

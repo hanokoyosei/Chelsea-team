@@ -9,7 +9,8 @@ const BrandsList = () => {
   useEffect(() => {
     getBrands();
   }, []);
-  //   console.log(brands);
+
+
   return (
     <div
       className="container"
@@ -26,7 +27,7 @@ const BrandsList = () => {
         style={{ width: 240 }}
         cover={<img alt="example" src={item.logo} />}
       >
-        <Meta title={item.title}/>
+        <Meta title={item.title} />
       </Card>
       ))}
     </div>
