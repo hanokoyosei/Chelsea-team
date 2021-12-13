@@ -12,7 +12,6 @@ import Routing from "./Routing";
 
 import "antd/dist/antd.css";
 import "./App.css";
-import newsContext from "./contexts/newsContext";
 
 const App = () => {
   return (

@@ -10,7 +10,7 @@ const BrandsList = () => {
     getBrands();
   }, []);
 
-  
+
   return (
     <div
       className="container"

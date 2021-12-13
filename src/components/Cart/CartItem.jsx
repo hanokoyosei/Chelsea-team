@@ -53,7 +53,7 @@ const CartItem = ({ item }) => {
               
 
             </div>
-            <Button onClick={() => deleteFromCart(item.item.id)}>
+            <Button style={{background:"#001489", color:"white"}} onClick={() => deleteFromCart(item.item.id)}>
               Remove from cart
             </Button>
 
@@ -61,7 +61,7 @@ const CartItem = ({ item }) => {
            
             <div style={{marginTop:"50px"}}>
                 <h4>Buy</h4>
-               <Link to="/creditCart"> <Button>Buy</Button></Link> 
+               <Link to="/creditCart"> <Button style={{background:"#001489", color:"white"}}>Buy</Button></Link> 
               </div>
             
            

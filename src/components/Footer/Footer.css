@@ -1,6 +1,9 @@
 .first-footer {
-    background-color: #2554C7;
     margin-top: 3%;
+}
+
+.col {
+    background-color: #001489;
 }
 
 .footer{
@@ -65,4 +68,8 @@ img {
     font-size: 15px; 
     width: 100%; 
     font-weight: bold;
+}
+
+.hh {
+    color: white
 }
