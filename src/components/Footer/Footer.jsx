@@ -40,28 +40,28 @@ const Footer = () => {
           <div className='col' style={{marginTop: '5%'}}>
       <div className="footer"> 
           <div className="ins">  
-            <a> 
+            <a href='https://www.facebook.com/ChelseaFC'> 
               <FacebookOutlined /> 
             </a> 
-            <a> 
+            <a href='https://twitter.com/chelseafc'> 
               <TwitterOutlined /> 
             </a>
-            <a> 
+            <a href='https://www.instagram.com/chelseafc/'> 
               <InstagramOutlined /> 
             </a> 
-            <a> 
+            <a href='https://www.youtube.com/chelseafc'> 
               <YoutubeOutlined /> 
             </a> 
           </div> 
       </div> 
        <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '2%'}}>
-         <a><h3 className="hh">Contact Us</h3></a>
-         <a><h3 className="hh">FAQs</h3></a>
-         <a><h3 className="hh">Careers</h3></a>
-         <a><h3 className="hh">Modern Slavery Act</h3></a>
-         <a><h3 className="hh">Privacy Policy</h3></a>
-         <a><h3 className="hh">Cookies Policy</h3></a>
-         <a><h3 className="hh">Terms & Conditions</h3></a>
+         <a href='https://www.chelseafc.com/en/about-chelsea/contact-us?pageTab=%20Contact%20Us:%20By%20Email'><h3 className="hh">Contact Us</h3></a>
+         <a href='https://www.chelseafc.com/en/about-chelsea/faqs'><h3 className="hh">FAQs</h3></a>
+         <a href='https://www.chelseafc.com/en/about-chelsea/about-the-club/careers'><h3 className="hh">Careers</h3></a>
+         <a href='https://www.chelseafc.com/en/about-chelsea/about-the-club/modern-slavery-act-statement'><h3 className="hh">Modern Slavery Act</h3></a>
+         <a href='https://www.chelseafc.com/en/footer/privacy-policy'><h3 className="hh">Privacy Policy</h3></a>
+         <a href='https://www.chelseafc.com/en/footer/cookies-policy'><h3 className="hh">Cookies Policy</h3></a>
+         <a href='https://www.chelseafc.com/en/footer/terms-and-conditions'><h3 className="hh">Terms & Conditions</h3></a>
        </div>
        <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>
          <p>© 2021 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</p>

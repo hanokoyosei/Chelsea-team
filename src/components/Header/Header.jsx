@@ -38,7 +38,7 @@ const Header = () => {
     },
     {
       title: "NEWS",
-      link: "/newsContext",
+      link: "/news",
       id: 4,
     },
   ];
