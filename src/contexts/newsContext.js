@@ -1,13 +1,28 @@
 import React from 'react';
+import { Carousel, Radio } from 'antd';
 
 const newsContext = () => {
-
-
-    return (
+  return (
+    <div>
+           <>
+     
+      <Carousel>
         <div>
-            здесь будут новости 
+          <h3>1</h3>
         </div>
-    );
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+      </Carousel>
+    </>
+    </div>
+  );
 };
 
 export default newsContext;
