@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import { Card, Carousel } from "antd";
-import { Link } from "react-router-dom";
 
 const { Meta } = Card;
 const contentStyle = {

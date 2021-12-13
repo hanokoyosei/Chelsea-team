@@ -7,6 +7,7 @@ import Cart from "./components/Cart/Cart";
 import DetailsProduct from "./components/DetailsProduct/DetailsProduct";
 import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
+import Payers from "./components/Players/Payers";
 import ProductsList from "./components/ProductsList/ProductsList";
 import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
@@ -43,7 +44,12 @@ const Routing = () => {
       link: "/cart",
       element: <Cart />,
       id: 6
-    }
+    },
+    {
+      link: "/players",
+      element: <Payers />,
+      id: 7
+    },
   ];
   const ADMIN_ROUTES = [
     {
