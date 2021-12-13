@@ -1,11 +1,12 @@
 import React, {useState} from 'react'; 
 import Cards from 'react-credit-cards'; 
-import { Input, InputNumber } from 'antd'; 
+import { Button, Input, InputNumber } from 'antd'; 
 import 'react-credit-cards/es/styles-compiled.css' 
 import "./CreditCart.css"
  
   
  function PaymentForm (){ 
+
  const[state,setState] = useState( 
     { 
         cvc: '', 
@@ -47,7 +48,7 @@ import "./CreditCart.css"
   } 
  
      return ( 
-      <div id="PaymentForm"> 
+      <div  id="PaymentForm"> 
         <Cards 
           cvc={state.cvc} 
           expiry={state.expiry} 
@@ -95,7 +96,10 @@ import "./CreditCart.css"
               onFocus={handleInputFocus} 
             /> 
            
+           
         </form> 
+        <Button style={{marginTop:"50px" ,background:"#001489", color:"white" }}>FINISH</Button>
+       
       </div> 
     ); 
   } 
