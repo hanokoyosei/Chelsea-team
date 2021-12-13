@@ -7,11 +7,12 @@ import Cart from "./components/Cart/Cart";
 import DetailsProduct from "./components/DetailsProduct/DetailsProduct";
 import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
+import Payers from "./components/Players/Payers";
 import ProductsList from "./components/ProductsList/ProductsList";
 import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
-
+import CreditCart from "./components/creditCart/CreditCart"
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -43,7 +44,18 @@ const Routing = () => {
       link: "/cart",
       element: <Cart />,
       id: 6
+    },
+    {
+      link:"/newsContext",
+      element: <newsContext/>,
+      id:7
+    },
+    {
+      link: "/creditCart",
+      element:<CreditCart/>,
+      id:8
     }
+
   ];
   const ADMIN_ROUTES = [
     {

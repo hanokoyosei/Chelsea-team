@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   border: 2px solid #4a4a4a;
-  border-radius: 45px;
+  border-radius: 50px;
 }
 
 .auth-btn {
@@ -24,9 +24,10 @@
   padding: 15px 0;
   font-size: 16px;
   color: #fff;
-  background: #4a4a4a;
+  background: #2554C7;
   cursor: pointer;
   letter-spacing: 2px;
+
 }
 
 .auth-input {
