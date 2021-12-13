@@ -27,7 +27,7 @@ const Header = () => {
       id: 1,
     },
     {
-      title: "STORES",
+      title: "SHOP",
       link: "/trophies",
       id: 2,
     },
@@ -38,7 +38,7 @@ const Header = () => {
     },
     {
       title: "NEWS",
-      link: "*",
+      link: "/newsContext",
       id: 4,
     },
     {
