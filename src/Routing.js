@@ -7,9 +7,14 @@ import Cart from "./components/Cart/Cart";
 import DetailsProduct from "./components/DetailsProduct/DetailsProduct";
 import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
+<<<<<<< HEAD
 import Plyers from "./components/Players/Payers";
+=======
+import Players from "./components/Players/Players";
+>>>>>>> 6b152316eb037497c3cc93a60f9be7bee4e5765f
 import ProductsList from "./components/ProductsList/ProductsList";
 import { useAuth } from "./contexts/authContext";
+import NewsList from "./contexts/NewsList";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
