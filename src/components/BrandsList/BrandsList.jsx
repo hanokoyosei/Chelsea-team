@@ -26,7 +26,7 @@ const BrandsList = () => {
         style={{ width: 240 }}
         cover={<img alt="example" src={item.logo} />}
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        <Meta title={item.title}/>
       </Card>
       ))}
     </div>

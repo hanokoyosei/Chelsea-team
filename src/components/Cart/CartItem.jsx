@@ -52,6 +52,9 @@ const CartItem = ({ item }) => {
             <Button onClick={() => deleteFromCart(item.item.id)}>
               Remove from cart
             </Button>
+            <Button>
+              Kupit
+            </Button>
           </>
         }
       />

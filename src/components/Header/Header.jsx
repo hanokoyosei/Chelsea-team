@@ -32,19 +32,14 @@ const Header = () => {
       id: 2,
     },
     {
-      title: "STORES",
-      link: "*",
+      title: "PLAYERS",
+      link: "/players",
       id: 3,
     },
     {
       title: "NEWS",
       link: "/newsContext",
       id: 4,
-    },
-    {
-      title: "CONTACTS",
-      link: "*",
-      id: 5,
     },
   ];
   return (
