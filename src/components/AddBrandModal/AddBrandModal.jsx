@@ -21,7 +21,7 @@ const AddBrandModal = () => {
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Add brand
+        Add Trophy
       </Button>
       <Modal
         title="Add brand"
@@ -37,7 +37,8 @@ const AddBrandModal = () => {
         >
           <Form.Item
             label="Brand"
-            name="brand"
+            name="title"
+            
             rules={[
               {
                 required: true,

@@ -34,7 +34,7 @@
       "brand": "Goalkeeper",
       "model": "2021-22",
       "description": "",
-      "price": 10100,
+      "price": 1100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-goalkeeper-stadium-shirt-2021-22-kids_ss4_p-12056127+u-8dpzuwfdgsz4396n5j4w+v-413ca947d80f4120b7c3918ac3b6e4f6.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
@@ -54,7 +54,7 @@
       "brand": "Training",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 9100,
+      "price": 2100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-grey_ss4_p-12059909+u-x34qhxw7315rllmt2zf1+v-9e3b41bd261b47979adc501a63713926.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -64,7 +64,7 @@
       "brand": "Training",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 8100,
+      "price": 1100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-elite-drill-top-black_ss4_p-12059919+u-pcqceomk8gs95hczex6c+v-28597740005e462bbaf7557170a5aaf8.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -174,98 +174,9 @@
   "brands": [
     {
       "brand": "ACCUTRON",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/accutron-logo-b.png",
-      "id": 3
-    },
-    {
-      "brand": "ALEXANDRE MEERSON",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/alexandre-meerson-logo-black.png",
-      "id": 4
-    },
-    {
-      "brand": "ARMIN STROM",
-      "logo": "https://content.thewosgroup.com/wosus/brands/a-z/armin-strom-logo-aug20.png",
-      "id": 5
-    },
-    {
-      "brand": "BLANCPAIN",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/blancpain-logo.png",
-      "id": 6
-    },
-    {
-      "brand": "BOVET",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/bovet-brand-card-june-19-1.png",
-      "id": 7
-    },
-    {
-      "brand": "BREQUET",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/breguet-logo.png",
-      "id": 8
-    },
-    {
-      "brand": "BREITLING",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/breitling-logo.png",
-      "id": 9
-    },
-    {
-      "brand": "CARTIER",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/cartier-logo.png",
-      "id": 10
-    },
-    {
-      "brand": "CHOPARD",
-      "logo": "https://content.thewosgroup.com/wosus/brands/a-z/wosus-chopard-brandspage-nov21.png",
-      "id": 11
-    },
-    {
-      "brand": "FRANCK MULLER GENEVE",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/franck-muller-logo-black-brand-page.png",
-      "id": 12
-    },
-    {
-      "brand": "DOXA",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/doxa-brand-logo.png",
-      "id": 13
-    },
-    {
-      "brand": "GIRARD PERREGAUX",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/girard-perregaux-logo-us.png",
-      "id": 14
-    },
-    {
-      "brand": "GRAND SEIKO",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/grand-seiko-logo-brands.png",
-      "id": 15
-    },
-    {
-      "brand": "H.Moser & Cie",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/h.moser.and.cie.logo.brands.page.png",
-      "id": 16
-    },
-    {
-      "brand": "HUBLOT",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/wosus-brands-hublot-logo-aug20.png",
-      "id": 17
-    },
-    {
-      "brand": "IWC Schaffhausen",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/iwc-schaffhausen-logo.png",
-      "id": 18
-    },
-    {
-      "brand": "Jacob & Co",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/jacob-and-co-brands-logo-1.png",
-      "id": 19
-    },
-    {
-      "brand": "Jaeger-LeCoultre",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/jaeger-lecoultre-logo.png",
-      "id": 20
-    },
-    {
-      "brand": "Akjol salam",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Chelsea_FC_logo_simplified.jpg",
-      "id": 21
+      "logo": "https://m.media-amazon.com/images/I/715oHOC1gfL._AC_SY741_.jpg",
+      "title": "UCL - 2",
+      "id": 1
     }
   ]
 }

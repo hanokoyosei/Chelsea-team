@@ -54,6 +54,8 @@ const Footer = () => {
           <h3 style={{ color: "whitesmoke" }}>CATEGORIES</h3>
           <a style={{ color: "whitesmoke" }}>Watches</a>
           <a style={{ color: "whitesmoke" }}>Brands</a>
+           
+           
         </div>
 
         <div className="foot">

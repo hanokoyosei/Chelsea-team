@@ -31,21 +31,13 @@ const Header = () => {
       link: "/trophies",
       id: 2,
     },
-    {
-      title: "STORES",
-      link: "*",
-      id: 3,
-    },
+    
     {
       title: "NEWS",
       link: "/newsContext",
       id: 4,
     },
-    {
-      title: "CONTACTS",
-      link: "*",
-      id: 5,
-    },
+    
   ];
   return (
     <>
