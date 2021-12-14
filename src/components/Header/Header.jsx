@@ -30,7 +30,7 @@ const Header = () => {
       title: "SHOP",
       link: "/trophies",
       id: 2,
-    },
+    },   
     {
       title: "NEWS",
       link: "/news",
@@ -49,7 +49,7 @@ const Header = () => {
         <div>
           {email ? (
             <Link to="/auth">
-              <button className="sign-btn" onClick={handleLogout} style={{cursor: 'pointer'}}>
+              <button className="sign-btn" onClick={handleLogout}>
                 Logout
               </button>
             </Link>
@@ -63,9 +63,12 @@ const Header = () => {
         </div>
       </nav>
       <div className="header">
-        <div></div>
+        <div>
+          
+        </div>
         <Link to="/">
           <img
+            className="img"
             width="400px"
             src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
             alt=""
@@ -75,13 +78,14 @@ const Header = () => {
           <Link to="/cart">
             <Badge count={+cartLength}>
               <ShoppingCartOutlined
-                style={{ fontSize: "30px", cursor: "pointer" }}
+                style={{ fontSize: "40px", cursor: "pointer" }}
               />
             </Badge>
           </Link>
         </div>
       </div>
       <div className="navbar">
+        
         {NAV_ITEMS.map((item) => (
           <Link
             to={item.link}
