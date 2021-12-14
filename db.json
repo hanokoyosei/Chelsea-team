@@ -279,6 +279,11 @@
       "player": "Akjol",
       "logo": "https://img.joinfo.com/i/2021/07/800x0/60ddccf0ddbaf.jpg",
       "id": 1
+    },
+    {
+      "player": "Канте",
+      "logo": "https://m.stadion.uz/images/news/kantengolo.jpg",
+      "id": 2
     }
   ],
   "news": []

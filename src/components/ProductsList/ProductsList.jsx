@@ -25,8 +25,10 @@ const ProductsList = () => {
   const [brand, setBrand] = useState([]);
   const [price, setPrice] = useState([1, 1000000]);
   const [showFilters, setShowFilters] = useState(false);
+
   const { getProducts, products, productsTotalCount } =
     useContext(productsContext);
+    
   useEffect(() => {
     setSearchParams({
       q: search,
