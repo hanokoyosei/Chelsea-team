@@ -24,10 +24,11 @@ const BrandsList = () => {
       {brands.map((item) => (
         <Card
         hoverable
-        style={{ width: 240 }}
-        cover={<img alt="example" src={item.logo} />}
+        style={{ flexBasis: '33%' }}
+        cover={<img alt="example" src={item.logo} style={{width: '235px', height: '250px', marginLeft: '20%'}}/>}
       >
-        <Meta title={item.title} />
+        <Meta title={item.name} style={{display: 'flex', justifyContent: 'center'}} />
+        <Meta title={item.year} style={{display: 'flex', justifyContent: 'center'}} />
       </Card>
       ))}
     </div>

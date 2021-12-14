@@ -35,14 +35,14 @@ const AddBrandModal = () => {
           autoComplete="off"
           layout="vertical"
         >
+
           <Form.Item
-            label="Brand"
-            name="title"
-            
+            label="Trophy logo"
+            name="logo"
             rules={[
               {
                 required: true,
-                message: "Please input brand!",
+                message: "Please input trophy URL of logo!",
               },
             ]}
           >
@@ -50,12 +50,25 @@ const AddBrandModal = () => {
           </Form.Item>
 
           <Form.Item
-            label="Logo"
-            name="logo"
+            label="Trophy name"
+            name="name"
             rules={[
               {
                 required: true,
-                message: "Please input URL of logo!",
+                message: "Please input trophy name!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Year"
+            name="year"
+            rules={[
+              {
+                required: true,
+                message: "Please input year of trophies!",
               },
             ]}
           >

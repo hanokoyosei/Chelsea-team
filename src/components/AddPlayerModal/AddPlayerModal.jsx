@@ -37,12 +37,12 @@ const AddPlayerModal = () => {
           layout="vertical"
         >
           <Form.Item
-            label="Player"
+            label="Player name"
             name="player"
             rules={[
               {
                 required: true,
-                message: "Please input brand!",
+                message: "Please input player name!",
               },
             ]}
           >
@@ -50,12 +50,64 @@ const AddPlayerModal = () => {
           </Form.Item>
 
           <Form.Item
-            label="Logo"
-            name="logo"
+            label="Nationality"
+            name="nationality"
             rules={[
               {
                 required: true,
-                message: "Please input URL of logo!",
+                message: "Please input player nationality!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Age"
+            name="age"
+            rules={[
+              {
+                required: true,
+                message: "Please input player age!",
+              },
+            ]}
+          >
+            <Input type='number'/>
+          </Form.Item>
+
+          <Form.Item
+            label="Player number"
+            name="number"
+            rules={[
+              {
+                required: true,
+                message: "Please input player number!",
+              },
+            ]}
+          >
+            <Input type='number'/>
+          </Form.Item>
+
+          <Form.Item
+            label="Player position"
+            name="position"
+            rules={[
+              {
+                required: true,
+                message: "Please input player position!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+          <Form.Item
+            label="Player photo"
+            name="photo"
+            rules={[
+              {
+                required: true,
+                message: "Please input URL of photo!",
               },
             ]}
           >

@@ -47,19 +47,9 @@ const Routing = () => {
       id: 6
     },
     {
-      link:"/newsContext",
-      element: <newsContext/>,
-      id:7
-    },
-    {
-      link:"/news",
-      element: <NewsList/>,
-      id:7
-    },
-    {
       link: "/creditCart",
       element:<CreditCart/>,
-      id:8
+      id:7
     },
     {
       link: "/players",

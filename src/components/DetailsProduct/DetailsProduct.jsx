@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import { Carousel, Button } from "antd";
+import { Button } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
 
@@ -28,20 +28,15 @@ const DetailsProduct = () => {
               marginBottom: "20px",
             }}
           >
-            <div style={{ width: "35vw", border: "1px solid black" }}>
-              <Carousel autoplay>
+            <div style={{ width: "370px", height: '450px' }}>
                 <div>
                   <img width="100%" src={product.image1} alt="" />
                 </div>
-                <div>
-                  <img width="100%" src={product.image2} alt="" />
-                </div>
-              </Carousel>
             </div>
             <div style={{ width: "40vw" }}>
               <h2>{product.brand}</h2>
               <h3>{product.model}</h3>
-              <h2>{product.price}</h2>
+              <h2>{`$ ${product.price}`}</h2>
               <Link to="/creditCart">
               <Button
                 size="large"
@@ -53,7 +48,6 @@ const DetailsProduct = () => {
               <div>{product.description}</div>
             </div>
           </div>
-          <video src={product.video} width="100%" autoPlay loop muted></video>
         </>
       ) : (
         <h2>Loading...</h2>
