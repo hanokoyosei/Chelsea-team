@@ -70,7 +70,7 @@ const ProductsList = () => {
         />
       </div>
       <div>
-        <img style={{width: '100%'}} src='https://1.bp.blogspot.com/-8XFYBHAySNo/YJzep_dDk4I/AAAAAAADAjA/FNbEJCbkdScHOSxXI4z07ZTp-pBvo5rzwCNcBGAsYHQ/s1600/chelsea-21-22-kit%2B%25282%2529.jpg' alt='' />
+        {/* <img style={{width: '100%'}} src='https://1.bp.blogspot.com/-8XFYBHAySNo/YJzep_dDk4I/AAAAAAADAjA/FNbEJCbkdScHOSxXI4z07ZTp-pBvo5rzwCNcBGAsYHQ/s1600/chelsea-21-22-kit%2B%25282%2529.jpg' alt='' /> */}
       </div>
       {showFilters ? (
         <Filters

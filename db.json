@@ -173,6 +173,17 @@
   ],
   "brands": [
     {
+      "brand": "ROLEX",
+      "logo": "https://i.ytimg.com/vi/8y4DtCtwRf4/maxresdefault.jpg",
+      "title": "UCL - 2",
+      "id": 1
+    },
+    {
+      "brand": "PATEK PHILIPPE GENEVE",
+      "logo": "https://im0-tub-ru.yandex.net/i?id=d91b6a24c9bfa6a4ad6b1890000abf29-l&ref=rim&n=13&w=1080&h=1278",
+      "id": 2
+    },
+    {
       "brand": "ACCUTRON",
       "logo": "https://content.thewosgroup.com/mayors/brands/a-z/accutron-logo-b.png",
       "id": 3
@@ -261,12 +272,19 @@
       "brand": "Jaeger-LeCoultre",
       "logo": "https://content.thewosgroup.com/mayors/brands/a-z/jaeger-lecoultre-logo.png",
       "id": 20
+    }
+  ],
+  "players": [
+    {
+      "player": "Akjol",
+      "logo": "https://img.joinfo.com/i/2021/07/800x0/60ddccf0ddbaf.jpg",
+      "id": 1
     },
     {
-      "brand": "Akjol salam",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Chelsea_FC_logo_simplified.jpg",
-      "id": 21
+      "player": "Канте",
+      "logo": "https://m.stadion.uz/images/news/kantengolo.jpg",
+      "id": 2
     }
-  ]
-  
+  ],
+  "news": []
 }

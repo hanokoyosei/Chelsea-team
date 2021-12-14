@@ -1,9 +1,10 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
-
+import { Link } from "react-router-dom";
 import { Carousel, Button } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
+
 
 const DetailsProduct = () => {
   const { id } = useParams();
@@ -41,12 +42,14 @@ const DetailsProduct = () => {
               <h2>{product.brand}</h2>
               <h3>{product.model}</h3>
               <h2>{product.price}</h2>
+              <Link to="/creditCart">
               <Button
                 size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
+                style={{ margin: "15px 0px", width: "100%", background:"#001489", color:"white" }}
               >
                 ADD TO CART
               </Button>
+              </Link>
               <div>{product.description}</div>
             </div>
           </div>

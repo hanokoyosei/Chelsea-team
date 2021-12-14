@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { List, InputNumber, Button } from "antd";
 import { cartContext } from "../../contexts/cartContext";
+import { Link } from "react-router-dom";
 
 const CartItem = ({ item }) => {
   // console.log(item);
@@ -48,10 +49,23 @@ const CartItem = ({ item }) => {
                 <h4>SubPrice</h4>
                 <h3>{"$" + item.subPrice}</h3>
               </div>
+
+              
+
             </div>
-            <Button onClick={() => deleteFromCart(item.item.id)}>
+            <Button style={{background:"#001489", color:"white"}} onClick={() => deleteFromCart(item.item.id)}>
               Remove from cart
             </Button>
+
+
+           
+            <div style={{marginTop:"50px"}}>
+                <h4>Buy</h4>
+               <Link to="/creditCart"> <Button style={{background:"#001489", color:"white"}}>Pay by card</Button></Link> 
+              </div>
+            
+           
+            
           </>
         }
       />

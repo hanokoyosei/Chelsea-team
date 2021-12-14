@@ -1,9 +1,10 @@
 import React, { useContext, useState } from "react";
 import { Modal, Button, Form, Input } from "antd";
-import { brandsContext } from "../../contexts/brandsContext";
+import { playersContext } from "../../contexts/playersContext";
 
-const AddBrandModal = () => {
-  const { createBrand } = useContext(brandsContext)
+const AddPlayerModal = () => {
+  const { createPlayer } = useContext(playersContext)
+  console.log(createPlayer)
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -16,12 +17,12 @@ const AddBrandModal = () => {
 
   const onFinish = (values) => {
     console.log("Success:", values);
-    createBrand(values).then(() => handleCancel())
+    createPlayer(values).then(() => handleCancel())
   };
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Add Trophy
+        Add player
       </Button>
       <Modal
         title="Add brand"
@@ -36,9 +37,8 @@ const AddBrandModal = () => {
           layout="vertical"
         >
           <Form.Item
-            label="Brand"
-            name="title"
-            
+            label="Player"
+            name="player"
             rules={[
               {
                 required: true,
@@ -69,7 +69,7 @@ const AddBrandModal = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              Add brand
+              Add player
             </Button>
           </Form.Item>
         </Form>
@@ -78,4 +78,4 @@ const AddBrandModal = () => {
   );
 };
 
-export default AddBrandModal;
+export default AddPlayerModal;
