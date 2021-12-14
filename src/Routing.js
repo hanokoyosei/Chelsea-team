@@ -55,7 +55,13 @@ const Routing = () => {
       link: "/players",
       element:<Players/>,
       id:8
-    }
+    },
+    {
+      link: "/news",
+      element:<NewsList/>,
+      id:8
+    },
+    
 
   ];
   const ADMIN_ROUTES = [
