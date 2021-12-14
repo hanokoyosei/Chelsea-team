@@ -22,7 +22,7 @@ const AdminBrandsList = () => {
         >
           <List.Item.Meta
             avatar={<Avatar src={item.logo} />}
-            title={<a href="https://ant.design">{item.brand}</a>}
+            title={item.name}
           />
         </List.Item>
       )}

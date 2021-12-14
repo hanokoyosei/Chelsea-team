@@ -1,107 +1,144 @@
-import React, {useState} from 'react'; 
-import Cards from 'react-credit-cards'; 
-import { Button, Input, InputNumber } from 'antd'; 
-import 'react-credit-cards/es/styles-compiled.css' 
-import "./CreditCart.css"
+import React from "react"; 
+import Card from "react-credit-cards"; 
+import './CreditCart.css'; 
+import SupportedCards from "./Credit"; 
+import { Link } from "react-router-dom";
  
-  
- function PaymentForm (){ 
-
- const[state,setState] = useState( 
-    { 
-        cvc: '', 
-        expiry: '', 
-        focus: '', 
-        name: '', 
-        number: '', 
-      } 
- ) 
+import { 
+  formatCreditCardNumber, 
+  formatCVC, 
+  formatExpirationDate, 
+  formatFormData 
+} from "./utilits"; 
  
- const [numberState, setNumberState] = React.useState(''); 
-  
- const handleInputFocus = (e) => { 
-    setState({ ...state,focus: e.target.name }); 
-  } 
-   
-  const handleInputChange = (e) => { 
-   
-    const { name, value } = e.target; 
-    
-    setState({...state, [name]: value }); 
-  } 
+import "react-credit-cards/es/styles-compiled.css"; 
  
+export default class App extends React.Component { 
+  state = { 
+    number: "", 
+    name: "", 
+    expiry: "", 
+    cvc: "", 
+    issuer: "", 
+    focused: "", 
+    formData: null 
+  }; 
  
-  let regex = /\d{0,16}?/gi 
-  const handleInputChangeNumber = (e) => { 
-    const { name, value } = e.target; 
-    const haveLetters = (str) => { 
-        let alphabet = 'qwertyuiopasdfghjklzxcvbnm' 
-        return str.split('').some(letter => alphabet.includes(letter)) 
+  handleCallback = ({ issuer }, isValid) => { 
+    if (isValid) { 
+      this.setState({ issuer }); 
     } 
-    if(regex.test(value) && value.length < 17 && !haveLetters(value)){ 
-        console.log('regex passed') 
-        setNumberState(value) 
-        setState({...state, [name]: value }); 
-    } else { 
-        setNumberState(numberState) 
+  }; 
+ 
+  handleInputFocus = ({ target }) => { 
+    this.setState({ 
+      focused: target.name 
+    }); 
+  }; 
+ 
+  handleInputChange = ({ target }) => { 
+    if (target.name === "number") { 
+      target.value = formatCreditCardNumber(target.value); 
+    } else if (target.name === "expiry") { 
+      target.value = formatExpirationDate(target.value); 
+    } else if (target.name === "cvc") { 
+      target.value = formatCVC(target.value); 
     } 
-  } 
  
-     return ( 
-      <div  id="PaymentForm"> 
-        <Cards 
-          cvc={state.cvc} 
-          expiry={state.expiry} 
-          focused={state.focus} 
-          name={state.name} 
-          number={state.number} 
-        /> 
-        <form id="PaymentInput"> 
-         
-            <Input  
-            // type="number" 
-            name="number" 
-            placeholder="Card Number" 
-            // maxLength={16} 
-            value={numberState} 
-            onChange={handleInputChangeNumber} 
-            // onChange={handleInputChange} 
-            onFocus={handleInputFocus} 
-            // style={{ minWidth: 200 }} 
-            /> 
+    this.setState({ [target.name]: target.value }); 
+  }; 
  
-            <Input   
-            type="text" 
-            name="name" 
-            placeholder="Name" 
-            onChange={handleInputChange} 
-            onFocus={handleInputFocus} 
-            />   
+  handleSubmit = e => { 
+    e.preventDefault(); 
+    const { issuer } = this.state; 
+    const formData = [...e.target.elements] 
+      .filter(d => d.name) 
+      .reduce((acc, d) => { 
+        acc[d.name] = d.value; 
+        return acc; 
+      }, {}); 
  
+    this.setState({ formData }); 
+    this.form.reset(); 
+  }; 
  
-            <Input   
-            type="number" 
-            name="cvc" 
-            placeholder="CVC" 
-            onChange={handleInputChange} 
-            onFocus={handleInputFocus} 
-            />  
+  render() { 
+    const { name, number, expiry, cvc, focused, issuer, formData } = this.state; 
  
- 
-            <Input   
-              type="number" 
-              name="expiry" 
-              placeholder="VALID/THRU" 
-              onChange={handleInputChange} 
-              onFocus={handleInputFocus} 
-            /> 
+    return ( 
+      <div key="Payment"> 
+        <div className="App-payment" style={{marginTop:"20px"}}> 
+          <Card  
+            number={number} 
+            name={name} 
+            expiry={expiry} 
+            cvc={cvc} 
+            focused={focused} 
+            callback={this.handleCallback} 
+          /> 
+          <form className="inputCard"  ref={c => (this.form = c)} onSubmit={this.handleSubmit}> 
+            <div className="col-6"> 
+              <input 
+                type="tel" 
+                name="number" 
+                className="form-control" 
+                placeholder="Card Number" 
+                maxLength={19} 
+                required 
+                onChange={this.handleInputChange} 
+                onFocus={this.handleInputFocus} 
+              /> 
+            </div> 
+            <div className="col-6"> 
+              <input 
+                type="text" 
+                name="name" 
+                className="form-control" 
+                placeholder="Name" 
+                required 
+                onChange={this.handleInputChange} 
+                onFocus={this.handleInputFocus} 
+              /> 
+            </div> 
+            <div className="row"> 
+              <div className="col-6"> 
+                <input 
+                  type="tel" 
+                  name="expiry" 
+                  className="form-control" 
+                  placeholder="Valid Thru" 
+                  pattern="\d\d/\d\d" 
+                  required 
+                  onChange={this.handleInputChange} 
+                  onFocus={this.handleInputFocus} 
+                /> 
+              </div> 
+              <div className="col-6"> 
+                <input 
+                  type="tel" 
+                  name="cvc" 
+                  className="form-control" 
+                  placeholder="CVC" 
+                  maxLength={3} 
+                  required 
+                  onChange={this.handleInputChange} 
+                  onFocus={this.handleInputFocus} 
+                /> 
+              </div> 
+            </div> 
+            <input type="hidden" name="issuer" value={issuer} /> 
+            <div className="form-actions"> 
+            <Link to="/successCredit">
+              <button className="button" style={{marginTop:"10px"}}>Оплатить покупку</button> 
+              </Link>
+            </div> 
+          </form> 
            
-           
-        </form> 
-        <Button style={{marginTop:"50px" ,background:"#001489", color:"white" }}>FINISH</Button>
-       
+ 
+          <SupportedCards /> 
+        </div> 
+ 
       </div> 
     ); 
   } 
- 
-export default PaymentForm
+}

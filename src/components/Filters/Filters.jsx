@@ -1,12 +1,15 @@
 import React, { useContext, useEffect } from "react";
 import { Select, Slider } from "antd";
-import { brandsContext } from "../../contexts/brandsContext";
+import { productsContext } from "../../contexts/productsContext";
 
 const Filters = ({ brand, setBrand, price, setPrice }) => {
-  const { getBrands, brands } = useContext(brandsContext);
+  const { getProducts, products } = useContext(productsContext);
   useEffect(() => {
-    getBrands();
+    getProducts();
   }, []);
+
+console.log(products)
+
   return (
     <div style={{ marginTop: "20px" }}>
       <Select
@@ -17,8 +20,8 @@ const Filters = ({ brand, setBrand, price, setPrice }) => {
         mode="multiple"
         placeholder="Filter by brand"
       >
-        {brands.map((item) => (
-          <Select.Option value={item.brand} key={item.id}>
+        {products.map((item) => (
+          <Select.Option value={item.brand} key={item.brand}>
             {item.brand}
           </Select.Option>
         ))}

@@ -7,8 +7,9 @@ import Cart from "./components/Cart/Cart";
 import DetailsProduct from "./components/DetailsProduct/DetailsProduct";
 import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
-import Plyers from "./components/Players/Payers";
+import Players from "./components/Players/Players";
 import ProductsList from "./components/ProductsList/ProductsList";
+import NewsList from "./components/NewsList/NewsList";
 import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
@@ -46,16 +47,15 @@ const Routing = () => {
       id: 6
     },
     {
-      link:"/newsContext",
-      element: <newsContext/>,
+      link: "/creditCart",
+      element:<CreditCart/>,
       id:7
     },
     {
-      link: "/creditCart",
-      element:<CreditCart/>,
+      link: "/players",
+      element:<Players/>,
       id:8
-    },
-
+    }
 
   ];
   const ADMIN_ROUTES = [

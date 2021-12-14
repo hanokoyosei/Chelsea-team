@@ -64,11 +64,6 @@ const Home = () => {
           <Meta title="EFL" />
         </Card>
       </div>
-      {/* <div style={{marginTop: '3%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-      <a style={{color: 'black', fontWeight: 'bold'}}>ANYTIME ANYWHERE BY WATCHES OF SWITZERLAND</a>
-      <p style={{marginTop: '1%'}}>A cinematic love letter to the modern collector</p>
-      <Link to='/discover'><a style={{color: 'black', textDecoration: 'underline' }}>Discover Featured Watches</a></Link>
-      </div> */}
       <div>
       <Carousel autoplay>
     <div>

@@ -4,7 +4,7 @@
       "brand": "Home kit",
       "model": "2021-22",
       "description": "Chelsea FC home kit 2021-22",
-      "price": 3100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-home-stadium-shirt-2021-22-with-kant%C3%A9-7-printing_ss4_p-12065468+u-tjx34f6qn3qtc2yksgzb+v-757cd997aafe4831b1e4a3ff39778c29.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -14,7 +14,7 @@
       "brand": "Away kit",
       "model": "2021-22",
       "description": "Chelsea FC away kit 2021-22",
-      "price": 2150,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shirt-2021-22-with-mount-19-printing_ss4_p-12071850+u-12m33e2z71ffm0zy9x8b+v-12f813ee8cfa4dd7bb0e5a6f3a937988.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -24,7 +24,7 @@
       "brand": "Third kit",
       "model": "2021-22",
       "description": "Chelsea FC third kit 2021-22",
-      "price": 7100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-third-vapor-match-shirt-2021-22_ss4_p-12059902+u-pto1qedt1h2yas0owdm+v-938f45674a284bec89b9b4e139026707.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -33,152 +33,229 @@
     {
       "brand": "Goalkeeper",
       "model": "2021-22",
-      "description": "",
-      "price": 1100,
+      "description": "Chelsea FC goalkeeper kit 2021-22",
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-goalkeeper-stadium-shirt-2021-22-kids_ss4_p-12056127+u-8dpzuwfdgsz4396n5j4w+v-413ca947d80f4120b7c3918ac3b6e4f6.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 4
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 1510,
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-blue_ss4_p-12056136+u-1f62qp87kr5dwohm2511+v-a5479384d7e44da7812b2c73da065250.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 5
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 2100,
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-grey_ss4_p-12059909+u-x34qhxw7315rllmt2zf1+v-9e3b41bd261b47979adc501a63713926.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 6
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training kit",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 1100,
+      "price": 150,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-elite-drill-top-black_ss4_p-12059919+u-pcqceomk8gs95hczex6c+v-28597740005e462bbaf7557170a5aaf8.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 7
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training kit",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
+      "price": 150,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 8
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket ",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black-kids_ss4_p-12066021+u-1axx6algp5zwyki3hvzj+v-df166df31e2046ac9b7a9d3f182e137d.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 9
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea strike top",
       "model": "2021-22",
       "description": "Chelsea FC t-shirt 2021-22",
-      "price": 6100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-top-black_ss4_p-12059971+u-y9cuqovoh8j1t04798jh+v-62955aba540c4f0f852da1ef29b51b6c.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 10
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training top",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-training-top-blue_ss4_p-12059967+u-oruvu1jpqrm6fkfawqif+v-52dd9564070144d8b127e3b15ad761d9.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 11
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea hoodie",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-zip-thru-jacket-black_ss4_p-12059942+u-1dvhjdupjhtf5nc5u758+v-c2164ec50489461eb2258efe43101cfc.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 12
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-swoosh-t-shirt-black_ss4_p-12059945+u-bzcb2aox7wtw3zmnqw9o+v-2efd3770407b4f0986e172b6691e3ef0.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 13
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-travel-t-shirt-blue_ss4_p-12059948+u-110jnvi11d7qaubf3bke+v-0e000c9a723d41c1adf24b906c395bbc.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 14
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black_ss4_p-12059918+u-usfwrmh0ky8hm01ldd3y+v-1bdcf4d52252484fa6016518baa966f3.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 15
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea hoodie",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 180,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-black_ss4_p-12059904+u-10g2bchm6ew4ls8mo9dr+v-fc4d641a53e5429dbad7ccf0623d11b2.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 16
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-evergreen-crest-t-shirt-royal-blue_ss4_p-12056133+u-7f88p2xqhkmrp318ji6f+v-0afb202ef8fb46eb80d3bf0438ab0b91.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 17
+    },
+    {
+      "brand": "Chelsea shorts",
+      "model": "2021-22",
+      "description": "Chelsea Away Stadium Shorts 2021-22 - Kids",
+      "price": 80,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shorts-2021-22-kids_ss4_p-12059950+u-11re4wr72wsbk78xbko2+v-7aa008ba525946a38fb4333e83b8c502.jpg?_hv=1&w=340",
+      "id": 18
     }
   ],
-  "brands": [
+  "trophies": [
     {
-      "brand": "ACCUTRON",
-      "logo": "https://m.media-amazon.com/images/I/715oHOC1gfL._AC_SY741_.jpg",
-      "title": "UCL - 2",
+      "logo": "https://cdna.artstation.com/p/assets/images/images/018/782/042/large/winful-bagyl-bac-the-champions-league-trophy.jpg?1560711733",
+      "name": "UEFA Champions League",
+      "number": "2",
+      "year": "2012, 2021",
       "id": 1
     },
     {
+      "logo": "https://img2.pngio.com/premier-league-on-twitter-the-pl-belongs-to-chelseafc-premier-league-trophy-png-902_1200.jpg",
+      "name": "Premier League",
+      "number": "6",
+      "year": "1955, 2005, 2006, 2010, 2015, 2017",
+      "id": 2
+    },
+    {
+      "logo": "https://www.kindpng.com/picc/m/74-746916_transparent-champions-league-trophy-png-uefa-europa-league.png",
+      "name": "UEFA Europa League",
+      "number": "2",
+      "year": "2013, 2019",
+      "id": 3
+    },
+    {
+      "logo": "https://memorsport.com/eng_pl_Big-Replica-UEFA-Cup-Winners-Cup-Official-Licensed-Product-15-cm-19025_2.jpg",
+      "name": "UEFA Cup Winners Cup",
+      "number": "2",
+      "year": "1971, 1998",
+      "id": 4
+    },
+    {
+      "logo": "https://www.seekpng.com/png/detail/911-9116766_fa-cup-draw-fa-cup-trophy-png.png",
+      "name": "FA Cup",
+      "number": "8",
+      "year": "1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018",
+      "id": 5
+    },
+    {
+      "logo": "https://www.kindpng.com/picc/m/361-3615158_chelsea-football-club-cups-hd-png-download.png",
+      "name": "League Cup",
+      "number": "5",
+      "year": "1965, 1998, 2005, 2007, 2015",
+      "id": 6
+    },
+    {
+      "logo": "https://m.media-amazon.com/images/I/51wjVlkpzQL._AC_SX522_.jpg",
+      "name": "UEFA Super Cup",
+      "number": "2",
+      "year": " 1998, 2021",
+      "id": 7
+    },
+    {
+      "logo": "https://i0.wp.com/www.completesports.com/wp-content/uploads/2020/08/GettyImages-1166023477.jpg?fit=960%2C637&ssl=1",
+      "name": "Community Shield",
+      "number": "4",
+      "year": " 1955, 2000, 2005, 2009",
+      "id": 8
+    },
+    {
+      "logo": "https://www.nationalfootballmuseum.com/wp-content/uploads/2015/09/FL504-1-724x1024.jpg",
+      "name": "Full Members Cup",
+      "number": "2",
+      "year": " 1986, 1990",
+      "id": 9
+    }
+  ],
+  "players": [
+    {
+      "player": "Kepa Arrizabalaga",
+      "nationality": "Spain",
+      "age": "27",
+      "number": "1",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png",
+      "id": 1
+    },
+    {
+<<<<<<< HEAD
       "title": "hbshasfhaasgfjaf",
       "logo": "ashgfahfaj",
       "id": 2
@@ -192,6 +269,236 @@
       "title": "sfweufhdf",
       "logo": "afkafkafjakfj",
       "id": 4
+=======
+      "player": "Edouard Mendy",
+      "nationality": "Senegal",
+      "age": "29",
+      "number": "16",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p228286.png",
+      "id": 2
+    },
+    {
+      "player": "Marcus Bettinelli",
+      "nationality": "England",
+      "age": "29",
+      "number": "13",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
+      "id": 3
+    },
+    {
+      "player": "Antonio Rudiger",
+      "nationality": "Germany",
+      "age": "28",
+      "number": "2",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p102380.png",
+      "id": 4
+    },
+    {
+      "player": "Marcos Alonso",
+      "nationality": "Spain",
+      "age": "30",
+      "number": "3",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p82263.png",
+      "id": 5
+    },
+    {
+      "player": "Andreas Christensen",
+      "nationality": "Denmark",
+      "age": "25",
+      "number": "4",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p135363.png",
+      "id": 6
+    },
+    {
+      "player": "Thiago Silva",
+      "nationality": "Brazil",
+      "age": "37",
+      "number": "6",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51090.png",
+      "id": 7
+    },
+    {
+      "player": "Ben Chilwell",
+      "nationality": "England",
+      "age": "24",
+      "number": "21",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png",
+      "id": 8
+    },
+    {
+      "player": "Reece James",
+      "nationality": "England",
+      "age": "22",
+      "number": "24",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png",
+      "id": 9
+    },
+    {
+      "player": "Cesar Azpilicueta",
+      "nationality": "Spain",
+      "age": "32",
+      "number": "28",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p41328.png",
+      "id": 10
+    },
+    {
+      "player": "Trevoh Chalobah",
+      "nationality": "England",
+      "age": "22",
+      "number": "14",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180736.png",
+      "id": 11
+    },
+    {
+      "player": "Malang Sarr",
+      "nationality": "France",
+      "age": "22",
+      "number": "31",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204727.png",
+      "id": 12
+    },
+    {
+      "player": "Jorginho Frello",
+      "nationality": "Italy",
+      "age": "29",
+      "number": "5",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p85955.png",
+      "id": 13
+    },
+    {
+      "player": "N'Golo Kante",
+      "nationality": "France",
+      "age": "30",
+      "number": "7",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116594.png",
+      "id": 14
+    },
+    {
+      "player": "Christian Pulisic",
+      "nationality": "United States",
+      "age": "23",
+      "number": "10",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176413.png",
+      "id": 15
+    },
+    {
+      "player": "Mateo Kovacic",
+      "nationality": "Croatia",
+      "age": "27",
+      "number": "8",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p91651.png",
+      "id": 16
+    },
+    {
+      "player": "Mason Mount",
+      "nationality": "England",
+      "age": "22",
+      "number": "19",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
+      "id": 17
+    },
+    {
+      "player": "Hakim Ziyech",
+      "nationality": "Morocco",
+      "age": "28",
+      "number": "22",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p124183.png",
+      "id": 18
+    },
+    {
+      "player": "Kai Havertz",
+      "nationality": "Germany",
+      "age": "22",
+      "number": "29",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png",
+      "id": 19
+    },
+    {
+      "player": "Ruben Loftus-Cheek",
+      "nationality": "England",
+      "age": "25",
+      "number": "15",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p126187.png",
+      "id": 20
+    },
+    {
+      "player": "Saúl Ñíguez",
+      "nationality": "Spain",
+      "age": "27",
+      "number": "17",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p89335.png",
+      "id": 21
+    },
+    {
+      "player": "Ross Barkley",
+      "nationality": "England",
+      "age": "28",
+      "number": "18",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p88894.png",
+      "id": 22
+    },
+    {
+      "player": "Timo Werner",
+      "nationality": "Germany",
+      "age": "25",
+      "number": "11",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png",
+      "id": 23
+    },
+    {
+      "player": "Callum Hudson-Odoi",
+      "nationality": "England",
+      "age": "21",
+      "number": "20",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209046.png",
+      "id": 24
+    },
+    {
+      "player": "Romelu Lukaku",
+      "nationality": "Belgium",
+      "age": "28",
+      "number": "9",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p66749.png",
+      "id": 25
+    }
+  ],
+  "news": [
+    {
+      "title": "title",
+      "description": "description",
+      "image1": "image",
+      "id": 2
+    },
+    {
+      "title": "title2",
+      "description": "desc",
+      "image1": "data:image/jpeg;base64,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",
+      "id": 3
+>>>>>>> master
     }
   ]
 }

@@ -2,14 +2,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Modal, Button, Form, Input, Select, InputNumber } from "antd";
 
-import { productsContext } from "../../contexts/productsContext";
-import { brandsContext } from "../../contexts/brandsContext";
+import { newsContext } from "../../contexts/newsContext";
 
-const AddProductModal = () => {
-  const { createProduct } = useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
+const AddNewsModal = () => {
+  const { createNews } = useContext(newsContext);
+  const { getNews, news } = useContext(newsContext);
   useEffect(() => {
-    getBrands();
+    getNews();
   }, []);
 
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -24,15 +23,15 @@ const AddProductModal = () => {
 
   const onFinish = (values) => {
     console.log("Success:", values);
-    createProduct(values).then(() => handleCancel());
+    createNews(values).then(() => handleCancel());
   };
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Add product
+        Add news
       </Button>
       <Modal
-        title="Add product"
+        title="Add news"
         visible={isModalVisible}
         onCancel={handleCancel}
         footer={null}
@@ -44,30 +43,25 @@ const AddProductModal = () => {
           layout="vertical"
         >
           <Form.Item
-            label="Brand"
-            name="brand"
+            label="News title"
+            name="title"
             rules={[
               {
                 required: true,
-                message: "Please input brand!",
+                message: "Please input news title!",
               },
             ]}
           >
-            <Input />
+            {/* <Select>
+              {brands.map((item) => (
+                <Select.Option key={item.id} value={item.brand}>
+                  {item.brand}
+                </Select.Option>
+              ))}
+            </Select> */}
+           <Input />
           </Form.Item>
 
-          <Form.Item
-            label="Model"
-            name="model"
-            rules={[
-              {
-                required: true,
-                message: "Please input model!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
 
           <Form.Item
             label="Description"
@@ -82,18 +76,7 @@ const AddProductModal = () => {
             <Input />
           </Form.Item>
 
-          <Form.Item
-            label="Price"
-            name="price"
-            rules={[
-              {
-                required: true,
-                message: "Please input price!",
-              },
-            ]}
-          >
-            <InputNumber min={1} style={{ width: "100%" }} />
-          </Form.Item>
+          
 
           <Form.Item
             label="Image 1"
@@ -108,6 +91,32 @@ const AddProductModal = () => {
             <Input />
           </Form.Item>
 
+          {/* <Form.Item
+            label="Image 2"
+            name="image2"
+            rules={[
+              {
+                required: true,
+                message: "Please input URL of image 2!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item> */}
+
+          {/* <Form.Item
+            label="Video"
+            name="video"
+            rules={[
+              {
+                required: true,
+                message: "Please input URL of video!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item> */}
+
           <Form.Item
             wrapperCol={{
               offset: 9,
@@ -115,7 +124,7 @@ const AddProductModal = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              Add product
+              Add news
             </Button>
           </Form.Item>
         </Form>
@@ -124,4 +133,4 @@ const AddProductModal = () => {
   );
 };
 
-export default AddProductModal;
+export default AddNewsModal;

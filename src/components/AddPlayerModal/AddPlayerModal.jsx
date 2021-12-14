@@ -1,17 +1,10 @@
+import React, { useContext, useState } from "react";
+import { Modal, Button, Form, Input } from "antd";
+import { playersContext } from "../../contexts/playersContext";
 
-import React, { useContext, useEffect, useState } from "react";
-import { Modal, Button, Form, Input, Select, InputNumber } from "antd";
-
-import { productsContext } from "../../contexts/productsContext";
-import { brandsContext } from "../../contexts/brandsContext";
-
-const AddProductModal = () => {
-  const { createProduct } = useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
-  useEffect(() => {
-    getBrands();
-  }, []);
-
+const AddPlayerModal = () => {
+  const { createPlayer } = useContext(playersContext)
+  console.log(createPlayer)
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -24,15 +17,15 @@ const AddProductModal = () => {
 
   const onFinish = (values) => {
     console.log("Success:", values);
-    createProduct(values).then(() => handleCancel());
+    createPlayer(values).then(() => handleCancel())
   };
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Add product
+        Add player
       </Button>
       <Modal
-        title="Add product"
+        title="Add brand"
         visible={isModalVisible}
         onCancel={handleCancel}
         footer={null}
@@ -44,12 +37,12 @@ const AddProductModal = () => {
           layout="vertical"
         >
           <Form.Item
-            label="Brand"
-            name="brand"
+            label="Player name"
+            name="player"
             rules={[
               {
                 required: true,
-                message: "Please input brand!",
+                message: "Please input player name!",
               },
             ]}
           >
@@ -57,12 +50,12 @@ const AddProductModal = () => {
           </Form.Item>
 
           <Form.Item
-            label="Model"
-            name="model"
+            label="Nationality"
+            name="nationality"
             rules={[
               {
                 required: true,
-                message: "Please input model!",
+                message: "Please input player nationality!",
               },
             ]}
           >
@@ -70,12 +63,38 @@ const AddProductModal = () => {
           </Form.Item>
 
           <Form.Item
-            label="Description"
-            name="description"
+            label="Age"
+            name="age"
             rules={[
               {
                 required: true,
-                message: "Please input description!",
+                message: "Please input player age!",
+              },
+            ]}
+          >
+            <Input type='number'/>
+          </Form.Item>
+
+          <Form.Item
+            label="Player number"
+            name="number"
+            rules={[
+              {
+                required: true,
+                message: "Please input player number!",
+              },
+            ]}
+          >
+            <Input type='number'/>
+          </Form.Item>
+
+          <Form.Item
+            label="Player position"
+            name="position"
+            rules={[
+              {
+                required: true,
+                message: "Please input player position!",
               },
             ]}
           >
@@ -83,25 +102,12 @@ const AddProductModal = () => {
           </Form.Item>
 
           <Form.Item
-            label="Price"
-            name="price"
+            label="Player photo"
+            name="photo"
             rules={[
               {
                 required: true,
-                message: "Please input price!",
-              },
-            ]}
-          >
-            <InputNumber min={1} style={{ width: "100%" }} />
-          </Form.Item>
-
-          <Form.Item
-            label="Image 1"
-            name="image1"
-            rules={[
-              {
-                required: true,
-                message: "Please input URL of image 1!",
+                message: "Please input URL of photo!",
               },
             ]}
           >
@@ -115,7 +121,7 @@ const AddProductModal = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              Add product
+              Add player
             </Button>
           </Form.Item>
         </Form>
@@ -124,4 +130,4 @@ const AddProductModal = () => {
   );
 };
 
-export default AddProductModal;
+export default AddPlayerModal;

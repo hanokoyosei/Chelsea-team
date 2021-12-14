@@ -1,5 +1,6 @@
 import { createContext, useState, useContext, useEffect } from "react";
-import fire from "../fire";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut} from "@firebase/auth"
+import {auth} from '../fire'
 
 export const authContext = createContext();
 
@@ -27,9 +28,7 @@ const AuthContextProvider = ({ children }) => {
 
   const handleSignUp = () => {
     clearErrors();
-    fire
-      .auth()
-      .createUserWithEmailAndPassword(email, password)
+      createUserWithEmailAndPassword(auth, email, password)
       .catch((err) => {
         switch (err.code) {
           case "auth/email-already-in-use":
@@ -45,9 +44,7 @@ const AuthContextProvider = ({ children }) => {
 
   const handleLogin = () => {
     clearErrors();
-    fire
-      .auth()
-      .signInWithEmailAndPassword(email, password)
+      signInWithEmailAndPassword(auth, email, password)
       .catch((err) => {
         switch (err.code) {
           case "auth/invalid-email":
@@ -63,11 +60,11 @@ const AuthContextProvider = ({ children }) => {
   };
 
   const handleLogout = () => {
-    fire.auth().signOut();
+    signOut(auth);
   };
 
   const authListener = () => {
-    fire.auth().onAuthStateChanged((user) => {
+    onAuthStateChanged(auth, (user) => {
       if (user) {
         clearInputs();
         setUser(user);

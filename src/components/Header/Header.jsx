@@ -34,8 +34,13 @@ const Header = () => {
     
     {
       title: "NEWS",
-      link: "/newsContext",
+      link: "/news",
       id: 4,
+    },
+    {
+      title: "PLAYERS",
+      link: "/players",
+      id: 5,
     },
     
   ];
@@ -64,7 +69,11 @@ const Header = () => {
         </div>
         <Link to="/">
           <img
+<<<<<<< HEAD
           
+=======
+            className="img"
+>>>>>>> master
             width="400px"
             src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
             alt=""
@@ -74,13 +83,14 @@ const Header = () => {
           <Link to="/cart">
             <Badge count={+cartLength}>
               <ShoppingCartOutlined
-                style={{ fontSize: "30px", cursor: "pointer" }}
+                style={{ fontSize: "40px", cursor: "pointer" }}
               />
             </Badge>
           </Link>
         </div>
       </div>
       <div className="navbar">
+        
         {NAV_ITEMS.map((item) => (
           <Link
             to={item.link}
