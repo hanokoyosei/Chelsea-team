@@ -267,5 +267,13 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Chelsea_FC_logo_simplified.jpg",
       "id": 21
     }
+  ],
+  "news": [
+    {
+      "title": "news",
+      "description": "description",
+      "image1": "image",
+      "id": 3
+    }
   ]
 }
