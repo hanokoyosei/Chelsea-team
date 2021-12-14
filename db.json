@@ -4,7 +4,7 @@
       "brand": "Home kit",
       "model": "2021-22",
       "description": "Chelsea FC home kit 2021-22",
-      "price": 3100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-home-stadium-shirt-2021-22-with-kant%C3%A9-7-printing_ss4_p-12065468+u-tjx34f6qn3qtc2yksgzb+v-757cd997aafe4831b1e4a3ff39778c29.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -14,7 +14,7 @@
       "brand": "Away kit",
       "model": "2021-22",
       "description": "Chelsea FC away kit 2021-22",
-      "price": 2150,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shirt-2021-22-with-mount-19-printing_ss4_p-12071850+u-12m33e2z71ffm0zy9x8b+v-12f813ee8cfa4dd7bb0e5a6f3a937988.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -24,7 +24,7 @@
       "brand": "Third kit",
       "model": "2021-22",
       "description": "Chelsea FC third kit 2021-22",
-      "price": 7100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-third-vapor-match-shirt-2021-22_ss4_p-12059902+u-pto1qedt1h2yas0owdm+v-938f45674a284bec89b9b4e139026707.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
@@ -33,257 +33,442 @@
     {
       "brand": "Goalkeeper",
       "model": "2021-22",
-      "description": "",
-      "price": 10100,
+      "description": "Chelsea FC goalkeeper kit 2021-22",
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-goalkeeper-stadium-shirt-2021-22-kids_ss4_p-12056127+u-8dpzuwfdgsz4396n5j4w+v-413ca947d80f4120b7c3918ac3b6e4f6.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 4
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 1510,
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-blue_ss4_p-12056136+u-1f62qp87kr5dwohm2511+v-a5479384d7e44da7812b2c73da065250.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 5
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 9100,
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-grey_ss4_p-12059909+u-x34qhxw7315rllmt2zf1+v-9e3b41bd261b47979adc501a63713926.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 6
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training kit",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 8100,
+      "price": 150,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-elite-drill-top-black_ss4_p-12059919+u-pcqceomk8gs95hczex6c+v-28597740005e462bbaf7557170a5aaf8.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
       "id": 7
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training kit",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
+      "price": 150,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 8
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket ",
       "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "description": "Chelsea jacket 2021-22",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black-kids_ss4_p-12066021+u-1axx6algp5zwyki3hvzj+v-df166df31e2046ac9b7a9d3f182e137d.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 9
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea strike top",
       "model": "2021-22",
       "description": "Chelsea FC t-shirt 2021-22",
-      "price": 6100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-top-black_ss4_p-12059971+u-y9cuqovoh8j1t04798jh+v-62955aba540c4f0f852da1ef29b51b6c.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 10
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea training top",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
+      "price": 100,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-training-top-blue_ss4_p-12059967+u-oruvu1jpqrm6fkfawqif+v-52dd9564070144d8b127e3b15ad761d9.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 11
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea hoodie",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-zip-thru-jacket-black_ss4_p-12059942+u-1dvhjdupjhtf5nc5u758+v-c2164ec50489461eb2258efe43101cfc.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 12
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-swoosh-t-shirt-black_ss4_p-12059945+u-bzcb2aox7wtw3zmnqw9o+v-2efd3770407b4f0986e172b6691e3ef0.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 13
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-travel-t-shirt-blue_ss4_p-12059948+u-110jnvi11d7qaubf3bke+v-0e000c9a723d41c1adf24b906c395bbc.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 14
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea jacket",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 200,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black_ss4_p-12059918+u-usfwrmh0ky8hm01ldd3y+v-1bdcf4d52252484fa6016518baa966f3.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 15
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea hoodie",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 180,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-black_ss4_p-12059904+u-10g2bchm6ew4ls8mo9dr+v-fc4d641a53e5429dbad7ccf0623d11b2.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 16
     },
     {
-      "brand": "Training",
+      "brand": "Chelsea t-shirt",
       "model": "2021-22",
       "description": "Chelsea FC training kit 2021-22",
-      "price": 6100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
+      "price": 100,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-evergreen-crest-t-shirt-royal-blue_ss4_p-12056133+u-7f88p2xqhkmrp318ji6f+v-0afb202ef8fb46eb80d3bf0438ab0b91.jpg?_hv=1&w=340",
       "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
       "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
       "id": 17
+    },
+    {
+      "brand": "Chelsea shorts",
+      "model": "2021-22",
+      "description": "Chelsea Away Stadium Shorts 2021-22 - Kids",
+      "price": 80,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shorts-2021-22-kids_ss4_p-12059950+u-11re4wr72wsbk78xbko2+v-7aa008ba525946a38fb4333e83b8c502.jpg?_hv=1&w=340",
+      "id": 18
     }
   ],
-  "brands": [
+  "trophies": [
     {
-      "brand": "ROLEX",
-      "logo": "https://i.ytimg.com/vi/8y4DtCtwRf4/maxresdefault.jpg",
-      "title": "UCL - 2",
+      "logo": "https://cdna.artstation.com/p/assets/images/images/018/782/042/large/winful-bagyl-bac-the-champions-league-trophy.jpg?1560711733",
+      "name": "UEFA Champions League",
+      "number": "2",
+      "year": "2012, 2021",
       "id": 1
     },
     {
-      "brand": "PATEK PHILIPPE GENEVE",
-      "logo": "https://im0-tub-ru.yandex.net/i?id=d91b6a24c9bfa6a4ad6b1890000abf29-l&ref=rim&n=13&w=1080&h=1278",
+      "logo": "https://img2.pngio.com/premier-league-on-twitter-the-pl-belongs-to-chelseafc-premier-league-trophy-png-902_1200.jpg",
+      "name": "Premier League",
+      "number": "6",
+      "year": "1955, 2005, 2006, 2010, 2015, 2017",
       "id": 2
     },
     {
-      "brand": "ACCUTRON",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/accutron-logo-b.png",
+      "logo": "https://www.kindpng.com/picc/m/74-746916_transparent-champions-league-trophy-png-uefa-europa-league.png",
+      "name": "UEFA Europa League",
+      "number": "2",
+      "year": "2013, 2019",
       "id": 3
     },
     {
-      "brand": "ALEXANDRE MEERSON",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/alexandre-meerson-logo-black.png",
+      "logo": "https://memorsport.com/eng_pl_Big-Replica-UEFA-Cup-Winners-Cup-Official-Licensed-Product-15-cm-19025_2.jpg",
+      "name": "UEFA Cup Winners Cup",
+      "number": "2",
+      "year": "1971, 1998",
       "id": 4
     },
     {
-      "brand": "ARMIN STROM",
-      "logo": "https://content.thewosgroup.com/wosus/brands/a-z/armin-strom-logo-aug20.png",
+      "logo": "https://www.seekpng.com/png/detail/911-9116766_fa-cup-draw-fa-cup-trophy-png.png",
+      "name": "FA Cup",
+      "number": "8",
+      "year": "1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018",
       "id": 5
     },
     {
-      "brand": "BLANCPAIN",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/blancpain-logo.png",
+      "logo": "https://www.kindpng.com/picc/m/361-3615158_chelsea-football-club-cups-hd-png-download.png",
+      "name": "League Cup",
+      "number": "5",
+      "year": "1965, 1998, 2005, 2007, 2015",
       "id": 6
     },
     {
-      "brand": "BOVET",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/bovet-brand-card-june-19-1.png",
+      "logo": "https://m.media-amazon.com/images/I/51wjVlkpzQL._AC_SX522_.jpg",
+      "name": "UEFA Super Cup",
+      "number": "2",
+      "year": " 1998, 2021",
       "id": 7
     },
     {
-      "brand": "BREQUET",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/breguet-logo.png",
+      "logo": "https://i0.wp.com/www.completesports.com/wp-content/uploads/2020/08/GettyImages-1166023477.jpg?fit=960%2C637&ssl=1",
+      "name": "Community Shield",
+      "number": "4",
+      "year": " 1955, 2000, 2005, 2009",
       "id": 8
     },
     {
-      "brand": "BREITLING",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/breitling-logo.png",
+      "logo": "https://www.nationalfootballmuseum.com/wp-content/uploads/2015/09/FL504-1-724x1024.jpg",
+      "name": "Full Members Cup",
+      "number": "2",
+      "year": " 1986, 1990",
       "id": 9
-    },
-    {
-      "brand": "CARTIER",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/cartier-logo.png",
-      "id": 10
-    },
-    {
-      "brand": "CHOPARD",
-      "logo": "https://content.thewosgroup.com/wosus/brands/a-z/wosus-chopard-brandspage-nov21.png",
-      "id": 11
-    },
-    {
-      "brand": "FRANCK MULLER GENEVE",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/franck-muller-logo-black-brand-page.png",
-      "id": 12
-    },
-    {
-      "brand": "DOXA",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/doxa-brand-logo.png",
-      "id": 13
-    },
-    {
-      "brand": "GIRARD PERREGAUX",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/girard-perregaux-logo-us.png",
-      "id": 14
-    },
-    {
-      "brand": "GRAND SEIKO",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/grand-seiko-logo-brands.png",
-      "id": 15
-    },
-    {
-      "brand": "H.Moser & Cie",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/h.moser.and.cie.logo.brands.page.png",
-      "id": 16
-    },
-    {
-      "brand": "HUBLOT",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/wosus-brands-hublot-logo-aug20.png",
-      "id": 17
-    },
-    {
-      "brand": "IWC Schaffhausen",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/iwc-schaffhausen-logo.png",
-      "id": 18
-    },
-    {
-      "brand": "Jacob & Co",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/jacob-and-co-brands-logo-1.png",
-      "id": 19
-    },
-    {
-      "brand": "Jaeger-LeCoultre",
-      "logo": "https://content.thewosgroup.com/mayors/brands/a-z/jaeger-lecoultre-logo.png",
-      "id": 20
     }
   ],
   "players": [
     {
-      "player": "Akjol",
-      "logo": "https://img.joinfo.com/i/2021/07/800x0/60ddccf0ddbaf.jpg",
+      "player": "Kepa Arrizabalaga",
+      "nationality": "Spain",
+      "age": "27",
+      "number": "1",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png",
       "id": 1
     },
     {
-      "player": "Канте",
-      "logo": "https://m.stadion.uz/images/news/kantengolo.jpg",
+      "player": "Edouard Mendy",
+      "nationality": "Senegal",
+      "age": "29",
+      "number": "16",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p228286.png",
       "id": 2
+    },
+    {
+      "player": "Marcus Bettinelli",
+      "nationality": "England",
+      "age": "29",
+      "number": "13",
+      "position": "Goalkeeper",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
+      "id": 3
+    },
+    {
+      "player": "Antonio Rudiger",
+      "nationality": "Germany",
+      "age": "28",
+      "number": "2",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p102380.png",
+      "id": 4
+    },
+    {
+      "player": "Marcos Alonso",
+      "nationality": "Spain",
+      "age": "30",
+      "number": "3",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p82263.png",
+      "id": 5
+    },
+    {
+      "player": "Andreas Christensen",
+      "nationality": "Denmark",
+      "age": "25",
+      "number": "4",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p135363.png",
+      "id": 6
+    },
+    {
+      "player": "Thiago Silva",
+      "nationality": "Brazil",
+      "age": "37",
+      "number": "6",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51090.png",
+      "id": 7
+    },
+    {
+      "player": "Ben Chilwell",
+      "nationality": "England",
+      "age": "24",
+      "number": "21",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png",
+      "id": 8
+    },
+    {
+      "player": "Reece James",
+      "nationality": "England",
+      "age": "22",
+      "number": "24",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png",
+      "id": 9
+    },
+    {
+      "player": "Cesar Azpilicueta",
+      "nationality": "Spain",
+      "age": "32",
+      "number": "28",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p41328.png",
+      "id": 10
+    },
+    {
+      "player": "Trevoh Chalobah",
+      "nationality": "England",
+      "age": "22",
+      "number": "14",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180736.png",
+      "id": 11
+    },
+    {
+      "player": "Malang Sarr",
+      "nationality": "France",
+      "age": "22",
+      "number": "31",
+      "position": "Defender",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204727.png",
+      "id": 12
+    },
+    {
+      "player": "Jorginho Frello",
+      "nationality": "Italy",
+      "age": "29",
+      "number": "5",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p85955.png",
+      "id": 13
+    },
+    {
+      "player": "N'Golo Kante",
+      "nationality": "France",
+      "age": "30",
+      "number": "7",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116594.png",
+      "id": 14
+    },
+    {
+      "player": "Christian Pulisic",
+      "nationality": "United States",
+      "age": "23",
+      "number": "10",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176413.png",
+      "id": 15
+    },
+    {
+      "player": "Mateo Kovacic",
+      "nationality": "Croatia",
+      "age": "27",
+      "number": "8",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p91651.png",
+      "id": 16
+    },
+    {
+      "player": "Mason Mount",
+      "nationality": "England",
+      "age": "22",
+      "number": "19",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
+      "id": 17
+    },
+    {
+      "player": "Hakim Ziyech",
+      "nationality": "Morocco",
+      "age": "28",
+      "number": "22",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p124183.png",
+      "id": 18
+    },
+    {
+      "player": "Kai Havertz",
+      "nationality": "Germany",
+      "age": "22",
+      "number": "29",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png",
+      "id": 19
+    },
+    {
+      "player": "Ruben Loftus-Cheek",
+      "nationality": "England",
+      "age": "25",
+      "number": "15",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p126187.png",
+      "id": 20
+    },
+    {
+      "player": "Saúl Ñíguez",
+      "nationality": "Spain",
+      "age": "27",
+      "number": "17",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p89335.png",
+      "id": 21
+    },
+    {
+      "player": "Ross Barkley",
+      "nationality": "England",
+      "age": "28",
+      "number": "18",
+      "position": "Midfielder",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p88894.png",
+      "id": 22
+    },
+    {
+      "player": "Timo Werner",
+      "nationality": "Germany",
+      "age": "25",
+      "number": "11",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png",
+      "id": 23
+    },
+    {
+      "player": "Callum Hudson-Odoi",
+      "nationality": "England",
+      "age": "21",
+      "number": "20",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209046.png",
+      "id": 24
+    },
+    {
+      "player": "Romelu Lukaku",
+      "nationality": "Belgium",
+      "age": "28",
+      "number": "9",
+      "position": "Forward",
+      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p66749.png",
+      "id": 25
     }
   ],
   "news": []

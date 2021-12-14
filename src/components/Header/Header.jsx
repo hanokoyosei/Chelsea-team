@@ -31,12 +31,11 @@ const Header = () => {
       link: "/trophies",
       id: 2,
     },
-    
-    {
-      title: "NEWS",
-      link: "/news",
-      id: 4,
-    },
+    // {
+    //   title: "NEWS",
+    //   link: "/news",
+    //   id: 4,
+    // },
     {
       title: "PLAYERS",
       link: "/players",
@@ -50,7 +49,7 @@ const Header = () => {
         <div>
           {email ? (
             <Link to="/auth">
-              <button className="sign-btn" onClick={handleLogout}>
+              <button className="sign-btn" onClick={handleLogout} style={{cursor: 'pointer'}}>
                 Logout
               </button>
             </Link>

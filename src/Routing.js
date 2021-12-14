@@ -10,7 +10,6 @@ import Home from "./components/Home/Home";
 import Players from "./components/Players/Players";
 import ProductsList from "./components/ProductsList/ProductsList";
 import { useAuth } from "./contexts/authContext";
-import NewsList from "./contexts/NewsList";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
@@ -47,19 +46,9 @@ const Routing = () => {
       id: 6
     },
     {
-      link:"/newsContext",
-      element: <newsContext/>,
-      id:7
-    },
-    {
-      link:"/news",
-      element: <NewsList/>,
-      id:7
-    },
-    {
       link: "/creditCart",
       element:<CreditCart/>,
-      id:8
+      id:7
     },
     {
       link: "/players",

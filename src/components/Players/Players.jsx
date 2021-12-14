@@ -22,9 +22,13 @@ const Players = () => {
               <Card
               hoverable
               style={{ width: 240 }}
-              cover={<img alt="example" src={item.logo} />}
+              cover={<img alt="example" src={item.photo} />}
             >
-              <Meta title={item.player}/>
+              <Meta title={`Name: ${item.player}`}/>
+              <Meta title={`Nationality: ${item.nationality}`}/>
+              <Meta title={`Age: ${item.age}`}/>
+              <Meta title={`Number: ${item.number}`}/>
+              <Meta title={`Position: ${item.position}`}/>
             </Card>
           ))}
         </div>

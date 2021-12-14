@@ -21,8 +21,8 @@ const AdminPlayers = () => {
           ]}
         >
           <List.Item.Meta
-            avatar={<Avatar src={item.logo} />}
-            title={<a href="https://ant.design">{item.player}</a>}
+            avatar={<Avatar src={item.photo} />}
+            title={item.player}
           />
         </List.Item>
       )}

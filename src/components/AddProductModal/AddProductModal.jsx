@@ -53,13 +53,7 @@ const AddProductModal = () => {
               },
             ]}
           >
-            <Select>
-              {brands.map((item) => (
-                <Select.Option key={item.id} value={item.brand}>
-                  {item.brand}
-                </Select.Option>
-              ))}
-            </Select>
+            <Input />
           </Form.Item>
 
           <Form.Item
@@ -108,32 +102,6 @@ const AddProductModal = () => {
               {
                 required: true,
                 message: "Please input URL of image 1!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Image 2"
-            name="image2"
-            rules={[
-              {
-                required: true,
-                message: "Please input URL of image 2!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Video"
-            name="video"
-            rules={[
-              {
-                required: true,
-                message: "Please input URL of video!",
               },
             ]}
           >
