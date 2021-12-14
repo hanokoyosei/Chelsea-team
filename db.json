@@ -286,5 +286,12 @@
       "id": 2
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "title",
+      "description": "description",
+      "image1": "image",
+      "id": 2
+    }
+  ]
 }
