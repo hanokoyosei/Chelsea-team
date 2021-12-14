@@ -14,6 +14,7 @@ import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
+import SuccessCredit from "./components/creditCart/SuccessCredit"
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -55,6 +56,10 @@ const Routing = () => {
       link: "/players",
       element:<Players/>,
       id:8
+    },
+    {
+      link:"/successCredit",
+      element:<SuccessCredit/>
     }
 
   ];

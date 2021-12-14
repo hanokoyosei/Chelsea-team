@@ -1,3 +1,4 @@
+import { Input } from "antd";
 import React from "react";
 import { useAuth } from "../../contexts/authContext";
 import "./Login.css";
@@ -20,7 +21,7 @@ const Login = () => {
       <section className="login">
         <div className="login-container">
           <label className="auth-label">Email</label>
-          <input
+          <Input
             className="auth-input"
             type="text"
             autoFocus
@@ -33,7 +34,7 @@ const Login = () => {
           <p className="error-msg">{emailError}</p>
 
           <label className="auth-label">Password</label>
-          <input
+          <Input
             className="auth-input"
             type="password"
             autoFocus
