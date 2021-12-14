@@ -1,15 +1,4 @@
 nav {
-<<<<<<< HEAD
-    height: 8vh;
-    background-color: #001489;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 5vw;
-    align-items: center;
-    
-  }
-=======
   height: 8vh;
   background-color: #001489;
   color: white;
@@ -17,7 +6,6 @@ nav {
   justify-content: flex-end;
   padding: 0 5vw;
   align-items: center;
->>>>>>> master
   
 }
 

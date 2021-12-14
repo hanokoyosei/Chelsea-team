@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-import firebase from "firebase/compat/app"; 
-import "firebase/compat/app";
-import "firebase/compat/auth";
-
-const firebaseConfig = {
-=======
 import { getAuth } from "@firebase/auth";
 import { initializeApp } from "@firebase/app"
  
 export const app = initializeApp({
->>>>>>> master
   apiKey: "AIzaSyB515HosMXoNkx8thFhVxQJOevnd1GckxU",
   authDomain: "js14-auth.firebaseapp.com",
   projectId: "js14-auth",

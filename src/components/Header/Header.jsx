@@ -69,11 +69,7 @@ const Header = () => {
         </div>
         <Link to="/">
           <img
-<<<<<<< HEAD
-          
-=======
             className="img"
->>>>>>> master
             width="400px"
             src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
             alt=""
