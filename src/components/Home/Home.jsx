@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import { Card, Carousel } from "antd";
+import { Card } from "antd";
+import {Link} from "react-router-dom"
 
 const { Meta } = Card;
 const contentStyle = {
@@ -14,6 +15,7 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>Турниры которые участвует Челси</h2>
       <div className="cards">
         <Card
           hoverable
@@ -65,6 +67,7 @@ const Home = () => {
         </Card>
       </div>
       <div>
+
       <Carousel autoplay>
     <div>
       <img src='https://i0.wp.com/www.teahub.io/photos/full/241-2411074_leicester-city-fc-wallpaper-football-pinterest-futebol-2014.jpg' alt='' style={{width: '1489px', height: '700px'}} />
@@ -77,7 +80,34 @@ const Home = () => {
     </div>
   </Carousel>,
       </div>
-     
+
+        <div style={{display: "flex", justifyContent: 'center'}}>
+          <h1>Новости</h1>
+        </div>
+      <Link to='/news_daty_matchey'>
+      <Card
+              hoverable
+              style={{ width: 840, marginLeft: '23%' }}
+              
+              cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+            >
+              <Meta style={{marginLeft: '15%'}} title={<h3>Официально: даты матчей Лиги Чемпионов против «Лилля»</h3>}/>
+      </Card>
+      </Link>
+
+      <Link to='/news_Christensen_prodlit'>
+      <Card
+              hoverable
+              style={{ width: 840, marginLeft: '23%', marginTop: '2%' }}
+              
+              cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+            
+              <Meta style={{marginLeft: '20%'}} title={<h3>Кристенсен продлит контракт с «Челси» на 4 года</h3>}/>
+      </Card>
+      </Link>
+
+      </div>
+
     </div>
   );
 };

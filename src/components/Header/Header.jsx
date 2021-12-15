@@ -31,7 +31,10 @@ const Header = () => {
       link: "/trophies",
       id: 2,
     },
+
     
+
+
     {
       title: "NEWS",
       link: "/news",
