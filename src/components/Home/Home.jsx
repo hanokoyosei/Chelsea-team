@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Card } from "antd";
+import { Button, Card } from "antd";
 import {Link} from "react-router-dom"
 
 const { Meta } = Card;
@@ -73,7 +73,7 @@ const Home = () => {
         <div style={{display: "flex", justifyContent: 'center'}}>
           <h1 style={{color: 'white'}}>Новости</h1>
         </div>
-      <div style={{display: 'flex', justifyContent: 'center', marginBottom: '2%'}}>
+      <div className="news" style={{display: 'flex', justifyContent: 'center', marginBottom: '2%'}}>
       <Link to='/news_daty_matchey'>  
       <Card
               hoverable
@@ -106,7 +106,7 @@ const Home = () => {
       </Link>
       </div>
 
-  <div class="row" style={{marginLeft: '4%', marginTop: '3%'}}>
+  <div class="row" style={{ marginLeft: '4%', marginTop: '3%'}}>
   <h2>Premier League Table</h2>
   <h3>2021-22</h3>
   <div class="column">
@@ -184,7 +184,7 @@ const Home = () => {
         <td>27</td>
       </tr>
     </table>
-  <Link to='/table'><h3>Полная таблица</h3></Link>
+  <Link to='/table'><Button>Полная таблица</Button></Link>
   </div>
 </div>
       

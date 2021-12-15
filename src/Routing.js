@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
 import Auth from "./components/Auth/Auth";
 import BrandsList from "./components/BrandsList/BrandsList";
 import Cart from "./components/Cart/Cart";
