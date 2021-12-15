@@ -15,7 +15,7 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
-      <h1 style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>Турниры которые участвует Челси</h1>
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>Турниры в которых участвует Chelsea</h2>
       <div className="cards">
         <Card
           hoverable
@@ -105,9 +105,90 @@ const Home = () => {
       </Card>
       </Link>
       </div>
-      <div>
-  
-      </div>
+
+  <div class="row" style={{marginLeft: '4%', marginTop: '3%'}}>
+  <h2>Premier League Table</h2>
+  <h3>2021-22</h3>
+  <div class="column">
+    <table>
+      <tr>
+        <th>Position</th>
+        <th>Club</th>
+        <th>Played</th>
+        <th>Won</th>
+        <th>Drawn</th>
+        <th>Lost</th>
+        <th>GF</th>
+        <th>GA</th>
+        <th>GD</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+      <td><img src='https://resources.premierleague.com/premierleague/badges/50/t43@x2.png' alt='' style={{width: '40px', height: '40px'}} /></td>
+        <td>Manchester City</td>
+        <td>17</td>
+        <td>13</td>
+        <td>2</td>
+        <td>2</td>
+        <td>40</td>
+        <td>9</td>
+        <td>31</td>
+        <td>41</td>
+      </tr>
+      <tr>
+      <td><img src='https://resources.premierleague.com/premierleague/badges/50/t14@x2.png' alt='' style={{width: '40px', height: '40px'}} /></td>
+        <td>Liverpool</td>
+        <td>16</td>
+        <td>11</td>
+        <td>4</td>
+        <td>1</td>
+        <td>45</td>
+        <td>12</td>
+        <td>33</td>
+        <td>37</td>
+      </tr>
+      <tr>
+      <td><img src='https://resources.premierleague.com/premierleague/badges/50/t8@x2.png' alt='' style={{width: '40px', height: '40px'}} /></td>
+        <td>Chelsea</td>
+        <td>16</td>
+        <td>11</td>
+        <td>3</td>
+        <td>2</td>
+        <td>38</td>
+        <td>11</td>
+        <td>27</td>
+        <td>36</td>
+      </tr>
+      <tr>
+      <td><img src='https://resources.premierleague.com/premierleague/badges/50/t21@x2.png' alt='' style={{width: '40px', height: '40px'}} /></td>
+        <td>West Ham</td>
+        <td>16</td>
+        <td>8</td>
+        <td>4</td>
+        <td>4</td>
+        <td>28</td>
+        <td>19</td>
+        <td>9</td>
+        <td>28</td>
+      </tr>
+      <tr>
+      <td><img src='https://resources.premierleague.com/premierleague/badges/50/t1@x2.png' alt='' style={{width: '40px', height: '40px'}} /></td>
+        <td>Manchester United</td>
+        <td>16</td>
+        <td>8</td>
+        <td>3</td>
+        <td>5</td>
+        <td>26</td>
+        <td>24</td>
+        <td>2</td>
+        <td>27</td>
+      </tr>
+    </table>
+  <Link to='/table'><h3>Полная таблица</h3></Link>
+  </div>
+</div>
+      
+
       </div>
   );
 };

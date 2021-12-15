@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import { Badge } from "antd";
-import { ShoppingCartOutlined } from "@ant-design/icons";
+import { ShoppingCartOutlined , StarOutlined} from "@ant-design/icons";
 
 import { useAuth } from "../../contexts/authContext";
 
@@ -22,27 +22,28 @@ const Header = () => {
   }, [])
   const NAV_ITEMS = [
     {
-      title: "TROPHIES",
+      title: "ТРОФЕИ",
       link: "/brands",
       id: 1,
     },
     {
-      title: "SHOP",
+      title: "МАГАЗИН",
       link: "/trophies",
       id: 2,
     },
     {
-      title: "NEWS",
+      title: "НОВОСТИ",
       link: "/news",
       id: 4,
     },
     {
-      title: "PLAYERS",
+      title: "ИГРОКИ",
       link: "/players",
       id: 5,
     },
   ];
   return (
+    <div className="div">
     <div>
       <nav>
         <div>
@@ -61,6 +62,8 @@ const Header = () => {
           )}
         </div>
       </nav>
+
+      
       <div className="header">
         <Link to="/">
           <img
@@ -70,6 +73,7 @@ const Header = () => {
             alt=""
           />
         </Link>
+      
         <div>
           <Link to="/cart">
             <Badge count={+cartLength}>
@@ -78,8 +82,13 @@ const Header = () => {
               />
             </Badge>
           </Link>
+          
         </div>
+        
+
       </div>
+      
+      
       <div className="navbar">
         
         {NAV_ITEMS.map((item) => (
@@ -108,6 +117,7 @@ const Header = () => {
           </Link>
         ) : null}
       </div>
+    </div>
     </div>
   );
 };
