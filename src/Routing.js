@@ -9,6 +9,7 @@ import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
 import Players from "./components/Players/Players";
 import ProductsList from "./components/ProductsList/ProductsList";
+import NewsList from "./components/NewsList/NewsList";
 import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
@@ -58,6 +59,7 @@ const Routing = () => {
       id:8
     },
     {
+
       link: '/news_daty_matchey',
       element: <News />,
       id: 9
@@ -65,8 +67,15 @@ const Routing = () => {
     {
       link: '/news_Christensen_prodlit',
       element: <News2 />,
-      id: 9
+      id: 10
     }
+
+      link: "/news",
+      element:<NewsList/>,
+      id:11
+    },
+    
+
 
   ];
   const ADMIN_ROUTES = [
