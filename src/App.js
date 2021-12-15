@@ -12,6 +12,7 @@ import Routing from "./Routing";
 
 import "antd/dist/antd.css";
 import "./App.css";
+import NewsContextProvider from "./contexts/newsContext";
 import PlayersContextProvider from "./contexts/playersContext";
 
 const App = () => {
@@ -21,11 +22,13 @@ const App = () => {
         <BrandsContextProvider>
           <ProductsContextProvider>
             <PlayersContextProvider>
+            <NewsContextProvider>
               <BrowserRouter>
                 <Header />
                 <Routing />
                 <Footer />
               </BrowserRouter>
+            </NewsContextProvider>
 
             </PlayersContextProvider>
           </ProductsContextProvider>
@@ -36,4 +39,3 @@ const App = () => {
 };
 
 export default App;
-

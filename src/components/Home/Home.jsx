@@ -70,28 +70,29 @@ const Home = () => {
         <div style={{display: "flex", justifyContent: 'center'}}>
           <h1>Новости</h1>
         </div>
+      <div style={{display: 'flex'}}>
       <Link to='/news_daty_matchey'>
       <Card
               hoverable
-              style={{ width: 840, marginLeft: '23%' }}
+              style={{ width: 440, marginLeft: '2%' }}
               
-              cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+              cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
-              <Meta style={{marginLeft: '15%'}} title={<h3>Официально: даты матчей Лиги Чемпионов против «Лилля»</h3>}/>
+              <Meta style={{}} title={<h3>Официально: даты матчей Лиги Чемпионов <br/> против «Лилля»</h3>}/>
       </Card>
       </Link>
 
       <Link to='/news_Christensen_prodlit'>
       <Card
               hoverable
-              style={{ width: 840, marginLeft: '23%', marginTop: '2%' }}
+              style={{ width: 440, marginLeft: '2%' }}
               
-              cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+              cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
-              <Meta style={{marginLeft: '20%'}} title={<h3>Кристенсен продлит контракт с «Челси» на 4 года</h3>}/>
+              <Meta style={{}} title={<h3>Кристенсен продлит контракт с «Челси» на <br/> 4 года</h3>}/>
       </Card>
       </Link>
-
+      </div>
       </div>
     </div>
   );

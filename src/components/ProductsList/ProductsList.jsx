@@ -7,9 +7,10 @@ import { Input, Pagination, Empty } from "antd";
 import { productsContext } from "../../contexts/productsContext";
 
 import Filters from "../Filters/Filters";
-import ProductCard from "./ProductCard";
+
 
 import "./ProductsList.css";
+import NewsCard from "../NewsList/NewsCard";
 
 const ProductsList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -25,8 +26,10 @@ const ProductsList = () => {
   const [brand, setBrand] = useState([]);
   const [price, setPrice] = useState([1, 1000000]);
   const [showFilters, setShowFilters] = useState(false);
+
   const { getProducts, products, productsTotalCount } =
     useContext(productsContext);
+    
   useEffect(() => {
     setSearchParams({
       q: search,
@@ -80,7 +83,7 @@ const ProductsList = () => {
       ) : null}
       <div className="products-list">
         {products.length > 0 ? (
-          products.map((item) => <ProductCard item={item} />)
+          products.map((item) => <NewsCard item={item} />)
         ) : (
           <Empty style={{ marginBottom: "20px" }} />
         )}
