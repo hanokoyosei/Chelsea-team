@@ -14,8 +14,12 @@ import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
+
+import SuccessCredit from "./components/creditCart/SuccessCredit"
+
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
+
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -60,6 +64,10 @@ const Routing = () => {
     },
     {
 
+      link:"/successCredit",
+      element:<SuccessCredit/>
+
+
       link: '/news_daty_matchey',
       element: <News />,
       id: 9
@@ -68,6 +76,7 @@ const Routing = () => {
       link: '/news_Christensen_prodlit',
       element: <News2 />,
       id: 10
+
     }
 
       link: "/news",

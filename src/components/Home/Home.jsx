@@ -67,6 +67,20 @@ const Home = () => {
         </Card>
       </div>
       <div>
+
+      <Carousel autoplay>
+    <div>
+      <img src='https://i0.wp.com/www.teahub.io/photos/full/241-2411074_leicester-city-fc-wallpaper-football-pinterest-futebol-2014.jpg' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+    <div>
+      <img src='https://images.pexels.com/photos/9163132/pexels-photo-9163132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+    <div>
+      <img src='https://pbs.twimg.com/media/ERpZ6RMXUAE9hV5.jpg:large' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+  </Carousel>,
+      </div>
+
         <div style={{display: "flex", justifyContent: 'center'}}>
           <h1>Новости</h1>
         </div>
@@ -87,12 +101,13 @@ const Home = () => {
               style={{ width: 840, marginLeft: '23%', marginTop: '2%' }}
               
               cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
-            >
+            
               <Meta style={{marginLeft: '20%'}} title={<h3>Кристенсен продлит контракт с «Челси» на 4 года</h3>}/>
       </Card>
       </Link>
 
       </div>
+
     </div>
   );
 };
