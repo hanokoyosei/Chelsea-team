@@ -59,7 +59,6 @@ const AdminNewsList = () => {
                   {item.title}
                 </a>
               }
-              description= {item.description}
             />
           </List.Item>
         )}
