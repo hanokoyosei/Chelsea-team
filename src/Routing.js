@@ -14,8 +14,13 @@ import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
+
+import SuccessCredit from "./components/creditCart/SuccessCredit"
+
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
+import News3 from "./components/News/News3";
+
 const Routing = () => {
   let PUBLIC_ROUTES = [
     {
@@ -59,19 +64,30 @@ const Routing = () => {
       id:8
     },
     {
+
+      link:"/successCredit",
+      element:<SuccessCredit/>
+    },
+    {
+      link: '/news_daty_matchey',
+      element: <News />,
+      id: 9
+    },
+    {
+      link: '/news_Christensen_prodlit',
+      element: <News2 />,
+      id: 10
+
+    },
+    {
       link: "/news",
       element:<NewsList/>,
-      id:9
-    },
-    {
-      link: "/news_daty_matchey",
-      element:<News />,
-      id:10
-    },
-    {
-      link: "/news_Christensen_prodlit",
-      element:<News2 />,
       id:11
+    },
+    {
+      link: "/news_Mount_semeinaya",
+      element:<News3/>,
+      id:12
     }
   ];
   const ADMIN_ROUTES = [

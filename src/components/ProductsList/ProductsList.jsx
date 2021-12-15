@@ -2,15 +2,14 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
-import { Input, Pagination, Empty } from "antd";
+import {  Pagination, Empty } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
 
 import Filters from "../Filters/Filters";
-
-
 import "./ProductsList.css";
-import NewsCard from "../NewsList/NewsCard";
+import ProductCard from "./ProductCard";
+// import NewsCard from "../NewsList/NewsCard";
 
 const ProductsList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -56,22 +55,33 @@ const ProductsList = () => {
   console.log(products);
   return (
     <div className="container" style={{ marginTop: "20px" }}>
+      <div> 
+       
+        <input className="inp-btn2"
+        type="text"
+         name="search" 
+         value={search}
+         placeholder="Search.."
+         onChange={(e) => setSearch(e.target.value)}
+
+         >
+
+         </input>
+        </div>
       <div className="products-search">
+      
+
+
         <div
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer"}}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
         </div>
-        <Input.Search
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          style={{ width: "25vw" }}
-          placeholder="Search..."
-        />
+       
       </div>
       <div>
-        {/* <img style={{width: '100%'}} src='https://1.bp.blogspot.com/-8XFYBHAySNo/YJzep_dDk4I/AAAAAAADAjA/FNbEJCbkdScHOSxXI4z07ZTp-pBvo5rzwCNcBGAsYHQ/s1600/chelsea-21-22-kit%2B%25282%2529.jpg' alt='' /> */}
+       
       </div>
       {showFilters ? (
         <Filters
@@ -83,7 +93,7 @@ const ProductsList = () => {
       ) : null}
       <div className="products-list">
         {products.length > 0 ? (
-          products.map((item) => <NewsCard item={item} />)
+          products.map((item) => <ProductCard item={item} />)
         ) : (
           <Empty style={{ marginBottom: "20px" }} />
         )}

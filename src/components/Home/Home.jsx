@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Card } from "antd";
+import { Card, Carousel } from "antd";
 import {Link} from "react-router-dom"
 
 const { Meta } = Card;
@@ -67,11 +67,25 @@ const Home = () => {
         </Card>
       </div>
       <div>
+
+      <Carousel autoplay>
+    <div>
+      <img src='https://i0.wp.com/www.teahub.io/photos/full/241-2411074_leicester-city-fc-wallpaper-football-pinterest-futebol-2014.jpg' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+    <div>
+      <img src='https://images.pexels.com/photos/9163132/pexels-photo-9163132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+    <div>
+      <img src='https://pbs.twimg.com/media/ERpZ6RMXUAE9hV5.jpg:large' alt='' style={{width: '1489px', height: '700px'}} />
+    </div>
+  </Carousel>,
+      </div>
+
         <div style={{display: "flex", justifyContent: 'center'}}>
           <h1>Новости</h1>
         </div>
-      <div style={{display: 'flex'}}>
-      <Link to='/news_daty_matchey'>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+      <Link to='/news_daty_matchey'>  
       <Card
               hoverable
               style={{ width: 440, marginLeft: '2%' }}
@@ -86,15 +100,23 @@ const Home = () => {
       <Card
               hoverable
               style={{ width: 440, marginLeft: '2%' }}
-              
               cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
               <Meta style={{}} title={<h3>Кристенсен продлит контракт с «Челси» на <br/> 4 года</h3>}/>
       </Card>
       </Link>
+
+      <Link to='/news_Mount_semeinaya'>
+      <Card
+              hoverable
+              style={{ width: 440, marginLeft: '2%' }}
+              cover={<img src='https://chelseablues.ru/_nw/789/15976084.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
+            >
+              <Meta style={{}} title={<h3>Маунт: «Семейная атмосфера в «Челси» <br/> подпитывает нас к победе в Премьер-лиге»</h3>}/>
+      </Card>
+      </Link>
       </div>
       </div>
-    </div>
   );
 };
 

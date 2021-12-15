@@ -76,9 +76,20 @@ const AddNewsModal = () => {
             <Input />
           </Form.Item>
 
-          
-
           <Form.Item
+            label="Paragraph"
+            name="paragraph"
+            rules={[
+              {
+                required: true,
+                message: "Please input paragraph!",
+              },
+            ]}
+          >
+            <Input />
+          </Form.Item>
+
+           <Form.Item
             label="Image 1"
             name="image1"
             rules={[
@@ -91,7 +102,7 @@ const AddNewsModal = () => {
             <Input />
           </Form.Item>
 
-          {/* <Form.Item
+          <Form.Item
             label="Image 2"
             name="image2"
             rules={[
@@ -102,9 +113,9 @@ const AddNewsModal = () => {
             ]}
           >
             <Input />
-          </Form.Item> */}
+          </Form.Item>
 
-          {/* <Form.Item
+          <Form.Item
             label="Video"
             name="video"
             rules={[
@@ -115,7 +126,7 @@ const AddNewsModal = () => {
             ]}
           >
             <Input />
-          </Form.Item> */}
+          </Form.Item>
 
           <Form.Item
             wrapperCol={{
