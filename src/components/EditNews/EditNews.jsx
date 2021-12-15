@@ -1,41 +1,29 @@
-
-import React, { useContext, useEffect, useState } from "react";
-import { Modal, Button, Form, Input } from "antd";
-
+import React, { useContext, useEffect } from "react";
+import { useNavigate, useParams } from "react-router";
+import { Button, Form, Input } from "antd";
 import { newsContext } from "../../contexts/newsContext";
 
-const AddNewsModal = () => {
-  const { createNews } = useContext(newsContext);
+const EditNews = () => {
+  const params = useParams();
+  const navigate = useNavigate();
+  const { getOneNews, oneNews, updateNews } =
+    useContext(newsContext);
   const { getNews } = useContext(newsContext);
+  const [form] = Form.useForm();
   useEffect(() => {
+    getOneNews(params.id);
     getNews();
   }, []);
-
-  const [isModalVisible, setIsModalVisible] = useState(false);
-
-  const showModal = () => {
-    setIsModalVisible(true);
-  };
-
-  const handleCancel = () => {
-    setIsModalVisible(false);
-  };
-
+  useEffect(() => {
+    form.setFieldsValue(oneNews);
+  }, [oneNews]);
   const onFinish = (values) => {
     console.log("Success:", values);
-    createNews(values).then(() => handleCancel());
+    updateNews(params.id, values).then(() => navigate("/admin"));
   };
   return (
-    <>
-      <Button type="primary" onClick={showModal}>
-        Add news
-      </Button>
-      <Modal
-        title="Add news"
-        visible={isModalVisible}
-        onCancel={handleCancel}
-        footer={null}
-      >
+    <div className="container" style={{ marginTop: "15px" }}>
+      <h2>Edit news</h2>
         <Form
           name="basic"
           onFinish={onFinish}
@@ -82,7 +70,7 @@ const AddNewsModal = () => {
           </Form.Item>
 
            <Form.Item
-            label="Image"
+            label="Image 1"
             name="image1"
             rules={[
               {
@@ -101,13 +89,12 @@ const AddNewsModal = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              Add news
+              Edit news
             </Button>
           </Form.Item>
         </Form>
-      </Modal>
-    </>
+    </div>
   );
 };
 
-export default AddNewsModal;
+export default EditNews;

@@ -112,6 +112,9 @@ export default class App extends React.Component {
                   required 
                   // onChange={this.handleInputChange} 
                   onFocus={this.handleInputFocus} 
+                  maxLength={4}
+                  onChange={this.handleInputChange} 
+                  // onFocus={this.handleInputFocus} 
                 /> 
               </div> 
               <div className="col-6"> 

@@ -1,5 +1,5 @@
 
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
 import { Pagination, Empty } from "antd";
@@ -9,8 +9,8 @@ import NewsCard from "./NewsCard";
 
 
 const NewsList = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const [search, setSearch] = useState(
+  const [searchParams] = useSearchParams();
+  const [] = useState(
     searchParams.get("q") ? searchParams.get("q") : ""
   );
   const [page, setPage] = useState(
@@ -20,14 +20,19 @@ const NewsList = () => {
     searchParams.get("_limit") ? searchParams.get("_limit") : 4
   );
 
-  const { news, newsTotalCount } =
+  const { news, newsTotalCount, getNews } =
     useContext(newsContext);
+
+  useEffect(() => {
+    getNews()
+  }, [])
+
   return (
     
       <div>
       <div className="news-list">
        {news.length > 0 ? (
-         news.map((item) => <NewsCard item={item} />)
+         <NewsCard/>
        ) : (
          <Empty style={{ marginBottom: "20px" }} />
        )}
