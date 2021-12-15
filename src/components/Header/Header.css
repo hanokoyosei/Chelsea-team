@@ -1,13 +1,26 @@
+@media screen and (min-width: 600px) {
 nav {
-  height: 8vh;
+  /* height: 8vh;
   background-color: #001489;
   color: white;
   display: flex;
   justify-content: flex-end;
   padding: 0 5vw;
-  align-items: center;
-  
+  align-items: center; */
+
+  background: #696969;
+    background: rgba(0,0,0,0.4);
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    
 }
+}
+
+  
 
 .sign-btn {
   display: inline-block;
@@ -39,14 +52,13 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-around;
-  /* border-top: 2px solid #001489; */
   border-bottom: 2px solid #001489;
   font-size: large;
 
 }
 .navbar__item {
   margin: 5px 15px;
-  color: black
+  color: whitesmoke;
 }
 .navbar__item-active {
   margin: 5px 15px;
@@ -56,6 +68,8 @@ nav {
 
 
 .img{
+  display: flex;
+  align-self: center;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
@@ -68,4 +82,17 @@ nav {
 
 .div{
   background-image: url();
+}
+
+.header a{
+  margin:auto
+}
+
+@media screen and (max-width: 400px) {
+  .navbar{
+    width: 100%!important;
+  }
+  .navbar__item{
+    margin: 0px;
+  }
 }

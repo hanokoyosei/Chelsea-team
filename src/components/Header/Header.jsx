@@ -67,6 +67,7 @@ const Header = () => {
       <div className="header">
         <Link to="/">
           <img
+            style={{display:"flex",justifyContent:"center"}}
             className="img"
             width="400px"
             src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
