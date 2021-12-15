@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import { Card, Carousel } from "antd";
+import { Card } from "antd";
+import {Link} from "react-router-dom"
 
 const { Meta } = Card;
 const contentStyle = {
@@ -14,6 +15,7 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>Турниры которые участвует Челси</h2>
       <div className="cards">
         <Card
           hoverable
@@ -65,30 +67,32 @@ const Home = () => {
         </Card>
       </div>
       <div>
-      <Carousel autoplay>
-    <div>
-      <img src='https://i1.wp.com/www.thedabigal.com.ng/wp-content/uploads/2021/05/Chelsea-win-UCL-2021.jpg?fit=2048%2C1268&ssl=1' alt='' style={{width: '1489px', height: '700px'}} />
-    </div>
-    <div>
-      <img src='https://www.wallpaperup.com/uploads/wallpapers/2014/11/29/534420/bd61d05f7ed11600df758ad9e63defc2.jpg' alt='' style={{width: '1489px', height: '700px'}} />
-    </div>
-    <div>
-      <img src='https://i2-prod.football.london/chelsea-fc/transfer-news/article19572886.ece/ALTERNATES/s615/0_GettyImages-1280748069.jpg' alt='' style={{width: '1489px', height: '700px'}} />
-    </div>
-  </Carousel>,
+        <div style={{display: "flex", justifyContent: 'center'}}>
+          <h1>Новости</h1>
+        </div>
+      <Link to='/news_daty_matchey'>
+      <Card
+              hoverable
+              style={{ width: 840, marginLeft: '23%' }}
+              
+              cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+            >
+              <Meta style={{marginLeft: '15%'}} title={<h3>Официально: даты матчей Лиги Чемпионов против «Лилля»</h3>}/>
+      </Card>
+      </Link>
+
+      <Link to='/news_Christensen_prodlit'>
+      <Card
+              hoverable
+              style={{ width: 840, marginLeft: '23%', marginTop: '2%' }}
+              
+              cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
+            >
+              <Meta style={{marginLeft: '20%'}} title={<h3>Кристенсен продлит контракт с «Челси» на 4 года</h3>}/>
+      </Card>
+      </Link>
+
       </div>
-      {/* <div className="links" style={{marginTop: '3%', display: 'flex', flexDirection: 'row'}}>
-        <a>
-        <h3 style={{color: '#85754e'}}><img style={{width: '50px', height: '25px'}} src='https://content.thewosgroup.com/wosus/icons/affirm-logo-normal.png' alt='' style={{maxWidth: '64px', marginRight: '10px', verticalAlign: 'bottom'}} />FLEXIBLE FINANCING <br/> <p style={{color: 'black'}}>MAKE MONTHLY PAYMENTS WITH AFFIRM</p></h3>
-        </a>
-        <a><h3 style={{color: '#85754e'}}>AUTHORIZED LUXURY RETAILER<br/><p style={{color: 'black'}}>NOW AVAILABLE TO BUY ONLINE</p></h3></a>
-        <a><h3  style={{color: '#85754e'}}>FREE HOME DELIVERY AVAILABLE<br/><p style={{color: 'black'}}>ESTIMATED DELIVERY 1-3 DAYS</p></h3></a>
-      </div> */}
-      {/* <div style={{display: 'flex', justifyContent: 'center'}}>
-        <img style={{width: '460px', height: '460px'}} src='https://www.watchesofswitzerland.com/medias/wosus-3wide-omega007-oct21.jpg?context=bWFzdGVyfHJvb3R8MzMwNDM5fGltYWdlL2pwZWd8aDEzL2hiYS85MTE5NjUxODIzNjQ2LmpwZ3xhMzdjMjI0OTJkMGY1OTRjYzRjNTIyZWI0ZTIxYmMzNzdhMzM1ZDE2M2RmMWJjNjExZWZjMTRkYzA4ZmY3NzNj&imwidth=640' alt='' />
-        <img style={{width: '460px', height: '460px'}} src='https://www.watchesofswitzerland.com/medias/oris-sunwukong-wosushp-3wide-dec21.png?context=bWFzdGVyfHJvb3R8NTU5NDcyfGltYWdlL3BuZ3xoZDQvaGIxLzkxMjg5NDAxNDI2MjIucG5nfDMwOTEyYjI2MTJiMTg0YWI2MWI2ODVmNGQ1NDMwYjQyMzMwNzNkOTY0MTcyYjM4NWM1NjY5OTc3OWI4MzI5ZDM&imwidth=640' alt='' />
-        <img style={{width: '460px', height: '460px'}} src='https://www.watchesofswitzerland.com/medias/wosus-hp3wide-breitling-dec21.jpg?context=bWFzdGVyfHJvb3R8NDM2MDZ8aW1hZ2UvanBlZ3xoYjYvaGMxLzkxMzA1OTg5MjQzMTguanBnfDAwMWI0MGE2MmVhOTI1ODU2NzIzYzk2NGNiYTg0NjgyNDQ4MTRkMDkxODNlNjE1YTUyMGMzODNkYjc4MjA2Y2Y&imwidth=640' alt='' />
-      </div> */}
     </div>
   );
 };

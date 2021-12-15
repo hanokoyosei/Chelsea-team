@@ -177,6 +177,14 @@
       "price": 80,
       "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shorts-2021-22-kids_ss4_p-12059950+u-11re4wr72wsbk78xbko2+v-7aa008ba525946a38fb4333e83b8c502.jpg?_hv=1&w=340",
       "id": 18
+    },
+    {
+      "brand": "Chelsea sock",
+      "model": "2021-22",
+      "description": "Chelsea Away Stadium Sock 2021-22",
+      "price": 50,
+      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-sock-2021-22_ss4_p-12059927+u-7nu3d0q7lqhv8awenuv2+v-ce7b03a6de2742fab9748b19d4e6ca92.jpg?_hv=1&w=340",
+      "id": 19
     }
   ],
   "trophies": [
