@@ -33,7 +33,7 @@ console.log(products)
         defaultValue={[1, 1000]}
         min={0}
         max={1000}
-        step={100}
+        step={1}
       />
     </div>
   );
