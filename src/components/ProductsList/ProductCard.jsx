@@ -20,7 +20,7 @@ const ProductCard = ({ item }) => {
     <Card
       hoverable
       key={item.id}
-      style={{ width: "280px", margin: "10px" }}
+      style={{ width: "280px", margin: "20px" }}
       cover={<img alt="example" src={item.image1} />}
       actions={[
         <StarOutlined style={{ color: "black", fontSize: "25px" }} />,

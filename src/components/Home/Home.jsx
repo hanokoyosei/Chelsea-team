@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Card } from "antd";
+import { Card , Carousel } from "antd";
 import {Link} from "react-router-dom"
 
 const { Meta } = Card;
@@ -101,14 +101,14 @@ const Home = () => {
               style={{ width: 840, marginLeft: '23%', marginTop: '2%' }}
               
               cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '700px', height: '500px', marginLeft: '8%'}} />}
-            
+            >
               <Meta style={{marginLeft: '20%'}} title={<h3>Кристенсен продлит контракт с «Челси» на 4 года</h3>}/>
       </Card>
       </Link>
 
       </div>
 
-    </div>
+    
   );
 };
 

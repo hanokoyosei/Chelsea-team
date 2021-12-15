@@ -107,9 +107,10 @@ export default class App extends React.Component {
                   name="expiry" 
                   className="form-control" 
                   placeholder="Valid Thru" 
+                  maxLength={3}
                   pattern="\d\d/\d\d" 
                   required 
-                  onChange={this.handleInputChange} 
+                  // onChange={this.handleInputChange} 
                   onFocus={this.handleInputFocus} 
                 /> 
               </div> 

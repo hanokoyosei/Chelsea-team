@@ -65,23 +65,26 @@ const Routing = () => {
     {
 
       link:"/successCredit",
-      element:<SuccessCredit/>
+      element:<SuccessCredit/>,
+      id: 9
 
-
+    },
+    {
       link: '/news_daty_matchey',
       element: <News />,
-      id: 9
+      id: 10
     },
     {
       link: '/news_Christensen_prodlit',
       element: <News2 />,
-      id: 10
+      id: 11
 
-    }
+    },
+    {
 
       link: "/news",
       element:<NewsList/>,
-      id:11
+      id:12
     },
     
 
