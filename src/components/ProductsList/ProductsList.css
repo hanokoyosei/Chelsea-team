@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-input[type=text] {
+input .inp-btn2{
     width: 1100px;
     border: 1px solid  #001489;
     margin-bottom: 50px;    
