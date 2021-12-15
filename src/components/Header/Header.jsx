@@ -31,10 +31,6 @@ const Header = () => {
       link: "/trophies",
       id: 2,
     },
-
-    
-
-
     {
       title: "NEWS",
       link: "/news",
@@ -45,10 +41,9 @@ const Header = () => {
       link: "/players",
       id: 5,
     },
-    
   ];
   return (
-    <>
+    <div>
       <nav>
         <div>
           {email ? (
@@ -67,9 +62,6 @@ const Header = () => {
         </div>
       </nav>
       <div className="header">
-        <div>
-          
-        </div>
         <Link to="/">
           <img
             className="img"
@@ -116,7 +108,7 @@ const Header = () => {
           </Link>
         ) : null}
       </div>
-    </>
+    </div>
   );
 };
 

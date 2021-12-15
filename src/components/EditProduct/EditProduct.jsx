@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
-import { Button, Form, Input, Select, InputNumber } from "antd";
+import { Button, Form, Input, InputNumber } from "antd";
 import { productsContext } from "../../contexts/productsContext";
 import { brandsContext } from "../../contexts/brandsContext";
 
@@ -9,7 +9,7 @@ const EditProduct = () => {
   const navigate = useNavigate();
   const { getOneProduct, oneProduct, updateProduct } =
     useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
+  const { getBrands } = useContext(brandsContext);
   const [form] = Form.useForm();
   useEffect(() => {
     getOneProduct(params.id);
