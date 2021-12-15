@@ -2,13 +2,14 @@ import React, { useContext, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import { Badge } from "antd";
-import { ShoppingCartOutlined } from "@ant-design/icons";
+import { ShoppingCartOutlined, StarOutlined } from "@ant-design/icons";
 
 import { useAuth } from "../../contexts/authContext";
 
 import { cartContext } from "../../contexts/cartContext";
 
 import "./Header.css";
+import { favContext } from "../../contexts/favContext";
 
 const Header = () => {
   const location = useLocation();
@@ -16,10 +17,19 @@ const Header = () => {
     handleLogout,
     user: { email },
   } = useAuth();
+
+  // корзина
   const { getCart, cartLength } = useContext(cartContext)
   useEffect(() => {
     getCart()
   }, [])
+  
+  //избранное
+  const { getFav, favLength } = useContext(favContext)
+  useEffect(() => {
+    getFav()
+  }, [])
+
   const NAV_ITEMS = [
     {
       title: "TROPHIES",
@@ -70,6 +80,7 @@ const Header = () => {
             alt=""
           />
         </Link>
+        < div style = {{display: "flex" , justifyContent: "space-between", width: "150px"}}>
         <div>
           <Link to="/cart">
             <Badge count={+cartLength}>
@@ -79,6 +90,16 @@ const Header = () => {
             </Badge>
           </Link>
         </div>
+        <div>
+        <Link to="/fav">
+            <Badge count={+favLength}>
+              <StarOutlined
+                style={{ fontSize: "40px", cursor: "pointer" }}
+              />
+            </Badge>
+          </Link>
+        </div>
+        </div>        
       </div>
       <div className="navbar">
         

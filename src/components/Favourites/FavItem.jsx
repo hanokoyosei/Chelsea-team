@@ -1,11 +1,20 @@
-import React, { useContext } from "react";
-import { List, InputNumber, Button } from "antd";
-import { cartContext } from "../../contexts/cartContext";
+import React, { useContext , useEffect , useState} from "react";
+import { List, Button} from "antd"
 import { Link } from "react-router-dom";
 
-const CartItem = ({ item }) => {
+import { favContext } from "../../contexts/favContext";
+import { cartContext } from "../../contexts/cartContext";
+
+
+
+const FavItem = ({ item }) => {
   // console.log(item);
-  const { deleteFromCart, changeProductCount } = useContext(cartContext);
+  const { deleteFromFav, changeProductCount } = useContext(favContext);
+  const { addProductToCart, checkItemInCart } = useContext(cartContext);
+  const [checkInCart, setCheckInCart] = useState(checkItemInCart(item.id));
+  useEffect(() => {
+    setCheckInCart(checkItemInCart(item.id))
+  })
   return (
     <List.Item
       key={item.id}
@@ -39,7 +48,7 @@ const CartItem = ({ item }) => {
                 marginTop: "20px",
               }}
             >
-              <div>
+              {/* <div>
                 <h4>Quantity</h4>
                 <Button onClick={() => changeProductCount(item.count - 1, item.item.id)}>-</Button>
                 <InputNumber value={item.count} disabled />
@@ -48,21 +57,28 @@ const CartItem = ({ item }) => {
               <div>
                 <h4>SubPrice</h4>
                 <h3>{"$" + item.subPrice}</h3>
-              </div>
+              </div> */}
 
               
 
             </div>
-            <Button style={{background:"#001489", color:"white"}} 
-            onClick={() => deleteFromCart(item.item.id)}>
-              Remove from cart
-            </Button>
+            <Button style={{background:"#001489", color:"white"}} onClick={() => deleteFromFav(item.item.id)}>
+              Remove from fav
+    t      </Button>
 
 
            
             <div style={{marginTop:"50px"}}>
-                <h4>Buy</h4>
-               <Link to="/creditCart"> <Button style={{background:"#001489", color:"white"}}>Pay by card</Button></Link> 
+                <h4>Add product to card</h4>
+               <Link to="/cart"> 
+               <Button 
+               style={{background:"#001489", color:"white"}}
+               onClick={() => {
+                addProductToCart(item);
+                setCheckInCart(checkItemInCart(item.id));
+              }}
+               >Add to Cart </Button>
+               </Link> 
               </div>
             
            
@@ -74,4 +90,4 @@ const CartItem = ({ item }) => {
   );
 };
 
-export default CartItem;
+export default FavItem;

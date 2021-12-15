@@ -20,6 +20,7 @@ import SuccessCredit from "./components/creditCart/SuccessCredit"
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
 import News3 from "./components/News/News3";
+import Fav from "./components/Favourites/Fav";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -88,7 +89,12 @@ const Routing = () => {
       link: "/news_Mount_semeinaya",
       element:<News3/>,
       id:12
-    }
+    },
+    {
+      link: "/fav",
+      element: <Fav/>,
+      id: 13
+    },
   ];
   const ADMIN_ROUTES = [
     {
