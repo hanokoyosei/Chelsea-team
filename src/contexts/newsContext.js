@@ -36,6 +36,7 @@ const NewsContextProvider = ({ children }) => {
   }
   async function getNews() {
     let result = await axios.get(`${NEWS_API}${window.location.search}`);
+    console.log(result)
     
     dispatch({
       type: CASE_GET_NEWS,

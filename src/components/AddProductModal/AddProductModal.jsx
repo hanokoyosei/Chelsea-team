@@ -1,13 +1,13 @@
 
 import React, { useContext, useEffect, useState } from "react";
-import { Modal, Button, Form, Input, Select, InputNumber } from "antd";
+import { Modal, Button, Form, Input, InputNumber } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
 import { brandsContext } from "../../contexts/brandsContext";
 
 const AddProductModal = () => {
   const { createProduct } = useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
+  const { getBrands } = useContext(brandsContext);
   useEffect(() => {
     getBrands();
   }, []);

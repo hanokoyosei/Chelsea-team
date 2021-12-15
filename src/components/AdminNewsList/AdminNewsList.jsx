@@ -44,12 +44,8 @@ const AdminNewsList = () => {
             actions={[
               <a
                 key="list-loadmore-edit"
-                onClick={() => deleteNews(item.id)}
-              >
-                delete
-              </a>,
-              <Link to={`/edit/${item.id}`}>edit</Link>,
-              <Link to={`/trophies/${item.id}`}>more</Link>,
+                onClick={() => deleteNews(item.id)}>delete</a>,
+              <Link to={`/edits/${item.id}`}>edit</Link>
             ]}
           >
             <List.Item.Meta
