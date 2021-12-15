@@ -14,13 +14,12 @@ import { useAuth } from "./contexts/authContext";
 import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
-
 import SuccessCredit from "./components/creditCart/SuccessCredit"
-
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
 import News3 from "./components/News/News3";
 import Fav from "./components/Favourites/Fav";
+import EditNews from "./components/EditNews/EditNews";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -95,6 +94,7 @@ const Routing = () => {
       element: <Fav/>,
       id: 13
     },
+   
   ];
   const ADMIN_ROUTES = [
     {
@@ -107,6 +107,12 @@ const Routing = () => {
       element: <EditProduct />,
       id: 2,
     },
+    {
+      link: "/edits/:id",
+      element: <EditNews />,
+      id: 3,
+    },
+   
   ];
   const { user } = useAuth();
   return (

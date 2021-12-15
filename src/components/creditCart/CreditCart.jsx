@@ -109,8 +109,9 @@ export default class App extends React.Component {
                   placeholder="Valid Thru" 
                   pattern="\d\d/\d\d" 
                   required 
+                  maxLength={4}
                   onChange={this.handleInputChange} 
-                  onFocus={this.handleInputFocus} 
+                  // onFocus={this.handleInputFocus} 
                 /> 
               </div> 
               <div className="col-6"> 
