@@ -89,6 +89,7 @@ const CartContextProvider = ({ children }) => {
     return filteredCart.length > 0 ? true : false;
   }
 
+
   function changeProductCount (count, id){
     if(count < 0){
       count = 1
@@ -114,7 +115,7 @@ const CartContextProvider = ({ children }) => {
         getCart,
         deleteFromCart,
         checkItemInCart,
-        changeProductCount
+        changeProductCount,
       }}
     >
       {children}

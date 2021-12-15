@@ -19,6 +19,9 @@ import SuccessCredit from "./components/creditCart/SuccessCredit"
 
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
+import News3 from "./components/News/News3";
+import Table from "./components/Table/Table";
+import CreditForm from "./components/creditCart/CreditForm"
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -65,9 +68,7 @@ const Routing = () => {
     {
 
       link:"/successCredit",
-      element:<SuccessCredit/>,
-      id: 9
-
+      element:<SuccessCredit/>
     },
     {
       link: '/news_daty_matchey',
@@ -81,14 +82,24 @@ const Routing = () => {
 
     },
     {
-
       link: "/news",
       element:<NewsList/>,
       id:12
     },
-    
-
-
+    {
+      link: "/news_Mount_semeinaya",
+      element:<News3/>,
+      id:13
+    },
+    {
+      link: "/table",
+      element:<Table/>,
+      id:14
+    },
+    {
+      link:"/creditForm",
+      element:<CreditForm/>
+    }
   ];
   const ADMIN_ROUTES = [
     {

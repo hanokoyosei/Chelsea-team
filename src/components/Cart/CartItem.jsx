@@ -40,7 +40,7 @@ const CartItem = ({ item }) => {
               }}
             >
               <div>
-                <h4>Quantity</h4>
+                <h4>Количество</h4>
                 <Button onClick={() => changeProductCount(item.count - 1, item.item.id)}>-</Button>
                 <InputNumber value={item.count} disabled />
                 <Button onClick={() => changeProductCount(item.count + 1, item.item.id)}>+</Button>
@@ -54,14 +54,14 @@ const CartItem = ({ item }) => {
 
             </div>
             <Button style={{background:"#001489", color:"white"}} onClick={() => deleteFromCart(item.item.id)}>
-              Remove from cart
+              Удалить из корзины
             </Button>
 
 
            
             <div style={{marginTop:"50px"}}>
-                <h4>Buy</h4>
-               <Link to="/creditCart"> <Button style={{background:"#001489", color:"white"}}>Pay by card</Button></Link> 
+                <h4>Купить</h4>
+               <Link to="/creditForm"> <Button style={{background:"#001489", color:"white"}}>Оплатить картой</Button></Link> 
               </div>
             
            
