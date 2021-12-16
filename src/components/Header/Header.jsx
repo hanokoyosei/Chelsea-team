@@ -4,8 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Badge } from "antd";
 import { ShoppingCartOutlined, StarOutlined } from "@ant-design/icons";
 
-import { useAuth } from "../../contexts/authContext";
-
 import { cartContext } from "../../contexts/cartContext";
 
 import "./Header.css";

@@ -59,7 +59,7 @@ const AdminNewsList = () => {
           </List.Item>
         )}
       />
-      <Pagination
+      {/* <Pagination
         onChange={(page, limit) => {
           setCurrentPage(page);
           setLimit(limit);
@@ -68,7 +68,7 @@ const AdminNewsList = () => {
         defaultCurrent={1}
         total={+newsTotalCount}
         pageSize={+limit}
-      />
+      /> */}
     </>
   );
 };

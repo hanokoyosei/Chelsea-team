@@ -7,14 +7,13 @@ const Filters = ({ brand, setBrand, price, setPrice }) => {
   useEffect(() => {
     getProducts();
   }, []);
-
 console.log(products)
 
   return (
-    <div style={{ marginTop: "20px" }}>
+    <div style={{ marginTop: "20px", display: 'flex' }}>
       <Select
         allowClear
-        style={{ width: "100%" }}
+        style={{ width: "200px", marginLeft: '2%' }}
         value={brand}
         onChange={(e) => setBrand(e)}
         mode="multiple"
@@ -34,6 +33,7 @@ console.log(products)
         min={0}
         max={1000}
         step={1}
+        style={{width: '400px', marginLeft: '2%'}}
       />
     </div>
   );

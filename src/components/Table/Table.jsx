@@ -1,14 +1,16 @@
 import React from 'react';
+import "./Table.css"
 
 const Table = () => {
     return (
-    <div style={{display: 'flex', justifyContent: 'space-between'}}>
-    <div className='div' style={{width: '200px'}}>
-    </div>
+    <div style={{display: 'flex', justifyContent: 'space-between'}} className='table'>
     <div>
     <div class="row" style={{marginLeft: '4%', marginTop: '3%'}}>
-    <h2><img src='https://logodownload.org/wp-content/uploads/2016/03/premier-league-5.png' alt='' style={{width: '50px', height: '50px'}} /> Premier League Table 2021-22</h2>
-    <table>
+    <div>
+    <img src='https://logodownload.org/wp-content/uploads/2016/03/premier-league-5.png' alt='' style={{width: '50px', height: '50px'}} />
+    <h2 style={{color: 'white', marginLeft: '1%'}}>Premier League Table 2021-22</h2>
+    </div>
+    <table style={{backgroundColor: 'white', marginLeft: '53%'}}> 
       <tr>
         <th>Position</th>
         <th>Club</th>
@@ -263,8 +265,6 @@ const Table = () => {
       </tr>
     </table>
     </div>
-    </div>
-    <div className='div' style={{width: '240px',}}>
     </div>
     </div>
     );
