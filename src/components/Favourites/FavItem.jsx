@@ -23,7 +23,7 @@ const FavItem = ({ item }) => {
       key={item.id}
       extra={<img width={272} alt="img" src={item.item.image1} />}
     >
-      <List.Item.Meta
+      <List.Item.Meta 
         title={
           <div
             style={{
@@ -33,15 +33,15 @@ const FavItem = ({ item }) => {
             }}
           >
             <div>
-              <h3>{item.item.brand}</h3>
-              <h4>{item.item.model}</h4>
+              <h3 style={{color: 'white'}}>{item.item.brand}</h3>
+              <h4 style={{color: 'white'}}>{item.item.model}</h4>
             </div>
-            <h3>{"$" + item.item.price}</h3>
+            <h3 style={{color: 'white'}}>{"$" + item.item.price}</h3>
           </div>
         }
         description={
           <>
-            <div>{item.item.description}</div>
+            <div style={{color: "white" , fontSize: "18px"}}>{item.item.description}</div>
 
             <div
               style={{
@@ -73,7 +73,7 @@ const FavItem = ({ item }) => {
 
            
             <div style={{marginTop:"50px"}}>
-                <h3>Add product to card</h3>
+                <h3 style ={{color: "white"}}>Add product to card</h3>
                {/* <Link to="/cart">  */}
                <Button 
                //style={{background:"#001489", color: checkInCart ? "red": "white"}}

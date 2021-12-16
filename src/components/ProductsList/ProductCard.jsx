@@ -11,6 +11,8 @@ import { cartContext } from "../../contexts/cartContext";
 import { useState } from "react";
 import { favContext } from "../../contexts/favContext";
 
+import './ProductCard.css'
+
 const ProductCard = ({ item }) => {
   const { addProductToCart, checkItemInCart } = useContext(cartContext);
   const [checkInCart, setCheckInCart] = useState(checkItemInCart(item.id));
@@ -24,7 +26,7 @@ const ProductCard = ({ item }) => {
     setCheckInFav(checkItemInFav(item.id))
   })
   return (
-    <Card
+    <Card className="ant-card-body_shop "
       hoverable
       key={item.id}
       style={{ width: "280px", margin: "10px", background: 'transparent' }}
