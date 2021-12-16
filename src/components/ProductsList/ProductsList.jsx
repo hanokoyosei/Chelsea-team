@@ -19,10 +19,10 @@ const ProductsList = () => {
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
   const [limit, setLimit] = useState(
-    searchParams.get("_limit") ? searchParams.get("_limit") : 4
+    searchParams.get("_limit") ? searchParams.get("_limit") : 6
   );
   const [brand, setBrand] = useState([]);
-  const [price, setPrice] = useState([1, 1000000]);
+  const [price, setPrice] = useState([1, 100000]);
   const [showFilters, setShowFilters] = useState(false);
 
   const { getProducts, products, productsTotalCount } =

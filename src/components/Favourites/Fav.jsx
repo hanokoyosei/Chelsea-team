@@ -16,7 +16,7 @@ const Fav = () => {
         itemLayout="vertical"
         size="large"
         dataSource={fav?.products}
-        footer={<h2>Total: {fav?.totalPrice}$</h2>}
+        footer={<h2 style={{color: "white"}}>Total: {fav?.totalPrice}$</h2>}
         renderItem={(item) => <FavItem item={item}/>}
       />
     </div>

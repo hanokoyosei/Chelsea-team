@@ -15,11 +15,11 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
-      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>CHELSEA UPCOMING TOURNAMENTS</h2>
-      <div className="cards">
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%' , color: "white"}}>CHELSEA UPCOMING TOURNAMENTS</h2>
+      <div className="cards ">
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: "rgba(0, 0, 0, 0.514)", border: 'none' }}
           cover={
             <img
               alt="example"
@@ -28,11 +28,11 @@ const Home = () => {
           }
           
         >
-          <Meta title={<a href='https://www.premierleague.com/'><h2 style={{color: 'black'}}>English Premier League</h2></a>} />
+          <Meta title={<a href='https://www.premierleague.com/'><h2 style={{color: 'white'}}>English Premier League</h2></a>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -44,7 +44,7 @@ const Home = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -56,7 +56,7 @@ const Home = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -111,7 +111,7 @@ const Home = () => {
   <h2 style={{color: 'white', marginLeft: '1%'}}>Premier League Table</h2>
   <h2 style={{color: 'white', marginLeft: '1%'}}>2021-22</h2>
   <div class="column">
-    <table style={{backgroundColor: 'white'}}>
+    <table style={{backgroundColor: 'white' , marginLeft: "-2.5%"}}>
       <tr>
         <th>Position</th>
         <th>Club</th>

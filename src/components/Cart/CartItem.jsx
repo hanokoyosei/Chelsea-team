@@ -11,7 +11,7 @@ const CartItem = ({ item }) => {
       key={item.id}
       extra={<img width={272} alt="img" src={item.item.image1} />}
     >
-      <List.Item.Meta
+      <List.Item.Meta style={{color: "white"}}
         title={
           <div
             style={{
@@ -21,15 +21,15 @@ const CartItem = ({ item }) => {
             }}
           >
             <div>
-              <h3>{item.item.brand}</h3>
-              <h4>{item.item.model}</h4>
+              <h3 style={{color: "white"}}>{item.item.brand}</h3>
+              <h4 style={{color: "white"}}>{item.item.model}</h4>
             </div>
-            <h3>{"$" + item.item.price}</h3>
+            <h3 style={{color: "white"}}>{"$" + item.item.price}</h3>
           </div>
         }
         description={
           <>
-            <div>{item.item.description}</div>
+            <div style={{color: "white"}}>{item.item.description}</div>
 
             <div
               style={{
@@ -40,14 +40,14 @@ const CartItem = ({ item }) => {
               }}
             >
               <div>
-                <h4>Quantity</h4>
+                <h4 style={{color: "white"}}>Quantity</h4>
                 <Button onClick={() => changeProductCount(item.count - 1, item.item.id)}>-</Button>
                 <InputNumber value={item.count} disabled />
                 <Button onClick={() => changeProductCount(item.count + 1, item.item.id)}>+</Button>
               </div>
               <div>
-                <h4>SubPrice</h4>
-                <h3>{"$" + item.subPrice}</h3>
+                <h4 style={{color: "white"}}>SubPrice</h4>
+                <h3 style={{color: "white"}}>{"$" + item.subPrice}</h3>
               </div>
 
               
@@ -61,7 +61,7 @@ const CartItem = ({ item }) => {
 
            
             <div style={{marginTop:"50px"}}>
-                <h4>Buy</h4>
+                <h4 style={{color: "white"}}>Buy</h4>
                <Link to="/creditForm"> <Button style={{background:"#001489", color:"white"}}>Оплатить картой</Button></Link> 
               </div>
             
