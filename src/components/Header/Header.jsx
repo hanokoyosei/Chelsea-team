@@ -70,7 +70,7 @@ const Header = () => {
             alt=""
           />
         </Link>
-        < div style = {{display: "flex" , justifyContent: "space-between", width: "150px"}}>
+        < div style = {{display: "flex" , justifyContent: "space-between", width: "150px", marginTop: '2%'}}>
         <div>
           <Link to="/cart">
             <Badge count={+cartLength}>

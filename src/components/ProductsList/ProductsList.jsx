@@ -19,10 +19,10 @@ const ProductsList = () => {
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
   const [limit, setLimit] = useState(
-    searchParams.get("_limit") ? searchParams.get("_limit") : 4
+    searchParams.get("_limit") ? searchParams.get("_limit") : 8
   );
   const [brand, setBrand] = useState([]);
-  const [price, setPrice] = useState([1, 1000000]);
+  const [price, setPrice] = useState([1, 100000]);
   const [showFilters, setShowFilters] = useState(false);
 
   const { getProducts, products, productsTotalCount } =
@@ -55,7 +55,7 @@ const ProductsList = () => {
   return (
     <div className="shop">
       <div> 
-        <input style={{background: 'transparent', color: '#001489'}} className="inp-btn2"
+        <input style={{background: 'transparent', marginTop: '1%'}} className="inp-btn2"
         type="text"
          name="search" 
          value={search}
@@ -66,7 +66,7 @@ const ProductsList = () => {
       <div className="products-search">
       
       <div
-          style={{ cursor: "pointer"}}
+          style={{ cursor: "pointer", marginLeft: '2%'}}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
@@ -81,13 +81,21 @@ const ProductsList = () => {
           setPrice={setPrice}
         />
       ) : null}
-      <div className="products-list">
+      <div style={{display: "flex", width: "100%"}}>
+       <div style={{width: "20%"}}></div>
+        
+       <div className="products-list" style={{width: "80%", flexWrap: "wrap"}}>
         {products.length > 0 ? (
           products.map((item) => <ProductCard item={item} />)
         ) : (
           <Empty style={{ marginBottom: "20px" }} />
         )}
+       </div>
       </div>
+
+  
+  
+    
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Pagination
           onChange={(page, limit) => {
@@ -100,6 +108,8 @@ const ProductsList = () => {
           total={+productsTotalCount}
         />
       </div>
+
+      
     </div>
   );
 };

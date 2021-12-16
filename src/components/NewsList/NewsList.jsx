@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
-import { Pagination, Empty } from "antd";
+import { Empty } from "antd";
 
 import { newsContext } from "../../contexts/newsContext";
 import NewsCard from "./NewsCard";
@@ -13,14 +13,14 @@ const NewsList = () => {
   const [] = useState(
     searchParams.get("q") ? searchParams.get("q") : ""
   );
-  const [page, setPage] = useState(
+  const [] = useState(
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
-  const [limit, setLimit] = useState(
+  const [] = useState(
     searchParams.get("_limit") ? searchParams.get("_limit") : 4
   );
 
-  const { news, newsTotalCount, getNews } =
+  const { news, getNews } =
     useContext(newsContext);
 
   useEffect(() => {
@@ -38,16 +38,6 @@ const NewsList = () => {
        )}
      </div>
      <div style={{ display: "flex", justifyContent: "center" }}>
-     <Pagination
-       onChange={(page, limit) => {
-         setPage(page);
-         setLimit(limit);
-       }}
-       current={+page}
-       pageSize={+limit}
-       defaultCurrent={1}
-       total={+newsTotalCount}
-     />
    </div>
      
    </div>  

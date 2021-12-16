@@ -15,23 +15,24 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
-      <h1 style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>Турниры в которых участвует Chelsea</h1>
-      <div className="cards">
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%' , color: "white"}}>CHELSEA UPCOMING TOURNAMENTS</h2>
+      <div className="cards ">
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: "rgba(0, 0, 0, 0.514)", border: 'none' }}
           cover={
             <img
               alt="example"
               src="https://st1.latestly.com/wp-content/uploads/2019/08/Premier-League-2019-20-Points-Table-Team-Standings.jpg"
             />
           }
+          
         >
-          <Meta title={<h2 style={{color: 'black'}}>English Premier League</h2>} />
+          <Meta title={<a href='https://www.premierleague.com/'><h2 style={{color: 'white'}}>English Premier League</h2></a>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -39,11 +40,11 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'black'}}>UEFA Champions League</h2>} />
+          <Meta title={<a href='https://www.uefa.com/uefachampionsleague/'><h2 style={{color: 'white'}}>UEFA Champions League</h2></a>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -51,11 +52,11 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'black'}}>Emirates FA Cup</h2>} />
+          <Meta title={<a href="https://www.thefa.com/competitions/thefacup"><h2 style={{color: 'white'}}>Emirates FA Cup</h2></a>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'none' }}
+          style={{ width: 320, background: 'rgba(0, 0, 0, 0.514)', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -63,7 +64,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'black'}}>English Football League</h2>} />
+          <Meta title={<a href="https://www.efl.com/"><h2 style={{color: 'white'}}>English Football League</h2></a>} />
         </Card>
       </div>
       <div>
@@ -110,7 +111,7 @@ const Home = () => {
   <h2 style={{color: 'white', marginLeft: '1%'}}>Premier League Table</h2>
   <h2 style={{color: 'white', marginLeft: '1%'}}>2021-22</h2>
   <div class="column">
-    <table style={{backgroundColor: 'white'}}>
+    <table style={{backgroundColor: 'white' , marginLeft: "-2.5%"}}>
       <tr>
         <th>Position</th>
         <th>Club</th>
@@ -184,7 +185,7 @@ const Home = () => {
         <td>27</td>
       </tr>
     </table>
-  <Link to='/table'><Button style={{marginTop: '1%', background: 'transparent', color: 'white'}}>Полная таблица</Button></Link>
+  <Link to='/table'><Button style={{marginTop: '1%', background: 'transparent', color: 'white'}}>Full table</Button></Link>
   </div>
 </div>
       

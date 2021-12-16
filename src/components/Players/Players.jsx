@@ -21,14 +21,14 @@ const Players = () => {
           {players.map((item) => (
               <Card
               hoverable
-              style={{ width: 240, flexBasis: '20%', background: 'transparent' }}
+              style={{ width: 240, flexBasis: '20%', background: 'transparent'}}
               cover={<img alt="example" src={item.photo} />}
             >
-              <Meta title={`Name: ${item.player}`}/>
-              <Meta title={`Nationality: ${item.nationality}`}/>
-              <Meta title={`Age: ${item.age}`}/>
-              <Meta title={`Number: ${item.number}`}/>
-              <Meta title={`Position: ${item.position}`}/>
+              <Meta title={`Name: ${<h4 style={{color: "white"}}>{item.player}</h4>}`}/>
+              <Meta style={{color: "white"}} title={`Nationality: ${item.nationality}`}/>
+              <Meta style={{color: "white"}} title={`Age: ${item.age}`}/>
+              <Meta style={{color: "white"}} title={`Number: ${item.number}`}/>
+              <Meta style={{color: "white"}} title={`Position: ${item.position}`}/>
             </Card>
           ))}
         </div>
