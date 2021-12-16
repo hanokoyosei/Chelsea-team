@@ -64,7 +64,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<a href="<h2 style={{color: 'white'}}>English Football League</h2>"><h2 style={{color: 'white'}}>English Football League</h2></a>} />
+          <Meta title={<a href="https://www.efl.com/"><h2 style={{color: 'white'}}>English Football League</h2></a>} />
         </Card>
       </div>
       <div>

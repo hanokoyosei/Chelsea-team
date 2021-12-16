@@ -10,7 +10,7 @@ const LoginButton = () => {
   } = useAuth();
 
   return (
-    <div>
+    <div style={{display: 'flex'}}>
       {email ? (
         <Link to="/auth">
           <button className="sign-btn" onClick={handleLogout}>
@@ -27,6 +27,7 @@ const LoginButton = () => {
 
       {email === "akjol2001@gmail.com" ? (
         <Link
+          style={{marginTop: '16%'}}
           className={
             location.pathname === "/admin"
               ? "navbar__item-active"

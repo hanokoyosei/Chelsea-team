@@ -55,7 +55,7 @@ const ProductsList = () => {
   return (
     <div className="shop">
       <div> 
-        <input style={{background: 'transparent', color: '#001489'}} className="inp-btn2"
+        <input style={{background: 'transparent', marginTop: '1%'}} className="inp-btn2"
         type="text"
          name="search" 
          value={search}
@@ -66,7 +66,7 @@ const ProductsList = () => {
       <div className="products-search">
       
       <div
-          style={{ cursor: "pointer"}}
+          style={{ cursor: "pointer", marginLeft: '2%'}}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
