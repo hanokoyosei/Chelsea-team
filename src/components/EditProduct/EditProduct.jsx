@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Button, Form, Input, InputNumber } from "antd";
 import { productsContext } from "../../contexts/productsContext";
+import "./EditProduct.css"
 import { brandsContext } from "../../contexts/brandsContext";
 
 const EditProduct = () => {
@@ -23,8 +24,8 @@ const EditProduct = () => {
     updateProduct(params.id, values).then(() => navigate("/admin"));
   };
   return (
-    <div className="container" style={{ marginTop: "15px" }}>
-      <h2>Edit product</h2>
+    <div className="editProducts" style={{ marginTop: "15px" }}>
+      <h2 style={{display: 'flex', justifyContent: 'center', color: 'white'}}>Edit product</h2>
       <Form
         name="basic"
         onFinish={onFinish}
@@ -32,8 +33,9 @@ const EditProduct = () => {
         layout="vertical"
         form={form}
       >
+        <div style={{width: '500px', marginLeft: '35%'}}>
         <Form.Item
-          label="Categories"
+          label={<h3 style={{color: 'white'}}>Categories</h3>}
           name="brand"
           rules={[
             {
@@ -46,7 +48,7 @@ const EditProduct = () => {
         </Form.Item>
 
         <Form.Item
-          label="Model"
+          label={<h3 style={{color: 'white'}}>Model</h3>}
           name="model"
           rules={[
             {
@@ -59,7 +61,7 @@ const EditProduct = () => {
         </Form.Item>
 
         <Form.Item
-          label="Description"
+          label={<h3 style={{color: 'white'}}>Description</h3>}
           name="description"
           rules={[
             {
@@ -72,7 +74,7 @@ const EditProduct = () => {
         </Form.Item>
 
         <Form.Item
-          label="Price"
+          label={<h3 style={{color: 'white'}}>Price</h3>}
           name="price"
           rules={[
             {
@@ -85,7 +87,7 @@ const EditProduct = () => {
         </Form.Item>
 
         <Form.Item
-          label="Image 1"
+          label={<h3 style={{color: 'white'}}>Image</h3>}
           name="image1"
           rules={[
             {
@@ -96,14 +98,14 @@ const EditProduct = () => {
         >
           <Input />
         </Form.Item>
-
+          </div>
         <Form.Item
           wrapperCol={{
             offset: 9,
             span: 16,
           }}
         >
-          <Button type="primary" htmlType="submit">
+          <Button type="primary" htmlType="submit" style={{marginLeft: '17%'}}>
             Edit product
           </Button>
         </Form.Item>

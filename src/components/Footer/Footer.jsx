@@ -9,7 +9,7 @@ import {
  
 const Footer = () => { 
   return ( 
-    <div className="first-footer"> 
+    <div className="first-footer">
       <div className="back"> 
         <a style={{ color: "#2554C7" }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> 
           BACK TO TOP 
@@ -66,7 +66,7 @@ const Footer = () => {
          <p>© 2021 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</p>
        </div>
        </div>
-      </div> 
+      </div>
   ); 
 }; 
  

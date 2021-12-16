@@ -12,7 +12,7 @@ import AdminPlayers from "../components/AdminPlayers/AdminPlayers";
 
 const AdminPage = () => {
   return (
-    <div className="page" style={{ marginTop: "15px", marginLeft: '2%' }}>
+    <div className="page" style={{ marginTop: "15px" }}>
       <Row>
         <Col span={12}>
           <Col span={22}>

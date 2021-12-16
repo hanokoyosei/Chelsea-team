@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Button, Form, Input } from "antd";
+import "./EditNews.css"
 import { newsContext } from "../../contexts/newsContext";
 
 const EditNews = () => {
@@ -23,7 +24,7 @@ const EditNews = () => {
   };
   return (
     <div className="editNews" style={{ marginTop: "15px" }}>
-      <h2 style={{display: 'flex', justifyContent: 'center'}}>Edit news</h2>
+      <h2 style={{display: 'flex', justifyContent: 'center', color: 'white'}}>Edit news</h2>
         <Form
           name="basic"
           onFinish={onFinish}
@@ -32,7 +33,7 @@ const EditNews = () => {
         >
           <div style={{width: '500px', marginLeft: '35%'}}>
           <Form.Item
-            label="News title"
+            label={<h3 style={{color: 'white'}}>News title</h3>}
             name="title"
             rules={[
               {
@@ -45,7 +46,7 @@ const EditNews = () => {
           </Form.Item>
 
           <Form.Item
-            label="Description"
+            label={<h3 style={{color: 'white'}}>Description</h3>}
             name="description"
             rules={[
               {
@@ -58,7 +59,7 @@ const EditNews = () => {
           </Form.Item>
 
           <Form.Item
-            label="Paragraph"
+            label={<h3 style={{color: 'white'}}>Paragraph</h3>}
             name="paragraph"
             rules={[
               {
@@ -71,7 +72,7 @@ const EditNews = () => {
           </Form.Item>
 
            <Form.Item
-            label="Image 1"
+            label={<h3 style={{color: 'white'}}>Image</h3>}
             name="image1"
             rules={[
               {
