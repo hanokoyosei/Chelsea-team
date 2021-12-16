@@ -1,15 +1,7 @@
 @media screen and (min-width: 600px) {
 nav {
-  /* height: 8vh;
-  background-color: #001489;
-  color: white;
-  display: flex;
-  justify-content: flex-end;
-  padding: 0 5vw;
-  align-items: center; */
-
   background: #696969;
-    background: rgba(0,0,0,0.4);
+    background-image: url(https://i.imgur.com/b0d9eKV.jpg);
     height: 80px;
     display: flex;
     justify-content: end;
@@ -33,6 +25,7 @@ nav {
   width: 90px;
   border-radius: 20% ;
   font-size: 18px;
+  margin-top: 25%;
 }
 
 .sign-btn:hover{
@@ -52,7 +45,7 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid #001489;
+
   font-size: large;
 
 }
@@ -81,7 +74,7 @@ nav {
 }
 
 .div{
-  background-image: url();
+  background-image: url(https://i.imgur.com/b0d9eKV.jpg);
 }
 
 .header a{

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Button, Form, Input } from "antd";
+import "./EditNews.css"
 import { newsContext } from "../../contexts/newsContext";
 
 const EditNews = () => {
@@ -22,16 +23,17 @@ const EditNews = () => {
     updateNews(params.id, values).then(() => navigate("/admin"));
   };
   return (
-    <div className="container" style={{ marginTop: "15px" }}>
-      <h2>Edit news</h2>
+    <div className="editNews" style={{ marginTop: "15px" }}>
+      <h2 style={{display: 'flex', justifyContent: 'center', color: 'white'}}>Edit news</h2>
         <Form
           name="basic"
           onFinish={onFinish}
           autoComplete="off"
           layout="vertical"
         >
+          <div style={{width: '500px', marginLeft: '35%'}}>
           <Form.Item
-            label="News title"
+            label={<h3 style={{color: 'white'}}>News title</h3>}
             name="title"
             rules={[
               {
@@ -44,7 +46,7 @@ const EditNews = () => {
           </Form.Item>
 
           <Form.Item
-            label="Description"
+            label={<h3 style={{color: 'white'}}>Description</h3>}
             name="description"
             rules={[
               {
@@ -57,7 +59,7 @@ const EditNews = () => {
           </Form.Item>
 
           <Form.Item
-            label="Paragraph"
+            label={<h3 style={{color: 'white'}}>Paragraph</h3>}
             name="paragraph"
             rules={[
               {
@@ -70,7 +72,7 @@ const EditNews = () => {
           </Form.Item>
 
            <Form.Item
-            label="Image 1"
+            label={<h3 style={{color: 'white'}}>Image</h3>}
             name="image1"
             rules={[
               {
@@ -81,14 +83,14 @@ const EditNews = () => {
           >
             <Input />
           </Form.Item>
-
+            </div>
           <Form.Item
             wrapperCol={{
               offset: 9,
               span: 16,
             }}
           >
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" style={{marginLeft: '17%'}}>
               Edit news
             </Button>
           </Form.Item>

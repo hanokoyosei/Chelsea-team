@@ -9,7 +9,8 @@ import {
  
 const Footer = () => { 
   return ( 
-    <div className="first-footer"> 
+    <div className="first-footer">
+    <div>
       <div className="back"> 
         <a style={{ color: "#2554C7" }} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}> 
           BACK TO TOP 
@@ -40,16 +41,16 @@ const Footer = () => {
           <div className="footer"> 
           <div className="ins">  
             <a href='https://www.facebook.com/ChelseaFC'> 
-              <FacebookOutlined /> 
+              <FacebookOutlined style={{color: 'white'}} /> 
             </a> 
             <a href='https://twitter.com/chelseafc'> 
-              <TwitterOutlined /> 
+              <TwitterOutlined style={{color: 'white'}} /> 
             </a>
             <a href='https://www.instagram.com/chelseafc/'> 
-              <InstagramOutlined /> 
+              <InstagramOutlined style={{color: 'white'}} /> 
             </a> 
             <a href='https://www.youtube.com/chelseafc'> 
-              <YoutubeOutlined /> 
+              <YoutubeOutlined style={{color: 'white'}} /> 
             </a> 
           </div> 
           </div> 
@@ -66,7 +67,8 @@ const Footer = () => {
          <p>© 2021 Chelsea FC. All rights reserved. No part of this site may be reproduced without our written permission.</p>
        </div>
        </div>
-      </div> 
+      </div>
+      </div>
   ); 
 }; 
  

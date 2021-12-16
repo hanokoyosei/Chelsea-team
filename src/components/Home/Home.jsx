@@ -19,7 +19,7 @@ const Home = () => {
       <div className="cards">
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -32,7 +32,7 @@ const Home = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -44,7 +44,7 @@ const Home = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -56,10 +56,9 @@ const Home = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
-              style={{borderRadius: '50%'}}
               alt="example"
               src="https://i0.wp.com/www.busybuddiesng.com/wp-content/uploads/2017/09/carabao-cup-logo.jpg?w=1440&ssl=1"
             />
@@ -78,40 +77,41 @@ const Home = () => {
       <Link to='/news_daty_matchey'>  
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '2%' }}
+              style={{ width: 440, marginLeft: '2%', border: 'none', backgroundColor: '#001489' }}
               
               cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
-              <Meta style={{}} title={<h3>Официально: даты матчей Лиги Чемпионов <br/> против «Лилля»</h3>}/>
+              <Meta style={{}} title={<h3 style={{color: 'white'}}>Официально: даты матчей Лиги Чемпионов <br/> против «Лилля»</h3>}/>
       </Card>
       </Link>
 
       <Link to='/news_Christensen_prodlit'>
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '4%' }}
+              style={{ width: 440, marginLeft: '4%', border: 'none', backgroundColor: '#001489' }}
               cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
-              <Meta style={{}} title={<h3>Кристенсен продлит контракт с «Челси» на <br/> 4 года</h3>}/>
+              <Meta style={{}} title={<h3 style={{color: 'white'}}>Кристенсен продлит контракт с «Челси» на <br/> 4 года</h3>}/>
       </Card>
       </Link>
 
       <Link to='/news_Mount_semeinaya'>
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '4%' }}
+              style={{ width: 440, marginLeft: '4%', border: 'none', backgroundColor: '#001489' }}
               cover={<img src='https://chelseablues.ru/_nw/789/15976084.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
-              <Meta style={{}} title={<h3>Маунт: «Семейная атмосфера в «Челси» <br/> подпитывает нас к победе в Премьер-лиге»</h3>}/>
+              <Meta style={{}} title={<h3 style={{color: 'white'}}>Маунт: «Семейная атмосфера в «Челси» <br/> подпитывает нас к победе в Премьер-лиге»</h3>}/>
       </Card>
       </Link>
       </div>
 
   <div class="row" style={{ marginLeft: '4%', marginTop: '3%'}}>
-  <h2>Premier League Table</h2>
-  <h3>2021-22</h3>
+  <img src='https://logodownload.org/wp-content/uploads/2016/03/premier-league-5.png' alt='' style={{width: '50px', height: '50px'}} />
+  <h2 style={{color: 'white', marginLeft: '1%'}}>Premier League Table</h2>
+  <h2 style={{color: 'white', marginLeft: '1%'}}>2021-22</h2>
   <div class="column">
-    <table>
+    <table style={{backgroundColor: 'white'}}>
       <tr>
         <th>Position</th>
         <th>Club</th>
@@ -185,14 +185,13 @@ const Home = () => {
         <td>27</td>
       </tr>
     </table>
-  <Link to='/table'><Button> Full table </Button></Link>
+  <Link to='/table'><Button style={{marginTop: '1%', background: 'transparent', color: 'white'}}>Full table</Button></Link>
   </div>
 </div>
       
 
       </div>
   );
-};
+        }
 
 export default Home;
-

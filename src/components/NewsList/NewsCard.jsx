@@ -22,7 +22,7 @@ const NewsCard = () => {
               hoverable
               key={item.id}
               style={{ width: '580px', margin: '10px' }}
-              cover={<img alt="example" src={item.image1} style={{width: '550px', marginLeft: '2.5%'}}/>}
+              cover={<img alt="example" src={item.image1} style={{width: '550px', height: '350px', marginLeft: '2.5%'}}/>}
               actions={[<StarOutlined style={{ color: "black", fontSize: "25px" }} />]}>
               <Meta
               title={<h4>{item.title}</h4>}

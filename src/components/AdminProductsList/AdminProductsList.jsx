@@ -49,7 +49,6 @@ const AdminProductsList = () => {
                 delete
               </a>,
               <Link to={`/edit/${item.id}`}>edit</Link>,
-              <Link to={`/trophies/${item.id}`}>more</Link>,
             ]}
           >
             <List.Item.Meta
@@ -62,16 +61,6 @@ const AdminProductsList = () => {
             />
           </List.Item>
         )}
-      />
-      <Pagination
-        onChange={(page, limit) => {
-          setCurrentPage(page);
-          setLimit(limit);
-        }}
-        current={+currentPage}
-        defaultCurrent={1}
-        total={+productsTotalCount}
-        pageSize={+limit}
       />
     </>
   );

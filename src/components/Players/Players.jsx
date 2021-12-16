@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { Card } from "antd";
-
+import "./Players.css"
 import { playersContext } from '../../contexts/playersContext';
 
 const { Meta } = Card;
@@ -11,7 +11,7 @@ const Players = () => {
     }, [])
     return (
         <div 
-        className="container"
+        className="players"
         style={{
         display: "flex",
         flexWrap: "wrap",
@@ -21,7 +21,7 @@ const Players = () => {
           {players.map((item) => (
               <Card
               hoverable
-              style={{ width: 240 }}
+              style={{ width: 240, flexBasis: '20%', background: 'transparent' }}
               cover={<img alt="example" src={item.photo} />}
             >
               <Meta title={`Name: ${item.player}`}/>
