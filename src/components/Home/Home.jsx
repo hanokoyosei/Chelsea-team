@@ -15,7 +15,7 @@ const contentStyle = {
 const Home = () => {
   return (
     <div className='body'>
-      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>Турниры в которых участвует Chelsea</h2>
+      <h2 style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>CHELSEA UPCOMING TOURNAMENTS</h2>
       <div className="cards">
         <Card
           hoverable
@@ -26,8 +26,9 @@ const Home = () => {
               src="https://st1.latestly.com/wp-content/uploads/2019/08/Premier-League-2019-20-Points-Table-Team-Standings.jpg"
             />
           }
+          
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Premier League</h2>} />
+          <Meta title={<a href='https://www.premierleague.com/'><h2 style={{color: 'black'}}>English Premier League</h2></a>} />
         </Card>
         <Card
           hoverable
@@ -39,7 +40,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>UEFA Champions League</h2>} />
+          <Meta title={<a href='https://www.uefa.com/uefachampionsleague/'><h2 style={{color: 'white'}}>UEFA Champions League</h2></a>} />
         </Card>
         <Card
           hoverable
@@ -51,7 +52,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>Emirates FA Cup</h2>} />
+          <Meta title={<a href="https://www.thefa.com/competitions/thefacup"><h2 style={{color: 'white'}}>Emirates FA Cup</h2></a>} />
         </Card>
         <Card
           hoverable
@@ -64,7 +65,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Football League</h2>} />
+          <Meta title={<a href="<h2 style={{color: 'white'}}>English Football League</h2>"><h2 style={{color: 'white'}}>English Football League</h2></a>} />
         </Card>
       </div>
       <div>
@@ -184,7 +185,7 @@ const Home = () => {
         <td>27</td>
       </tr>
     </table>
-  <Link to='/table'><Button>Полная таблица</Button></Link>
+  <Link to='/table'><Button> Full table </Button></Link>
   </div>
 </div>
       
