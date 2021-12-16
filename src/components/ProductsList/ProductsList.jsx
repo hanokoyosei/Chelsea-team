@@ -82,7 +82,7 @@ const ProductsList = () => {
         />
       ) : null}
       <div style={{display: "flex", width: "100%"}}>
-       <div></div>
+       <div style={{width: "20%"}}></div>
         
        <div className="products-list" style={{width: "80%", flexWrap: "wrap"}}>
         {products.length > 0 ? (
