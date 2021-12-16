@@ -19,7 +19,7 @@ const ProductsList = () => {
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
   const [limit, setLimit] = useState(
-    searchParams.get("_limit") ? searchParams.get("_limit") : 6
+    searchParams.get("_limit") ? searchParams.get("_limit") : 8
   );
   const [brand, setBrand] = useState([]);
   const [price, setPrice] = useState([1, 100000]);
@@ -81,13 +81,21 @@ const ProductsList = () => {
           setPrice={setPrice}
         />
       ) : null}
-      <div className="products-list">
+      <div style={{display: "flex", width: "100%"}}>
+       <div></div>
+        
+       <div className="products-list" style={{width: "80%", flexWrap: "wrap"}}>
         {products.length > 0 ? (
           products.map((item) => <ProductCard item={item} />)
         ) : (
           <Empty style={{ marginBottom: "20px" }} />
         )}
+       </div>
       </div>
+
+  
+  
+    
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Pagination
           onChange={(page, limit) => {
@@ -100,6 +108,8 @@ const ProductsList = () => {
           total={+productsTotalCount}
         />
       </div>
+
+      
     </div>
   );
 };
