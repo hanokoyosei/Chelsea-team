@@ -55,13 +55,17 @@ const Header = () => {
     },
   ];
   return (
+    <div className="div">
     <div>
       <nav>
          <LoginButton />
       </nav>
+
+      
       <div className="header">
         <Link to="/">
           <img
+            style={{display:"flex",justifyContent:"center"}}
             className="img"
             width="400px"
             src="https://logos-world.net/wp-content/uploads/2020/05/Chelsea-Logo.png"
@@ -73,22 +77,25 @@ const Header = () => {
           <Link to="/cart">
             <Badge count={+cartLength}>
               <ShoppingCartOutlined
-                style={{ fontSize: "40px", cursor: "pointer" }}
+                style={{ fontSize: "40px", cursor: "pointer" ,color: "white" }}
               />
             </Badge>
           </Link>
+          
         </div>
         <div>
         <Link to="/fav">
             <Badge count={+favLength}>
               <StarOutlined
-                style={{ fontSize: "40px", cursor: "pointer" }}
+                style={{ fontSize: "40px", cursor: "pointer", color: "white" }}
               />
             </Badge>
           </Link>
         </div>
         </div>        
       </div>
+      
+      
       <div className="navbar">
         
         {NAV_ITEMS.map((item) => (
@@ -106,6 +113,7 @@ const Header = () => {
 
        
       </div>
+    </div>
     </div>
   );
 };

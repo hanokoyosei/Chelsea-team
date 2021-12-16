@@ -15,12 +15,12 @@ const Footer = () => {
           BACK TO TOP 
         </a> 
       </div> 
-      <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
+      <div className="footer_card" style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
           <a href='https://www.nike.com/'><img src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/site-assets/partner-logos/Nike_XL_Color%403x' alt='' /></a>
           <a href='http://www.three.co.uk/chelseafc?id=WH_21'><img src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/three_-_footer' alt='' /></a>
           <a href='https://www.trivago.com/?cip=1010725040101'><img src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/trivago_-_footer_-_trans' alt='' /></a>
       </div>
-          <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
+          <div className="footer_card" style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
           <a href='https://www.cadbury.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/cadbury_-_footer' alt='' /></a>
           <a href='https://www.ea.com/en-gb/games/fifa/fifa-21'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/ea_-_footer_-_trans' alt='' /></a>
           <a href='https://www.fiserv.com/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/fiserv_-_footer_-_trans' alt='' /></a>
@@ -29,7 +29,7 @@ const Footer = () => {
           <a href='https://www.hyundai.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/site-assets/partner-logos/hyundai_-_footer' alt='' /></a>
           <a href='https://www.msccruises.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/MSC_-_footer_-_trans' alt='' /></a>
           </div>
-          <div style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
+          <div className="footer_card" style={{display: 'flex', justifyContent: 'center', marginTop: '2%'}}>
           <a href='https://parimatch.com/en?tid=pr_a9b1_Chelsea_logo_footer_pmhomepage&traffic_back_url=%27parimatch.com%2Fen%27'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/parimatch_-_footer' alt='' /></a>
           <a href='https://www.singha.com/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/singha_-_footer' alt='' /></a>
           <a href='https://www.suredeodorant.co.uk/'><img style={{width: '120px'}} src='https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,q_auto,w_232,z_1.0/v1/logos/sponsors/footer-logos/sure_-_footer_-_trans' alt='' /></a>
@@ -53,7 +53,7 @@ const Footer = () => {
             </a> 
           </div> 
           </div> 
-          <div style={{display: 'flex', justifyContent: 'space-around', marginTop: '2%'}}>
+          <div className="footer-labels" style={{display: 'flex', justifyContent: 'space-around', marginTop: '2%'}}>
          <a href='https://www.chelseafc.com/en/about-chelsea/contact-us?pageTab=%20Contact%20Us:%20By%20Email'><h3 className="hh">Contact Us</h3></a>
          <a href='https://www.chelseafc.com/en/about-chelsea/faqs'><h3 className="hh">FAQs</h3></a>
          <a href='https://www.chelseafc.com/en/about-chelsea/about-the-club/careers'><h3 className="hh">Careers</h3></a>
