@@ -22,14 +22,15 @@ const EditNews = () => {
     updateNews(params.id, values).then(() => navigate("/admin"));
   };
   return (
-    <div className="container" style={{ marginTop: "15px" }}>
-      <h2>Edit news</h2>
+    <div className="editNews" style={{ marginTop: "15px" }}>
+      <h2 style={{display: 'flex', justifyContent: 'center'}}>Edit news</h2>
         <Form
           name="basic"
           onFinish={onFinish}
           autoComplete="off"
           layout="vertical"
         >
+          <div style={{width: '500px', marginLeft: '35%'}}>
           <Form.Item
             label="News title"
             name="title"
@@ -81,14 +82,14 @@ const EditNews = () => {
           >
             <Input />
           </Form.Item>
-
+            </div>
           <Form.Item
             wrapperCol={{
               offset: 9,
               span: 16,
             }}
           >
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" style={{marginLeft: '17%'}}>
               Edit news
             </Button>
           </Form.Item>

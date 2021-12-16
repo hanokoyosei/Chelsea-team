@@ -9,7 +9,6 @@ import { productsContext } from "../../contexts/productsContext";
 import Filters from "../Filters/Filters";
 import "./ProductsList.css";
 import ProductCard from "./ProductCard";
-// import NewsCard from "../NewsList/NewsCard";
 
 const ProductsList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -54,33 +53,24 @@ const ProductsList = () => {
   }, [search, page, limit, brand, price]);
   console.log(products);
   return (
-    <div className="container" style={{ marginTop: "20px" }}>
+    <div className="shop">
       <div> 
-       
-        <input className="inp-btn2"
+        <input style={{background: 'transparent', color: '#001489'}} className="inp-btn2"
         type="text"
          name="search" 
          value={search}
-         placeholder="Search.."
-         onChange={(e) => setSearch(e.target.value)}
-
-         >
-
+         placeholder="Search..."
+         onChange={(e) => setSearch(e.target.value)} >
          </input>
         </div>
       <div className="products-search">
       
-
-
-        <div
+      <div
           style={{ cursor: "pointer"}}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
-        </div>
-       
       </div>
-      <div>
        
       </div>
       {showFilters ? (

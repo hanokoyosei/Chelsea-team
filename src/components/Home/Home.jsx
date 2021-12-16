@@ -14,12 +14,12 @@ const contentStyle = {
 };
 const Home = () => {
   return (
-    <div className='body'>
-      <h1 style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'white'}}>Турниры которые участвует Челси</h1>
+    <div className='home'>
+      <h1 style={{display: 'flex', justifyContent: 'center', marginTop: '2%', color: 'black'}}>Турниры которые участвует Челси</h1>
       <div className="cards">
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -27,11 +27,11 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Premier League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>English Premier League</h2>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -39,11 +39,11 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>UEFA Champions League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>UEFA Champions League</h2>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
               alt="example"
@@ -51,20 +51,19 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>Emirates FA Cup</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>Emirates FA Cup</h2>} />
         </Card>
         <Card
           hoverable
-          style={{ width: 320, background: 'transparent', border: 'transparent' }}
+          style={{ width: 320, background: 'transparent', border: 'none' }}
           cover={
             <img
-              style={{borderRadius: '50%'}}
               alt="example"
               src="https://i0.wp.com/www.busybuddiesng.com/wp-content/uploads/2017/09/carabao-cup-logo.jpg?w=1440&ssl=1"
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Football League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>English Football League</h2>} />
         </Card>
       </div>
       <div>
@@ -77,7 +76,7 @@ const Home = () => {
       <Link to='/news_daty_matchey'>  
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '2%' }}
+              style={{ width: 440, marginLeft: '2%', border: 'none', background: 'transparent' }}
               
               cover={<img src='https://chelseablues.ru/_nw/789/56837579.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
@@ -88,7 +87,7 @@ const Home = () => {
       <Link to='/news_Christensen_prodlit'>
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '4%' }}
+              style={{ width: 440, marginLeft: '4%', border: 'none', background: 'transparent' }}
               cover={<img src='https://chelseablues.ru/_nw/789/67991365.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
               <Meta style={{}} title={<h3>Кристенсен продлит контракт с «Челси» на <br/> 4 года</h3>}/>
@@ -98,15 +97,12 @@ const Home = () => {
       <Link to='/news_Mount_semeinaya'>
       <Card
               hoverable
-              style={{ width: 440, marginLeft: '4%' }}
+              style={{ width: 440, marginLeft: '4%', border: 'none', background: 'transparent' }}
               cover={<img src='https://chelseablues.ru/_nw/789/15976084.jpg' alt='' style={{width: '400px', height: '250px', marginLeft: '4%'}} />}
             >
               <Meta style={{}} title={<h3>Маунт: «Семейная атмосфера в «Челси» <br/> подпитывает нас к победе в Премьер-лиге»</h3>}/>
       </Card>
       </Link>
-      </div>
-      <div>
-  
       </div>
       </div>
   );

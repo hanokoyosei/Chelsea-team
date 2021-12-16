@@ -3,9 +3,13 @@
     justify-content: space-between;
 }
 
-input .inp-btn2{
-    width: 1100px;
-    border: 1px solid  #001489;
-    margin-bottom: 50px;    
-  }
+.inp-btn2{
+    width: 300px;
+    border: 1px transparent  black;
+    margin-bottom: 50px;   
+    margin-left: 40%;
+}
 
+.shop {
+    background-image: url(https://www.footballshirtculture.com/images/stories/chelsea-2021-2022-home-kit/chelsea_2021_2022_home_kit_a.jpeg);
+}

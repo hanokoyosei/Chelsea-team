@@ -20,8 +20,8 @@ const ProductCard = ({ item }) => {
     <Card
       hoverable
       key={item.id}
-      style={{ width: "280px", margin: "10px" }}
-      cover={<img alt="example" src={item.image1} />}
+      style={{ width: "280px", margin: "10px", background: 'transparent' }}
+      cover={<img alt="example" src={item.image1} style={{width: '250px', marginLeft: '5.5%'}} />}
       actions={[
         <StarOutlined style={{ color: "black", fontSize: "25px" }} />,
         <ShoppingCartOutlined
@@ -40,11 +40,11 @@ const ProductCard = ({ item }) => {
       ]}
     >
       <Card.Meta
-        title={item.brand}
+        title={<h3 style={{color: 'white'}}>{item.brand}</h3>}
         description={
           <>
-            <h3>{item.model}</h3>
-            <h2>{"$" + item.price}</h2>
+            <h3 style={{color: 'white'}}>{item.model}</h3>
+            <h2 style={{color: 'white'}}>{"$" + item.price}</h2>
           </>
         }
       />

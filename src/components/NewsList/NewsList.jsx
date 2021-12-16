@@ -6,7 +6,7 @@ import { Pagination, Empty } from "antd";
 
 import { newsContext } from "../../contexts/newsContext";
 import NewsCard from "./NewsCard";
-
+import "./NewsList.css"
 
 const NewsList = () => {
   const [searchParams] = useSearchParams();
@@ -29,7 +29,7 @@ const NewsList = () => {
 
   return (
     
-      <div>
+      <div className='body'>
       <div className="news-list">
        {news.length > 0 ? (
          <NewsCard/>
