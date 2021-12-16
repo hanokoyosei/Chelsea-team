@@ -107,8 +107,11 @@ export default class App extends React.Component {
                   name="expiry" 
                   className="form-control" 
                   placeholder="Valid Thru" 
+                  maxLength={3}
                   pattern="\d\d/\d\d" 
                   required 
+                  // onChange={this.handleInputChange} 
+                  onFocus={this.handleInputFocus} 
                   maxLength={4}
                   onChange={this.handleInputChange} 
                   // onFocus={this.handleInputFocus} 
@@ -120,7 +123,7 @@ export default class App extends React.Component {
                   name="cvc" 
                   className="form-control" 
                   placeholder="CVC" 
-                  maxLength={3} 
+                  maxLength={3}
                   required 
                   onChange={this.handleInputChange} 
                   onFocus={this.handleInputFocus} 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
 import Auth from "./components/Auth/Auth";
 import BrandsList from "./components/BrandsList/BrandsList";
 import Cart from "./components/Cart/Cart";
@@ -18,6 +17,9 @@ import SuccessCredit from "./components/creditCart/SuccessCredit"
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
 import News3 from "./components/News/News3";
+import Fav from "./components/Favourites/Fav";
+import Table from "./components/Table/Table";
+import CreditForm from "./components/creditCart/CreditForm"
 import EditNews from "./components/EditNews/EditNews";
 
 const Routing = () => {
@@ -29,7 +31,7 @@ const Routing = () => {
     },
     {
       link: "/trophies",
-      element: <ProductsList />,
+      element: <ProductsList/>,
       id: 2,
     },
     {
@@ -62,33 +64,47 @@ const Routing = () => {
       element:<Players/>,
       id:8
     },
+    
     {
-
       link:"/successCredit",
       element:<SuccessCredit/>
     },
     {
       link: '/news_daty_matchey',
       element: <News />,
-      id: 9
+      id: 10
     },
     {
       link: '/news_Christensen_prodlit',
       element: <News2 />,
-      id: 10
+      id: 11
 
     },
     {
       link: "/news",
       element:<NewsList/>,
-      id:11
+      id:12
     },
     {
       link: "/news_Mount_semeinaya",
       element:<News3/>,
-      id:12
+      id:13
     },
-   
+    {
+      link: "/fav",
+      element: <Fav/>,
+      id: 14
+    },
+    {
+      link: "/table",
+      element:<Table/>,
+      id:15
+    },
+    {
+      link:"/creditForm",
+      element:<CreditForm/>
+
+    }
   ];
   const ADMIN_ROUTES = [
     {

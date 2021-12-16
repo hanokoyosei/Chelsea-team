@@ -62,16 +62,6 @@ const AdminProductsList = () => {
           </List.Item>
         )}
       />
-      <Pagination
-        onChange={(page, limit) => {
-          setCurrentPage(page);
-          setLimit(limit);
-        }}
-        current={+currentPage}
-        defaultCurrent={1}
-        total={+productsTotalCount}
-        pageSize={+limit}
-      />
     </>
   );
 };

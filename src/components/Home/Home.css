@@ -1,4 +1,4 @@
-.home {
+body {
     background-image: url(https://news.cgtn.com/news/2021-05-30/Chelsea-beat-Man-City-to-win-Champions-League-for-2nd-time-10GeXuwRbag/img/007068fde7c24005a3b7aa2915e1367d/007068fde7c24005a3b7aa2915e1367d.png);
 }
 
@@ -9,6 +9,7 @@
 }
 
 .cards {
+
     margin-top: 3%;
     display: flex;
     justify-content: center;
@@ -28,3 +29,86 @@
 .cards img {
     width: 315px;
 }
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+  }
+    
+  .column {
+    width: 100%;
+    float: left;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .cards{
+      display: grid;
+      grid-column-gap: 25px;
+    }
+    .ant-card{
+      margin-top: 10px;
+    }
+  
+    .news{
+      display: grid!important;
+      grid-column-gap: 25px;
+    }
+
+    .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    .row{
+      width: 100%!important;
+    }
+    .tr{
+      width: 385px!important;
+    }
+    h2{
+      text-align: center;
+      width: 50%;
+      margin: auto;
+    }
+    h3{
+      margin: auto;
+      width: 50%;
+      text-align: center;
+    }
+    .ant-card-meta-title{
+      display: block;
+      white-space:normal!important;
+    }
+    table{
+      width: auto!important;
+    }
+  }
