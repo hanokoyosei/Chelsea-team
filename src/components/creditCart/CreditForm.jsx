@@ -49,6 +49,7 @@ const creditForm = () => {
               <Option value="Ош">Ош</Option>
             </Select>
           </Form.Item>
+          <br/>   <br/> 
           <Form.Item
             name={['address', 'street']}
             noStyle
@@ -75,11 +76,12 @@ const creditForm = () => {
         </Form.Item>
       </Form.Item>
       <Form.Item label=" " colon={false}>
-          <Link to="/creditCart"> 
-        <Button type="primary" htmlType="submit">
-          Submit
+         <Link to="/creditCart">
+        <Button  type="primary" htmlType="submit">
+        Submit
         </Button>
         </Link>
+        
       </Form.Item>
     </Form>
     </div>

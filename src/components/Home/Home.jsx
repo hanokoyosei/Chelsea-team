@@ -27,7 +27,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Premier League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>English Premier League</h2>} />
         </Card>
         <Card
           hoverable
@@ -39,7 +39,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>UEFA Champions League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>UEFA Champions League</h2>} />
         </Card>
         <Card
           hoverable
@@ -51,7 +51,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>Emirates FA Cup</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>Emirates FA Cup</h2>} />
         </Card>
         <Card
           hoverable
@@ -64,7 +64,7 @@ const Home = () => {
             />
           }
         >
-          <Meta title={<h2 style={{color: 'white'}}>English Football League</h2>} />
+          <Meta title={<h2 style={{color: 'black'}}>English Football League</h2>} />
         </Card>
       </div>
       <div>
