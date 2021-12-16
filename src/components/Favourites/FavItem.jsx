@@ -1,6 +1,9 @@
 import React, { useContext , useEffect , useState} from "react";
 import { List, Button} from "antd"
 import { Link } from "react-router-dom";
+import {
+  ShoppingCartOutlined,
+} from "@ant-design/icons";
 
 import { favContext } from "../../contexts/favContext";
 import { cartContext } from "../../contexts/cartContext";
@@ -9,7 +12,7 @@ import { cartContext } from "../../contexts/cartContext";
 
 const FavItem = ({ item }) => {
   // console.log(item);
-  const { deleteFromFav, changeProductCount } = useContext(favContext);
+  const { deleteFromFav } = useContext(favContext);
   const { addProductToCart, checkItemInCart } = useContext(cartContext);
   const [checkInCart, setCheckInCart] = useState(checkItemInCart(item.id));
   useEffect(() => {
@@ -62,23 +65,25 @@ const FavItem = ({ item }) => {
               
 
             </div>
-            <Button style={{background:"#001489", color:"white"}} onClick={() => deleteFromFav(item.item.id)}>
-              Remove from fav
-    t      </Button>
+            <Button //style={{background:"#001489", color:"white"}}
+             onClick={() => deleteFromFav(item.item.id)}>
+              Remove from favourite list
+            </Button>
 
 
            
             <div style={{marginTop:"50px"}}>
-                <h4>Add product to card</h4>
-               <Link to="/cart"> 
+                <h3>Add product to card</h3>
+               {/* <Link to="/cart">  */}
                <Button 
-               style={{background:"#001489", color:"white"}}
+               //style={{background:"#001489", color: checkInCart ? "red": "white"}}
                onClick={() => {
-                addProductToCart(item);
+                addProductToCart(item.item.id);
                 setCheckInCart(checkItemInCart(item.id));
               }}
                >Add to Cart </Button>
-               </Link> 
+              
+               {/* </Link>  */}
               </div>
             
            

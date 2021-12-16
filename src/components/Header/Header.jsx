@@ -10,13 +10,15 @@ import { cartContext } from "../../contexts/cartContext";
 
 import "./Header.css";
 import { favContext } from "../../contexts/favContext";
+import LoginButton from "./LoginButton";
+
 
 const Header = () => {
   const location = useLocation();
-  const {
-    handleLogout,
-    user: { email },
-  } = useAuth();
+  // const {
+  //   handleLogout,
+  //   user: { email },
+  // } = useAuth();
 
   // корзина
   const { getCart, cartLength } = useContext(cartContext)
@@ -55,21 +57,7 @@ const Header = () => {
   return (
     <div>
       <nav>
-        <div>
-          {email ? (
-            <Link to="/auth">
-              <button className="sign-btn" onClick={handleLogout}>
-                Logout
-              </button>
-            </Link>
-          ) : null}
-
-          {email ? null : (
-            <Link to="/auth">
-              <button className="sign-btn">Login</button>
-            </Link>
-          )}
-        </div>
+         <LoginButton />
       </nav>
       <div className="header">
         <Link to="/">
@@ -116,18 +104,7 @@ const Header = () => {
           </Link>
         ))}
 
-        {email === "akjol2001@gmail.com" ? (
-          <Link
-            className={
-              location.pathname === "/admin"
-                ? "navbar__item-active"
-                : "navbar__item"
-            }
-            to="/admin"
-          >
-            ADMIN
-          </Link>
-        ) : null}
+       
       </div>
     </div>
   );

@@ -65,7 +65,7 @@ const FavContextProvider = ({ children }) => {
     });
   }
   function deleteFromFav(id) {
-    let fav = JSON.parse(localStorage.getItem("cart"));
+    let fav = JSON.parse(localStorage.getItem("fav"));
     if (!fav) {
       fav = {
         products: [],
