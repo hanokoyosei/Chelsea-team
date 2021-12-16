@@ -14,11 +14,13 @@ import "antd/dist/antd.css";
 import "./App.css";
 import NewsContextProvider from "./contexts/newsContext";
 import PlayersContextProvider from "./contexts/playersContext";
+import FavContextProvider from "./contexts/favContext";
 
 const App = () => {
   return (
     <AuthContextProvider>
       <CartContextProvider>
+        <FavContextProvider>
         <BrandsContextProvider>
           <ProductsContextProvider>
             <PlayersContextProvider>
@@ -33,6 +35,8 @@ const App = () => {
             </PlayersContextProvider>
           </ProductsContextProvider>
         </BrandsContextProvider>
+        </FavContextProvider>
+       
       </CartContextProvider>
     </AuthContextProvider>
   );

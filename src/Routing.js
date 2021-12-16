@@ -17,6 +17,7 @@ import SuccessCredit from "./components/creditCart/SuccessCredit"
 import News from "./components/News/News";
 import News2 from "./components/News/News2";
 import News3 from "./components/News/News3";
+import Fav from "./components/Favourites/Fav";
 import Table from "./components/Table/Table";
 import CreditForm from "./components/creditCart/CreditForm"
 import EditNews from "./components/EditNews/EditNews";
@@ -63,8 +64,8 @@ const Routing = () => {
       element:<Players/>,
       id:8
     },
+    
     {
-
       link:"/successCredit",
       element:<SuccessCredit/>
     },
@@ -90,13 +91,19 @@ const Routing = () => {
       id:13
     },
     {
+      link: "/fav",
+      element: <Fav/>,
+      id: 14
+    },
+    {
       link: "/table",
       element:<Table/>,
-      id:14
+      id:15
     },
     {
       link:"/creditForm",
       element:<CreditForm/>
+
     }
   ];
   const ADMIN_ROUTES = [

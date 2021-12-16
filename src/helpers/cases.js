@@ -5,6 +5,7 @@ export const CASE_GET_ONE_PRODUCT = "GET_ONE_PRODUCT";
 export const CASE_GET_BRANDS = 'GET_BRANDS';
 
 export const CASE_GET_CART = "GET_CART";
+export const CASE_GET_FAV = "GET_FAV";
 
 export const CASE_GET_NEWS = "GET_NEWS";
 export const CASE_GET_ONE_NEWS = "GET_ONE_NEWS"

@@ -2,42 +2,54 @@ import React, { useContext, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import { Badge } from "antd";
-import { ShoppingCartOutlined , StarOutlined} from "@ant-design/icons";
+import { ShoppingCartOutlined, StarOutlined } from "@ant-design/icons";
 
 import { useAuth } from "../../contexts/authContext";
 
 import { cartContext } from "../../contexts/cartContext";
 
 import "./Header.css";
+import { favContext } from "../../contexts/favContext";
+import LoginButton from "./LoginButton";
+
 
 const Header = () => {
   const location = useLocation();
-  const {
-    handleLogout,
-    user: { email },
-  } = useAuth();
+  // const {
+  //   handleLogout,
+  //   user: { email },
+  // } = useAuth();
+
+  // корзина
   const { getCart, cartLength } = useContext(cartContext)
   useEffect(() => {
     getCart()
   }, [])
+  
+  //избранное
+  const { getFav, favLength } = useContext(favContext)
+  useEffect(() => {
+    getFav()
+  }, [])
+
   const NAV_ITEMS = [
     {
-      title: "ТРОФЕИ",
+      title: "TROPHIES",
       link: "/brands",
       id: 1,
     },
     {
-      title: "МАГАЗИН",
+      title: "SHOP",
       link: "/trophies",
       id: 2,
     },
     {
-      title: "НОВОСТИ",
+      title: "NEWS",
       link: "/news",
       id: 4,
     },
     {
-      title: "ИГРОКИ",
+      title: "PLAYERS",
       link: "/players",
       id: 5,
     },
@@ -46,21 +58,7 @@ const Header = () => {
     <div className="div">
     <div>
       <nav>
-        <div>
-          {email ? (
-            <Link to="/auth">
-              <button className="sign-btn" onClick={handleLogout}>
-                Logout
-              </button>
-            </Link>
-          ) : null}
-
-          {email ? null : (
-            <Link to="/auth">
-              <button className="sign-btn">Login</button>
-            </Link>
-          )}
-        </div>
+         <LoginButton />
       </nav>
 
       
@@ -74,19 +72,27 @@ const Header = () => {
             alt=""
           />
         </Link>
-      
+        < div style = {{display: "flex" , justifyContent: "space-between", width: "150px"}}>
         <div>
           <Link to="/cart">
             <Badge count={+cartLength}>
               <ShoppingCartOutlined
-                style={{ fontSize: "40px", cursor: "pointer" }}
+                style={{ fontSize: "40px", cursor: "pointer" ,color: "white" }}
               />
             </Badge>
           </Link>
           
         </div>
-        
-
+        <div>
+        <Link to="/fav">
+            <Badge count={+favLength}>
+              <StarOutlined
+                style={{ fontSize: "40px", cursor: "pointer", color: "white" }}
+              />
+            </Badge>
+          </Link>
+        </div>
+        </div>        
       </div>
       
       
@@ -105,18 +111,7 @@ const Header = () => {
           </Link>
         ))}
 
-        {email === "akjol2001@gmail.com" ? (
-          <Link
-            className={
-              location.pathname === "/admin"
-                ? "navbar__item-active"
-                : "navbar__item"
-            }
-            to="/admin"
-          >
-            ADMIN
-          </Link>
-        ) : null}
+       
       </div>
     </div>
     </div>

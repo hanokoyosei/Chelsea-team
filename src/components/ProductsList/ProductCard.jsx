@@ -9,6 +9,7 @@ import {
 
 import { cartContext } from "../../contexts/cartContext";
 import { useState } from "react";
+import { favContext } from "../../contexts/favContext";
 
 const ProductCard = ({ item }) => {
   const { addProductToCart, checkItemInCart } = useContext(cartContext);
@@ -16,7 +17,12 @@ const ProductCard = ({ item }) => {
   useEffect(() => {
     setCheckInCart(checkItemInCart(item.id))
   })
-  
+
+  const {addProductToFav, checkItemInFav } = useContext(favContext);
+  const [checkInFav, setCheckInFav] = useState(checkItemInFav(item.id));
+  useEffect(() => {
+    setCheckInFav(checkItemInFav(item.id))
+  })
   return (
     <Card
       hoverable
@@ -24,13 +30,11 @@ const ProductCard = ({ item }) => {
       style={{ width: "280px", margin: "20px" }}
       cover={<img alt="example" src={item.image1} />}
       actions={[
-        <StarOutlined 
-
-        style={{ color: "black", fontSize: "25px" }} />,
-
-
-
-
+        <StarOutlined style={{ color: checkInFav ? "yellow" : "black", fontSize: "25px" }}
+        onClick={() => {
+          addProductToFav(item);
+          setCheckInFav(checkItemInFav(item.id));
+        }} />,
         <ShoppingCartOutlined
           style={{ color: checkInCart ? "red" : "black", fontSize: "25px" }}
           onClick={() => {
@@ -60,4 +64,3 @@ const ProductCard = ({ item }) => {
 };
 
 export default ProductCard;
-

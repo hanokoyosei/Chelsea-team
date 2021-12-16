@@ -15,7 +15,7 @@ const DetailsProduct = () => {
   }, []);
   useEffect(() => {
     setProduct(oneProduct);
-  }, [oneProduct]);
+  }, [oneProduct])
   return (
     <div className="container" style={{ marginTop: "20px" }}>
       {product ? (
