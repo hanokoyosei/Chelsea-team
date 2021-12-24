@@ -1,18 +1,18 @@
 import React, { useContext, useEffect, useState } from "react";
-import { List, Avatar, Pagination } from "antd";
+import { List, Avatar } from "antd";
 import { Link, useSearchParams } from "react-router-dom";
 
 import { newsContext } from "../../contexts/newsContext";
 
 const AdminNewsList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { getNews, deleteNews, news, newsTotalCount} =
+  const { getNews, deleteNews, news} =
     useContext(newsContext);
 
-  const [currentPage, setCurrentPage] = useState(
+  const [currentPage] = useState(
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
-  const [limit, setLimit] = useState(
+  const [limit] = useState(
     searchParams.get("_limit") ? searchParams.get("_limit") : 10
   );
   useEffect(() => {
@@ -32,7 +32,6 @@ const AdminNewsList = () => {
   useEffect(() => {
     getNews();
   }, [searchParams]);
-//   console.log(window.location.search);
   return (
     <>
       <List
@@ -43,15 +42,16 @@ const AdminNewsList = () => {
           <List.Item
             actions={[
               <a
+                style={{color: 'white'}}
                 key="list-loadmore-edit"
                 onClick={() => deleteNews(item.id)}>delete</a>,
-              <Link to={`/edits/${item.id}`}>edit</Link>
+              <Link style={{color: 'white'}} to={`/edits/${item.id}`}>edit</Link>
             ]}
           >
             <List.Item.Meta
               avatar={<Avatar src={item.image1} />}
               title={
-                <a>
+                <a style={{color: 'white'}}>
                   {item.title}
                 </a>
               }

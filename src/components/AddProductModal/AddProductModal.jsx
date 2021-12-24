@@ -3,14 +3,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { Modal, Button, Form, Input, InputNumber } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
-import { brandsContext } from "../../contexts/brandsContext";
 
 const AddProductModal = () => {
   const { createProduct } = useContext(productsContext);
-  const { getBrands } = useContext(brandsContext);
-  useEffect(() => {
-    getBrands();
-  }, []);
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -28,7 +23,7 @@ const AddProductModal = () => {
   };
   return (
     <>
-      <Button type="primary" onClick={showModal}>
+      <Button style={{marginLeft: '2%'}} type="primary" onClick={showModal}>
         Add product
       </Button>
       <Modal
@@ -50,32 +45,6 @@ const AddProductModal = () => {
               {
                 required: true,
                 message: "Please input brand!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Model"
-            name="model"
-            rules={[
-              {
-                required: true,
-                message: "Please input model!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Description"
-            name="description"
-            rules={[
-              {
-                required: true,
-                message: "Please input description!",
               },
             ]}
           >

@@ -3,31 +3,23 @@
     justify-content: center; 
     align-items: center; 
     margin-top: 50px; 
-    display: grid; 
-     
-     
-} 
+    display: grid;     
+}
+
 #PaymentInput{ 
     display: flex; 
     border-style: groove; 
     margin-top: 20px; 
     justify-content: center; 
     align-items: center; 
-     
-     
 }
 
- 
- 
 .inputCard{ 
     flex-direction: column; 
     display: flex; 
     /* justify-content: center; */ 
     align-items: center; 
-    margin-top: 15px; 
-    
-     
-     
+    margin-top: 15px;    
 } 
  
 .button{ 
@@ -46,5 +38,4 @@ input{
  height: 40px;
  border-radius: 7px;
  text-align: center;
-
 }

@@ -1,15 +1,17 @@
 import React, { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Card } from "antd";
+import { Card, Rate } from "antd";
 import {
   ShoppingCartOutlined,
   EllipsisOutlined,
   StarOutlined,
+  HeartFilled
 } from "@ant-design/icons";
 
 import { cartContext } from "../../contexts/cartContext";
 import { useState } from "react";
 import { favContext } from "../../contexts/favContext";
+import { likeContext } from "../../contexts/likeContext";
 
 import './ProductCard.css'
 
@@ -25,6 +27,12 @@ const ProductCard = ({ item }) => {
   useEffect(() => {
     setCheckInFav(checkItemInFav(item.id))
   })
+
+  const {addProductToLike, checkItemInLike } = useContext(likeContext);
+  const [checkInLike, setCheckInLike] = useState(checkItemInLike(item.id));
+  useEffect(() => {
+    setCheckInLike(checkItemInLike(item.id))
+  })
   return (
     <Card className="ant-card-body_shop "
       hoverable
@@ -32,6 +40,12 @@ const ProductCard = ({ item }) => {
       style={{ width: "280px", margin: "10px", background: 'transparent' }}
       cover={<img alt="example" src={item.image1} style={{width: '250px', marginLeft: '5.5%'}} />}
       actions={[
+        <HeartFilled 
+        style={{ color: checkInLike ? "red" : "black", fontSize: "25px" }}
+          onClick={() => {
+            addProductToLike(item);
+            setCheckInLike(checkItemInLike(item.id));
+          }}/>,
         <StarOutlined style={{ color: checkInFav ? "yellow" : "black", fontSize: "25px" }}
         onClick={() => {
           addProductToFav(item);
@@ -44,7 +58,7 @@ const ProductCard = ({ item }) => {
             setCheckInCart(checkItemInCart(item.id));
           }}
         />,
-        <Link to={`/trophies/${item.id}`}>
+        <Link to={`/window_shop/${item.id}`}>
           <EllipsisOutlined
             style={{ color: "black", fontSize: "25px" }}
             key="ellipsis"
@@ -58,6 +72,7 @@ const ProductCard = ({ item }) => {
           <>
             <h3 style={{color: 'white'}}>{item.model}</h3>
             <h2 style={{color: 'white'}}>{"$" + item.price}</h2>
+            <Rate disabled defaultValue={2} />
           </>
         }
       />

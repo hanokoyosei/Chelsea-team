@@ -1,18 +1,18 @@
 import React, { useContext, useEffect, useState } from "react";
-import { List, Avatar, Pagination } from "antd";
+import { List, Avatar } from "antd";
 import { Link, useSearchParams } from "react-router-dom";
 
 import { productsContext } from "../../contexts/productsContext";
 
 const AdminProductsList = () => {
   const [searchParams, setSearchParams] = useSearchParams();
-  const { getProducts, deleteProduct, products, productsTotalCount } =
+  const { getProducts, deleteProduct, products } =
     useContext(productsContext);
 
-  const [currentPage, setCurrentPage] = useState(
+  const [currentPage] = useState(
     searchParams.get("_page") ? searchParams.get("_page") : 1
   );
-  const [limit, setLimit] = useState(
+  const [limit] = useState(
     searchParams.get("_limit") ? searchParams.get("_limit") : 10
   );
   useEffect(() => {
@@ -32,30 +32,31 @@ const AdminProductsList = () => {
   useEffect(() => {
     getProducts();
   }, [searchParams]);
-//   console.log(window.location.search);
   return (
     <>
       <List
+        style={{marginLeft: '2%'}}
         className="demo-loadmore-list items-list"
         itemLayout="horizontal"
         dataSource={products}
         renderItem={(item) => (
           <List.Item
             actions={[
+              <Link style={{color: 'white'}} to={`/edit/${item.id}`}>edit</Link>,
               <a
+                style={{color: 'white'}}
                 key="list-loadmore-edit"
                 onClick={() => deleteProduct(item.id)}
               >
                 delete
               </a>,
-              <Link to={`/edit/${item.id}`}>edit</Link>,
             ]}
           >
             <List.Item.Meta
               avatar={<Avatar src={item.image1} />}
               title={
-                <a>
-                  {item.brand}, {item.model}
+                <a style={{color: 'white'}}>
+                  {item.brand}
                 </a>
               }
             />

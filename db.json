@@ -1,512 +1,102 @@
 {
   "products": [
     {
-      "brand": "Home kit",
-      "model": "2021-22",
-      "description": "Chelsea FC home kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-home-stadium-shirt-2021-22-with-kant%C3%A9-7-printing_ss4_p-12065468+u-tjx34f6qn3qtc2yksgzb+v-757cd997aafe4831b1e4a3ff39778c29.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Антрацид",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/antracit.jpg",
       "id": 1
     },
     {
-      "brand": "Away kit",
-      "model": "2021-22",
-      "description": "Chelsea FC away kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shirt-2021-22-with-mount-19-printing_ss4_p-12071850+u-12m33e2z71ffm0zy9x8b+v-12f813ee8cfa4dd7bb0e5a6f3a937988.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Мореный дуб",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/mor-dub.jpg",
       "id": 2
     },
     {
-      "brand": "Third kit",
-      "model": "2021-22",
-      "description": "Chelsea FC third kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-third-vapor-match-shirt-2021-22_ss4_p-12059902+u-pto1qedt1h2yas0owdm+v-938f45674a284bec89b9b4e139026707.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Платинум",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/platinum.jpg",
       "id": 3
     },
     {
-      "brand": "Goalkeeper",
-      "model": "2021-22",
-      "description": "Chelsea FC goalkeeper kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-goalkeeper-stadium-shirt-2021-22-kids_ss4_p-12056127+u-8dpzuwfdgsz4396n5j4w+v-413ca947d80f4120b7c3918ac3b6e4f6.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
+      "brand": "Орех",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/z-oreh.jpg",
       "id": 4
     },
     {
-      "brand": "Chelsea jacket",
-      "model": "2021-22",
-      "description": "Chelsea jacket 2021-22",
-      "price": 200,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-blue_ss4_p-12056136+u-1f62qp87kr5dwohm2511+v-a5479384d7e44da7812b2c73da065250.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Монолит",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/nat_dub.jpg",
       "id": 5
     },
     {
-      "brand": "Chelsea jacket",
-      "model": "2021-22",
-      "description": "Chelsea jacket 2021-22",
-      "price": 200,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-grey_ss4_p-12059909+u-x34qhxw7315rllmt2zf1+v-9e3b41bd261b47979adc501a63713926.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Махагон",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/mahagon.jpg",
       "id": 6
     },
     {
-      "brand": "Chelsea training kit",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 150,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-elite-drill-top-black_ss4_p-12059919+u-pcqceomk8gs95hczex6c+v-28597740005e462bbaf7557170a5aaf8.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+      "brand": "Золотой дуб",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/shogun.jpg",
       "id": 7
     },
     {
-      "brand": "Chelsea training kit",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 150,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-drill-top-teal-kids_ss4_p-12066024+u-mkyq372omnx07p1fkox7+v-f9522397c9ed41a0b481c8e26c48e161.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
+      "brand": "Рустик",
+      "price": 75,
+      "image1": "http://grandplast.kg/images/colors/rustik.jpg",
       "id": 8
     },
     {
-      "brand": "Chelsea jacket ",
-      "model": "2021-22",
-      "description": "Chelsea jacket 2021-22",
-      "price": 200,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black-kids_ss4_p-12066021+u-1axx6algp5zwyki3hvzj+v-df166df31e2046ac9b7a9d3f182e137d.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 9
-    },
-    {
-      "brand": "Chelsea strike top",
-      "model": "2021-22",
-      "description": "Chelsea FC t-shirt 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-top-black_ss4_p-12059971+u-y9cuqovoh8j1t04798jh+v-62955aba540c4f0f852da1ef29b51b6c.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 10
-    },
-    {
-      "brand": "Chelsea training top",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-training-top-blue_ss4_p-12059967+u-oruvu1jpqrm6fkfawqif+v-52dd9564070144d8b127e3b15ad761d9.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 11
-    },
-    {
-      "brand": "Chelsea hoodie",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 200,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-zip-thru-jacket-black_ss4_p-12059942+u-1dvhjdupjhtf5nc5u758+v-c2164ec50489461eb2258efe43101cfc.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 12
-    },
-    {
-      "brand": "Chelsea t-shirt",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-swoosh-t-shirt-black_ss4_p-12059945+u-bzcb2aox7wtw3zmnqw9o+v-2efd3770407b4f0986e172b6691e3ef0.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 13
-    },
-    {
-      "brand": "Chelsea t-shirt",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-travel-t-shirt-blue_ss4_p-12059948+u-110jnvi11d7qaubf3bke+v-0e000c9a723d41c1adf24b906c395bbc.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 14
-    },
-    {
-      "brand": "Chelsea jacket",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 200,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-i96-anthem-jacket-black_ss4_p-12059918+u-usfwrmh0ky8hm01ldd3y+v-1bdcf4d52252484fa6016518baa966f3.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 15
-    },
-    {
-      "brand": "Chelsea hoodie",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 180,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-strike-hooded-jacket-black_ss4_p-12059904+u-10g2bchm6ew4ls8mo9dr+v-fc4d641a53e5429dbad7ccf0623d11b2.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 16
-    },
-    {
-      "brand": "Chelsea t-shirt",
-      "model": "2021-22",
-      "description": "Chelsea FC training kit 2021-22",
-      "price": 100,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-evergreen-crest-t-shirt-royal-blue_ss4_p-12056133+u-7f88p2xqhkmrp318ji6f+v-0afb202ef8fb46eb80d3bf0438ab0b91.jpg?_hv=1&w=340",
-      "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
-      "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
-      "id": 17
-    },
-    {
-      "brand": "Chelsea shorts",
-      "model": "2021-22",
-      "description": "Chelsea Away Stadium Shorts 2021-22 - Kids",
-      "price": 80,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-shorts-2021-22-kids_ss4_p-12059950+u-11re4wr72wsbk78xbko2+v-7aa008ba525946a38fb4333e83b8c502.jpg?_hv=1&w=340",
-      "id": 18
-    },
-    {
-      "brand": "Chelsea sock",
-      "model": "2021-22",
-      "description": "Chelsea Away Stadium Sock 2021-22",
+      "brand": "Стандарт",
       "price": 50,
-      "image1": "https://images.footballfanatics.com/chelsea/chelsea-away-stadium-sock-2021-22_ss4_p-12059927+u-7nu3d0q7lqhv8awenuv2+v-ce7b03a6de2742fab9748b19d4e6ca92.jpg?_hv=1&w=340",
-      "id": 19
-    }
-  ],
-  "trophies": [
-    {
-      "logo": "https://cdna.artstation.com/p/assets/images/images/018/782/042/large/winful-bagyl-bac-the-champions-league-trophy.jpg?1560711733",
-      "name": "UEFA Champions League",
-      "number": "2",
-      "year": "2012, 2021",
-      "id": 1
-    },
-    {
-      "logo": "https://img2.pngio.com/premier-league-on-twitter-the-pl-belongs-to-chelseafc-premier-league-trophy-png-902_1200.jpg",
-      "name": "Premier League",
-      "number": "6",
-      "year": "1955, 2005, 2006, 2010, 2015, 2017",
-      "id": 2
-    },
-    {
-      "logo": "https://www.kindpng.com/picc/m/74-746916_transparent-champions-league-trophy-png-uefa-europa-league.png",
-      "name": "UEFA Europa League",
-      "number": "2",
-      "year": "2013, 2019",
-      "id": 3
-    },
-    {
-      "logo": "https://memorsport.com/eng_pl_Big-Replica-UEFA-Cup-Winners-Cup-Official-Licensed-Product-15-cm-19025_2.jpg",
-      "name": "UEFA Cup Winners Cup",
-      "number": "2",
-      "year": "1971, 1998",
-      "id": 4
-    },
-    {
-      "logo": "https://www.seekpng.com/png/detail/911-9116766_fa-cup-draw-fa-cup-trophy-png.png",
-      "name": "FA Cup",
-      "number": "8",
-      "year": "1970, 1997, 2000, 2007, 2009, 2010, 2012, 2018",
-      "id": 5
-    },
-    {
-      "logo": "https://www.kindpng.com/picc/m/361-3615158_chelsea-football-club-cups-hd-png-download.png",
-      "name": "League Cup",
-      "number": "5",
-      "year": "1965, 1998, 2005, 2007, 2015",
-      "id": 6
-    },
-    {
-      "logo": "https://m.media-amazon.com/images/I/51wjVlkpzQL._AC_SX522_.jpg",
-      "name": "UEFA Super Cup",
-      "number": "2",
-      "year": " 1998, 2021",
-      "id": 7
-    },
-    {
-      "logo": "https://i0.wp.com/www.completesports.com/wp-content/uploads/2020/08/GettyImages-1166023477.jpg?fit=960%2C637&ssl=1",
-      "name": "Community Shield",
-      "number": "4",
-      "year": " 1955, 2000, 2005, 2009",
-      "id": 8
-    },
-    {
-      "logo": "https://www.nationalfootballmuseum.com/wp-content/uploads/2015/09/FL504-1-724x1024.jpg",
-      "name": "Full Members Cup",
-      "number": "2",
-      "year": " 1986, 1990",
+      "image1": "https://euragroup.kg/wp-content/uploads/2019/01/small_01.jpg",
       "id": 9
-    }
-  ],
-  "players": [
-    {
-      "player": "Kepa Arrizabalaga",
-      "nationality": "Spain",
-      "age": "27",
-      "number": "1",
-      "position": "Goalkeeper",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p109745.png",
-      "id": 1
-    },
-    {
-      "player": "Edouard Mendy",
-      "nationality": "Senegal",
-      "age": "29",
-      "number": "16",
-      "position": "Goalkeeper",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p228286.png",
-      "id": 2
-    },
-    {
-      "player": "Marcus Bettinelli",
-      "nationality": "England",
-      "age": "29",
-      "number": "13",
-      "position": "Goalkeeper",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p122074.png",
-      "id": 3
-    },
-    {
-      "player": "Antonio Rudiger",
-      "nationality": "Germany",
-      "age": "28",
-      "number": "2",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p102380.png",
-      "id": 4
-    },
-    {
-      "player": "Marcos Alonso",
-      "nationality": "Spain",
-      "age": "30",
-      "number": "3",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p82263.png",
-      "id": 5
-    },
-    {
-      "player": "Andreas Christensen",
-      "nationality": "Denmark",
-      "age": "25",
-      "number": "4",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p135363.png",
-      "id": 6
-    },
-    {
-      "player": "Thiago Silva",
-      "nationality": "Brazil",
-      "age": "37",
-      "number": "6",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p51090.png",
-      "id": 7
-    },
-    {
-      "player": "Ben Chilwell",
-      "nationality": "England",
-      "age": "24",
-      "number": "21",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p172850.png",
-      "id": 8
-    },
-    {
-      "player": "Reece James",
-      "nationality": "England",
-      "age": "22",
-      "number": "24",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png",
-      "id": 9
-    },
-    {
-      "player": "Cesar Azpilicueta",
-      "nationality": "Spain",
-      "age": "32",
-      "number": "28",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p41328.png",
-      "id": 10
-    },
-    {
-      "player": "Trevoh Chalobah",
-      "nationality": "England",
-      "age": "22",
-      "number": "14",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p180736.png",
-      "id": 11
-    },
-    {
-      "player": "Malang Sarr",
-      "nationality": "France",
-      "age": "22",
-      "number": "31",
-      "position": "Defender",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p204727.png",
-      "id": 12
-    },
-    {
-      "player": "Jorginho Frello",
-      "nationality": "Italy",
-      "age": "29",
-      "number": "5",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p85955.png",
-      "id": 13
-    },
-    {
-      "player": "N'Golo Kante",
-      "nationality": "France",
-      "age": "30",
-      "number": "7",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p116594.png",
-      "id": 14
-    },
-    {
-      "player": "Christian Pulisic",
-      "nationality": "United States",
-      "age": "23",
-      "number": "10",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p176413.png",
-      "id": 15
-    },
-    {
-      "player": "Mateo Kovacic",
-      "nationality": "Croatia",
-      "age": "27",
-      "number": "8",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p91651.png",
-      "id": 16
-    },
-    {
-      "player": "Mason Mount",
-      "nationality": "England",
-      "age": "22",
-      "number": "19",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p184341.png",
-      "id": 17
-    },
-    {
-      "player": "Hakim Ziyech",
-      "nationality": "Morocco",
-      "age": "28",
-      "number": "22",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p124183.png",
-      "id": 18
-    },
-    {
-      "player": "Kai Havertz",
-      "nationality": "Germany",
-      "age": "22",
-      "number": "29",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p219847.png",
-      "id": 19
-    },
-    {
-      "player": "Ruben Loftus-Cheek",
-      "nationality": "England",
-      "age": "25",
-      "number": "15",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p126187.png",
-      "id": 20
-    },
-    {
-      "player": "Saúl Ñíguez",
-      "nationality": "Spain",
-      "age": "27",
-      "number": "17",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p89335.png",
-      "id": 21
-    },
-    {
-      "player": "Ross Barkley",
-      "nationality": "England",
-      "age": "28",
-      "number": "18",
-      "position": "Midfielder",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p88894.png",
-      "id": 22
-    },
-    {
-      "player": "Timo Werner",
-      "nationality": "Germany",
-      "age": "25",
-      "number": "11",
-      "position": "Forward",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png",
-      "id": 23
-    },
-    {
-      "player": "Callum Hudson-Odoi",
-      "nationality": "England",
-      "age": "21",
-      "number": "20",
-      "position": "Forward",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209046.png",
-      "id": 24
-    },
-    {
-      "player": "Romelu Lukaku",
-      "nationality": "Belgium",
-      "age": "28",
-      "number": "9",
-      "position": "Forward",
-      "photo": "https://resources.premierleague.com/premierleague/photos/players/250x250/p66749.png",
-      "id": 25
     }
   ],
   "news": [
     {
-      "title": "Романо: «Контракт Силвы с «Челси» всего лишь вопрос времени»",
-      "description": "Лондонский «Челси» готовит предложение о контракте для защитника Тьяго Силвы, утверждает известный журналист Фабрицио Романо.",
-      "paragraph": "Бразилец присоединился к «синим» на правах свободного агента в прошлом сезоне после истечения срока его контракта с ПСЖ.  Поначалу были сомнения, сможет ли он адаптироваться к Премьер-лиги в его возрасте, но он сумел сделать это.  37-летний игрок в настоящее время является важной фигурой в центре защиты, и может остаться до конца следующего сезона.  Силва готов продлить свое пребывание в Лондоне, в то время как руководство и менеджер Томас Тухель очень довольны им.  Сообщается, что это всего лишь вопрос времени, прежде чем он посвятит свое будущее клубу до июня 2023 года.",
-      "image1": "https://chelseablues.ru/_nw/788/76597731.jpg",
+      "title": "Профиль - Германия. Цвет \"Золотой дуб\"",
+      "image1": "http://grandplast.kg/assets/img/portfolio/1.jpg",
       "id": 1
     },
     {
-      "title": "Новая информация о травме Бена Чилуэлла",
-      "description": "Защитник «Челси» Бен Чилуэлл приступил к легким тренировкам в Кобхэме. Фанаты лондонского клуба уже успели обрадоваться, однако нет никакой надежды на то, что он избежит операции.",
-      "paragraph": "Его восстановление проходит под присмотром клубных врачей, которые смотрят за реакцией его колена, по-прежнему нет хороших новостей относительно необходимости операции, поэтому клуб сейчас думает над тем, что будет лучше для футболиста.  Медперсонал специально сейчас нагружает колено английского защитника, чтобы окончательно убедиться в том, какую именно необходимо будет провести операцию на колене защитника сборной Англии.  Это означает, что Бен Чилуэлл врядли сможет избежать хирургического вмешательства, поэтому в текущем сезоне футболист точно не сыграет за «Челси»",
-      "image1": "https://chelseablues.ru/_nw/789/46704720.jpg",
+      "title": "Профиль - Алюминий. Декорация - gold",
+      "image1": "http://grandplast.kg/assets/img/portfolio/2.png",
       "id": 2
     },
     {
-      "title": "Этот футболист «Челси» стал кошмаром для игрока «Арсенала»",
-      "description": "Защитник «Арсенала» Динос Мавропанос назвал нападающего «Челси» Ромелу Лукаку самым жестким нападающим, с которым он сталкивался.",
-      "paragraph": "Греческий защитник, сейчас находящийся на второй аренде в «Штутгарте», присоединился к «канонирам» в январское трансферное окно в 2018 году.  «Я никогда не забуду свой дебют», - сказал Мавропанос в интервью Goal.  «Это было на «Олд Траффорд» против «Манчестер Юнайтед», и я сражался с Ромелу Лукаку. По сей день мне не приходилось играть против лучшего нападающего».  «Мы играли с «Баварией» и «Боруссией в Бундеслиге со «Штутгартом», но у меня никогда не было личного матча с Робертом Левандовски или Эрлингом Холандом».  «Вот почему я должен сказать, что Лукаку до сих пор был моим самым жестким противником. Его телосложение очень впечатляет, и он настолько хорош технически, что его действительно очень трудно остановить».",
-      "image1": "https://chelseablues.ru/_nw/789/55579967.jpg",
+      "title": "Профиль - Германия. Остекление \"Зеркальное\"",
+      "image1": "http://grandplast.kg/assets/img/portfolio/3.jpg",
       "id": 3
     },
     {
-      "title": "Рюдигер о слухах, которые сопровождают его в «Челси»",
-      "description": "Защитник сборной Германии Антонио Рюдигер рассказал, как ему удается оставаться таким спокойным и сконцентрированным на фоне разговоров о его возможном переходе в другой клуб, сообщает Football Daily.",
-      "paragraph": "«Это всегда было очень легко. Каждый год много шума вокруг моего будущего в «Челси», да и вокруг команды всегда очень много внимания, как это недавно было после увольнения прошлого наставника. В тот период было очень много негативных слухов, слишком много, но я просто продолжал делать то, что я лучше всего умею. Я думаю, что люди уже поняли, что меня не так легко вывести из себя и тем более заставить волноваться из-за таких вопросов»  «Все прекрасно знают мою позицию на счет зимы 2020 года, я тогда сказал, что не хочу покидать «Челси» и я остался в команде, однако летом я уже был готов это сделать, но затем пришел Томас Тухель, который спас ту ситуацию, а все остальное уже история»",
-      "image1": "https://chelseablues.ru/_nw/790/07801150.jpg",
+      "title": "Профиль - Германия. Цвет \"Мореный дуб\"",
+      "image1": "http://grandplast.kg/assets/img/portfolio/4.jpg",
       "id": 4
+    },
+    {
+      "title": "Профиль - Турция. Цвет \"Махагон\" с декором",
+      "image1": "http://grandplast.kg/assets/img/portfolio/5.jpg",
+      "id": 5
+    },
+    {
+      "title": "Профиль - Германия. Конусные витражи",
+      "image1": "http://grandplast.kg/assets/img/portfolio/6.jpg",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "newComment": {
+        "word": "Akjol",
+        "createdAtMs": 1640346259960,
+        "tanksId": 2,
+        "email": "akjol2001@gmail.com"
+      },
+      "tankId": 2,
+      "id": 2
     }
   ]
 }

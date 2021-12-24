@@ -1,3 +1,6 @@
-.body {
-    /* background-image: url(https://www.wallpaperkiss.com/wimg/b/113-1136926_big.jpg); */
-}
+@media screen and (max-width: 1500px) {
+    .news-list {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }

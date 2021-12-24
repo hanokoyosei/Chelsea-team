@@ -1,4 +1,3 @@
-
 import React, { useReducer } from "react";
 import axios from "axios";
 
@@ -45,7 +44,7 @@ const ProductsContextProvider = ({ children }) => {
   }
 
   async function getOneProduct(id) {
-    let result = await axios.get(`${PRODUCTS_API}/${id}`);
+    let result = await axios.get(`${PRODUCTS_API}/${id}?_embed=comments`);
     dispatch({
       type: CASE_GET_ONE_PRODUCT,
       payload: result,

@@ -1,24 +1,7 @@
-@media screen and (min-width: 600px) {
-nav {
-  background: #696969;
-    background-image: url(https://i.imgur.com/b0d9eKV.jpg);
-    height: 80px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    font-size: 1.2rem;
-    top: 0;
-    
-}
-}
-
-  
-
 .sign-btn {
   display: inline-block;
   overflow: hidden;
   transition: 1s;
-  background-color: #001489;
   border: none;
   color: whitesmoke;
   height: 45px;
@@ -28,42 +11,28 @@ nav {
   margin-top: 25%;
 }
 
-.sign-btn:hover{
-  background-color: yellow;
-  color: black;
-  transform: scale(1.2);
+.head {
+  font-family: 'Oswald', sans-serif;
 }
 
-
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: 20px auto;
+.text:hover {
+  color: white;
 }
-.navbar {
-  display: flex;
-  justify-content: space-around;
 
-  font-size: large;
-
-}
 .navbar__item {
   margin: 5px 15px;
   color: whitesmoke;
 }
+
 .navbar__item-active {
   margin: 5px 15px;
   border-bottom: 1px solid grey;
   color: black;
 }
 
-
 .img{
   display: flex;
   align-self: center;
-  border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
 }
@@ -73,19 +42,14 @@ nav {
   transform: rotate(360deg);
 }
 
-.div{
-  background-image: url(https://i.imgur.com/b0d9eKV.jpg);
-}
-
-.header a{
-  margin:auto
-}
-
 @media screen and (max-width: 400px) {
-  .navbar{
-    width: 100%!important;
-  }
   .navbar__item{
     margin: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .head {
+    flex-wrap: wrap;
   }
 }

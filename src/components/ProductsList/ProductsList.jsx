@@ -1,4 +1,3 @@
-
 import React, { useContext, useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 
@@ -27,7 +26,6 @@ const ProductsList = () => {
 
   const { getProducts, products, productsTotalCount } =
     useContext(productsContext);
-    
   useEffect(() => {
     setSearchParams({
       q: search,
@@ -40,7 +38,7 @@ const ProductsList = () => {
   }, []);
   useEffect(() => {
     getProducts();
-  }, [searchParams]);
+  }, []);
   useEffect(() => {
     setSearchParams({
       q: search,
@@ -50,12 +48,12 @@ const ProductsList = () => {
       price_gte: price[0],
       price_lte: price[1],
     });
-  }, [search, page, limit, brand, price]);
+  }, []);
   console.log(products);
   return (
     <div className="shop">
       <div> 
-        <input style={{background: 'transparent', marginTop: '1%'}} className="inp-btn2"
+        <input style={{background: 'transparent', marginTop: '1%', color: 'white'}} className="inp-btn2"
         type="text"
          name="search" 
          value={search}
@@ -64,12 +62,11 @@ const ProductsList = () => {
          </input>
         </div>
       <div className="products-search">
-      
       <div
-          style={{ cursor: "pointer", marginLeft: '2%'}}
+          style={{ cursor: "pointer", marginLeft: '2%', color: 'white'}}
           onClick={() => setShowFilters(!showFilters)}
         >
-          {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
+          {showFilters ? <button style={{background: 'transparent', cursor: 'pointer', width: '180px', height: '40px',borderRadius: '10px', border: '5px solid white'}}>закрыть филтрацию</button> : <button style={{background: 'transparent', cursor: 'pointer', width: '180px', height: '40px',borderRadius: '10px', border: '5px solid white'}}>открыть фильтрацию</button>}
       </div>
        
       </div>
@@ -88,28 +85,22 @@ const ProductsList = () => {
         {products.length > 0 ? (
           products.map((item) => <ProductCard item={item} />)
         ) : (
-          <Empty style={{ marginBottom: "20px" }} />
+          <Empty style={{ marginBottom: "20px", marginLeft: '-25%' }} />
         )}
        </div>
       </div>
 
-  
-  
-    
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Pagination
           onChange={(page, limit) => {
             setPage(page);
-            setLimit(limit);
-          }}
+            setLimit(limit);}}
           current={+page}
           pageSize={+limit}
           defaultCurrent={1}
           total={+productsTotalCount}
         />
       </div>
-
-      
     </div>
   );
 };

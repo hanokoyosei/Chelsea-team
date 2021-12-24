@@ -22,13 +22,12 @@ const AddNewsModal = () => {
   };
 
   const onFinish = (values) => {
-    console.log("Success:", values);
     createNews(values).then(() => handleCancel());
   };
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Add news
+        Add work
       </Button>
       <Modal
         title="Add news"
@@ -53,33 +52,7 @@ const AddNewsModal = () => {
             ]}
           >
            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Description"
-            name="description"
-            rules={[
-              {
-                required: true,
-                message: "Please input description!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          <Form.Item
-            label="Paragraph"
-            name="paragraph"
-            rules={[
-              {
-                required: true,
-                message: "Please input paragraph!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
+           </Form.Item>
 
            <Form.Item
             label="Image"
@@ -101,7 +74,7 @@ const AddNewsModal = () => {
             }}
           >
             <Button type="primary" htmlType="submit">
-              Add news
+              Add work
             </Button>
           </Form.Item>
         </Form>

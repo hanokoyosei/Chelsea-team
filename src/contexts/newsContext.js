@@ -1,4 +1,3 @@
-
 import React, { useReducer } from "react";
 import axios from "axios";
 
@@ -68,7 +67,6 @@ const NewsContextProvider = ({ children }) => {
         news: state.news,
         oneNews: state.oneNews,
         newsTotalCount: state.newsTotalCount,
-       
         getNews,
         getOneNews,
         deleteNews,

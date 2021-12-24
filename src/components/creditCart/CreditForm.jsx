@@ -67,7 +67,7 @@ const creditForm = () => {
       <Form.Item label=" " colon={false}>
           <Link to="/creditCart"> 
         <Button type="primary" htmlType="submit">
-          Submit
+          Далее
         </Button>
         </Link>
       </Form.Item>

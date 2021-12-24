@@ -1,6 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import { Card } from "antd";
 import { newsContext } from "../../contexts/newsContext";
+import "./NewsList.css"
 
 const { Meta } = Card
 const NewsCard = () => {
@@ -18,18 +19,15 @@ const NewsCard = () => {
       }}>
           {news.map((item) => (
               <Card
+              className='news-card'
               hoverable
               key={item.id}
-              style={{ width: '580px', margin: '10px' }}
-              cover={<img alt="example" src={item.image1} style={{width: '550px', height: '350px', marginLeft: '2.5%'}}/>}
+              style={{ width: '300px', margin: '10px', flexBasis: '30%', background: 'transparent', border: 'none' }}
+              cover={<img alt="example" src={item.image1} style={{width: '420px', height: '280px', marginLeft: '4%'}}/>}
               actions={[]}>
               <Meta
-              title={<h4>{item.title}</h4>}
-              description={
-              <>
-              <h3>{item.description}</h3>
-              <p style={{color: 'black'}}>{item.paragraph}</p>
-              </>}/>
+              title={<h4 style={{display: 'flex', justifyContent: 'center', color: 'white', fontSize: '18px'}}>{item.title}</h4>}
+              />
               </Card>
               ))}
         </div>

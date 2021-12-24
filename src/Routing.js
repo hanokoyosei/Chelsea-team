@@ -1,12 +1,10 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Auth from "./components/Auth/Auth";
-import BrandsList from "./components/BrandsList/BrandsList";
 import Cart from "./components/Cart/Cart";
 import DetailsProduct from "./components/DetailsProduct/DetailsProduct";
 import EditProduct from "./components/EditProduct/EditProduct";
 import Home from "./components/Home/Home";
-import Players from "./components/Players/Players";
 import ProductsList from "./components/ProductsList/ProductsList";
 import NewsList from "./components/NewsList/NewsList";
 import { useAuth } from "./contexts/authContext";
@@ -14,13 +12,15 @@ import AdminPage from "./pages/AdminPage";
 import Error404 from "./pages/Error404";
 import CreditCart from "./components/creditCart/CreditCart"
 import SuccessCredit from "./components/creditCart/SuccessCredit"
-import News from "./components/News/News";
-import News2 from "./components/News/News2";
-import News3 from "./components/News/News3";
 import Fav from "./components/Favourites/Fav";
 import Table from "./components/Table/Table";
 import CreditForm from "./components/creditCart/CreditForm"
 import EditNews from "./components/EditNews/EditNews";
+import Like from "./components/Like/Like";
+import WindowHome from "./components/News/WindowHome";
+import WindowHome1 from "./components/News/WindowHome1";
+import WindowHome2 from "./components/News/WindowHome2";
+import WindowHome3 from "./components/News/WindowHome3";
 
 const Routing = () => {
   let PUBLIC_ROUTES = [
@@ -30,7 +30,7 @@ const Routing = () => {
       id: 1,
     },
     {
-      link: "/trophies",
+      link: "/window_shop",
       element: <ProductsList/>,
       id: 2,
     },
@@ -40,12 +40,7 @@ const Routing = () => {
       id: 3,
     },
     {
-      link: "/brands",
-      element: <BrandsList />,
-      id: 4,
-    },
-    {
-      link: "/trophies/:id",
+      link: "/window_shop/:id",
       element: <DetailsProduct />,
       id: 5,
     },
@@ -60,25 +55,19 @@ const Routing = () => {
       id:7
     },
     {
-      link: "/players",
-      element:<Players/>,
-      id:8
-    },
-    
-    {
       link:"/successCredit",
-      element:<SuccessCredit/>
+      element:<SuccessCredit/>,
+      id: 9
     },
     {
-      link: '/news_daty_matchey',
-      element: <News />,
+      link: '/window_home_1',
+      element: <WindowHome1 />,
       id: 10
     },
     {
-      link: '/news_Christensen_prodlit',
-      element: <News2 />,
+      link: '/window_home',
+      element: <WindowHome />,
       id: 11
-
     },
     {
       link: "/news",
@@ -86,8 +75,8 @@ const Routing = () => {
       id:12
     },
     {
-      link: "/news_Mount_semeinaya",
-      element:<News3/>,
+      link: "/window_home_2",
+      element:<WindowHome2/>,
       id:13
     },
     {
@@ -98,13 +87,18 @@ const Routing = () => {
     {
       link: "/table",
       element:<Table/>,
-      id:15
+      id: 15
     },
     {
       link:"/creditForm",
-      element:<CreditForm/>
-
-    }
+      element:<CreditForm/>,
+      id: 16
+    },
+    {
+      link:"/like",
+      element:<Like/>,
+      id: 18
+    },
   ];
   const ADMIN_ROUTES = [
     {
@@ -122,7 +116,11 @@ const Routing = () => {
       element: <EditNews />,
       id: 3,
     },
-   
+    {
+      link: "/window_home_3",
+      element: <WindowHome3 />,
+      id: 3,
+    },
   ];
   const { user } = useAuth();
   return (

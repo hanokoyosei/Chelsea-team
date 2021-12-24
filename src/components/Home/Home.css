@@ -1,5 +1,23 @@
 body {
-    background-image: url(https://news.cgtn.com/news/2021-05-30/Chelsea-beat-Man-City-to-win-Champions-League-for-2nd-time-10GeXuwRbag/img/007068fde7c24005a3b7aa2915e1367d/007068fde7c24005a3b7aa2915e1367d.png);
+    background-image: url(http://eliteplast.kg/images/heading-bg.jpg);
+}
+
+.back-img {
+  background-image: url(http://grandplast.kg/assets/static/pages/site/okna/img/bg-top.jpg);
+}
+
+.count h2 {
+  color: white;
+}
+
+.orange {
+  color: #ff2c48
+}
+
+.top__block-banner-title {
+  font-size: 21px;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .link {
@@ -9,11 +27,24 @@ body {
 }
 
 .cards {
-
     margin-top: 3%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+
+.card2 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card3 {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 .image {
@@ -28,11 +59,11 @@ body {
 
 .cards img {
     width: 315px;
-
 }
 
-
-
+.auto h1 {
+  color: white;
+}
 
 .row {
     margin-left:-5px;
@@ -44,8 +75,7 @@ body {
     float: left;
     padding: 5px;
   }
-  
-  /* Clearfix (clear floats) */
+
   .row::after {
     content: "";
     clear: both;
@@ -71,9 +101,13 @@ body {
   @media screen and (max-width: 1200px) {
 
     .cards{
-      display: grid;
-      grid-column-gap: 25px;
+      flex-wrap: wrap;
     }
+
+    .card2{
+      flex-wrap: wrap;
+    }
+
     .ant-card{
       margin-top: 10px;
     }
@@ -114,5 +148,12 @@ body {
     }
     table{
       width: auto!important;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .top__block-banner {
+      display: flex;
+      justify-content: center;
     }
   }

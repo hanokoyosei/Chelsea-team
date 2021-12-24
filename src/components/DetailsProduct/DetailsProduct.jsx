@@ -2,9 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { Button } from "antd";
-
 import { productsContext } from "../../contexts/productsContext";
-
+import CommentList from "../Comments/CommentList";
 
 const DetailsProduct = () => {
   const { id } = useParams();
@@ -30,24 +29,23 @@ const DetailsProduct = () => {
           >
             <div style={{ width: "370px", height: '450px' }}>
                 <div>
-                  <img width="100%" src={product.image1} alt="" />
+                  <img style={{width: "100%", height: '400px', borderRadius: '5%'}} src={product.image1} alt="" />
                 </div>
             </div>
             <div style={{ width: "40vw" }}>
-              <h2>{product.brand}</h2>
-              <h3>{product.model}</h3>
-              <h2>{`$ ${product.price}`}</h2>
-              <Link to="/creditCart">
+              <h2 style={{color: 'white', marginLeft: '-25%'}}>{product.brand}</h2>
+              <h2 style={{color: 'white', marginLeft: '-25%'}}>{`$ ${product.price}`}</h2>
+              <Link to="/creditForm">
               <Button
                 size="large"
-                style={{ margin: "15px 0px", width: "100%", background:"#001489", color:"white" }}
+                style={{ margin: "15px 0px", width: "200px", background:"#001489", color:"white", marginLeft: '-25%', borderRadius: '5px' }}
               >
-                ADD TO CART
+                КУПИТЬ
               </Button>
               </Link>
-              <div>{product.description}</div>
             </div>
           </div>
+          <CommentList id={product.id}/>
         </>
       ) : (
         <h2>Loading...</h2>
@@ -57,4 +55,6 @@ const DetailsProduct = () => {
 };
 
 export default DetailsProduct;
+
+
 

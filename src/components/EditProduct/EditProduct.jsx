@@ -3,18 +3,15 @@ import { useNavigate, useParams } from "react-router";
 import { Button, Form, Input, InputNumber } from "antd";
 import { productsContext } from "../../contexts/productsContext";
 import "./EditProduct.css"
-import { brandsContext } from "../../contexts/brandsContext";
 
 const EditProduct = () => {
   const params = useParams();
   const navigate = useNavigate();
   const { getOneProduct, oneProduct, updateProduct } =
     useContext(productsContext);
-  const { getBrands } = useContext(brandsContext);
   const [form] = Form.useForm();
   useEffect(() => {
     getOneProduct(params.id);
-    getBrands();
   }, []);
   useEffect(() => {
     form.setFieldsValue(oneProduct);
@@ -35,38 +32,12 @@ const EditProduct = () => {
       >
         <div style={{width: '500px', marginLeft: '35%'}}>
         <Form.Item
-          label={<h3 style={{color: 'white'}}>Categories</h3>}
+          label={<h3 style={{color: 'white'}}>Brand</h3>}
           name="brand"
           rules={[
             {
               required: true,
               message: "Please input categories!",
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
-
-        <Form.Item
-          label={<h3 style={{color: 'white'}}>Model</h3>}
-          name="model"
-          rules={[
-            {
-              required: true,
-              message: "Please input model!",
-            },
-          ]}
-        >
-          <Input />
-        </Form.Item>
-
-        <Form.Item
-          label={<h3 style={{color: 'white'}}>Description</h3>}
-          name="description"
-          rules={[
-            {
-              required: true,
-              message: "Please input description!",
             },
           ]}
         >
